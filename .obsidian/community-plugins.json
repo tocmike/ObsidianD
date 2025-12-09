@@ -4,5 +4,10 @@
   "templater-obsidian",
   "obsidian-hover-editor",
   "dataview",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "easy-typing-obsidian",
+  "keyboard-analyzer",
+  "editing-toolbar",
+  "obsidian-style-settings",
+  "obsidian-emoji-toolbar"
 ]
