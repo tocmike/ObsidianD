@@ -4,5 +4,17 @@
       "modifiers": [],
       "key": "F12"
     }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "inline-callouts:new-inline-callout": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
   ]
 }
