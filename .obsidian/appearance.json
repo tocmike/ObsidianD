@@ -1,1 +1,5 @@
-{}
+{
+  "cssTheme": "Prism",
+  "accentColor": "#d5d3d9",
+  "theme": "moonstone"
+}
