@@ -1,4 +1,8 @@
 [
   "obsidian-git",
-  "obsidian-custom-attachment-location"
+  "obsidian-custom-attachment-location",
+  "templater-obsidian",
+  "obsidian-hover-editor",
+  "dataview",
+  "obsidian-excalidraw-plugin"
 ]
