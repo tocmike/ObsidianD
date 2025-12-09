@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<!--headTrap<body></body><head></head><html></html>--><html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+<script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+window.__nonce_str = "MOONSAFE_NONCE_1470824700"
+if (location.href.indexOf("safe=0") == -1 && window.__nonce_str) {
+	window.__moonsafe_csp_offset || (window.__moonsafe_csp_offset = 18);
+	document.write('<meta http-equiv="Content-Security-Policy" content="script-src https: \'unsafe-inline\' \'unsafe-eval\' *.qq.com *.weishi.com'+(window.__nonce_str ? ' \'nonce-' + window.__nonce_str + "\'":"")+ '">');
+        
+}
+</script>
+
+        <script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+<script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+var page_begintime=+new Date,biz="MzA5ODMzMDkzOA==",sn="e1fb6e36a0aef4e207204338e377f72a",mid="2661076650",idx="1",is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect")),
+document.domain="qq.com";
+</script> 
+<script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script> 
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var query = url.split('?')[1].split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || '';
+        window.key = params['key'] || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+</script>
+
+        <title>李善友：创始人的认知边界，是企业真正的边界|研习社课程笔记</title>
+        
+<style>html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background-color:#f3f3f3;line-height:inherit}body.rich_media_empty_extra{background-color:#fff}body.rich_media_empty_extra .rich_media_area_primary:before{display:none}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#607fa6;text-decoration:none}.rich_media_inner{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{position:relative;padding:20px 15px 15px;background-color:#fff}.rich_media_area_primary:before{content:" ";position:absolute;left:0;top:0;width:100%;height:1px;border-top:1px solid #e5e5e5;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5);top:auto;bottom:-2px}.rich_media_area_primary .original_img_wrp{display:inline-block;font-size:0}.rich_media_area_primary .original_img_wrp .tips_global{display:block;margin-top:.5em;font-size:14px;text-align:right;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.rich_media_area_extra{padding:0 15px 0}.rich_media_title{margin-bottom:10px;line-height:1.4;font-weight:400;font-size:24px}.rich_media_meta_list{margin-bottom:18px;line-height:20px;font-size:0}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px}.meta_original_tag{display:inline-block;vertical-align:middle;padding:1px .5em;border:1px solid #9e9e9e;color:#8c8c8c;border-top-left-radius:20% 50%;-moz-border-radius-topleft:20% 50%;-webkit-border-top-left-radius:20% 50%;border-top-right-radius:20% 50%;-moz-border-radius-topright:20% 50%;-webkit-border-top-right-radius:20% 50%;border-bottom-left-radius:20% 50%;-moz-border-radius-bottomleft:20% 50%;-webkit-border-bottom-left-radius:20% 50%;border-bottom-right-radius:20% 50%;-moz-border-radius-bottomright:20% 50%;-webkit-border-bottom-right-radius:20% 50%;font-size:15px;line-height:1.1}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_text{color:#8c8c8c}span.rich_media_meta_nickname{display:none}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#3e3e3e}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em;white-space:pre-wrap}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2){.mm_appmsg .rich_media_inner,.mm_appmsg .rich_media_meta,.mm_appmsg .discuss_list,.mm_appmsg .rich_media_extra,.mm_appmsg .title_tips .tips{font-size:17px}.mm_appmsg .meta_original_tag{font-size:15px}}@media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3){.mm_appmsg .rich_media_title{font-size:25px}}@media screen and (min-width:1024px){.rich_media{width:740px;margin-left:auto;margin-right:auto}.rich_media_inner{padding:20px}body{background-color:#fff}}@media screen and (min-width:1025px){body{font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}.rich_media{position:relative}.rich_media_inner{background-color:#fff;padding-bottom:100px}}.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#3e3e3e;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#8c8c8c;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.weui_loading{width:20px;height:20px;display:inline-block;vertical-align:middle;-webkit-animation:weuiLoading 1s steps(12,end) infinite;animation:weuiLoading 1s steps(12,end) infinite;background:transparent url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iciIgd2lkdGg9JzEyMHB4JyBoZWlnaHQ9JzEyMHB4JyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJub25lIiBjbGFzcz0iYmsiPjwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjRTlFOUU5JwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoMCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICA8L3JlY3Q+CiAgICA8cmVjdCB4PSc0Ni41JyB5PSc0MCcgd2lkdGg9JzcnIGhlaWdodD0nMjAnIHJ4PSc1JyByeT0nNScgZmlsbD0nIzk4OTY5NycKICAgICAgICAgIHRyYW5zZm9ybT0ncm90YXRlKDMwIDUwIDUwKSB0cmFuc2xhdGUoMCAtMzApJz4KICAgICAgICAgICAgICAgICByZXBlYXRDb3VudD0naW5kZWZpbml0ZScvPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyM5Qjk5OUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSg2MCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICAgICAgICAgICAgICAgcmVwZWF0Q291bnQ9J2luZGVmaW5pdGUnLz4KICAgIDwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjQTNBMUEyJwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoOTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNBQkE5QUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxMjAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCMkIyQjInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxNTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCQUI4QjknCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxODAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDMkMwQzEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyMTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDQkNCQ0InCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEMkQyRDInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEQURBREEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNFMkUyRTInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0Pgo8L3N2Zz4=) no-repeat;-webkit-background-size:100%;background-size:100%}@-webkit-keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}@keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}.gif_img_wrp{display:inline-block;font-size:0;position:relative;font-weight:400;font-style:normal;text-indent:0;text-shadow:none 1px 1px rgba(0,0,0,0.5)}.gif_img_wrp img{min-height:120px;min-width:120px;vertical-align:top}.gif_img_tips{background:rgba(0,0,0,0.6)!important;filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endcolorstr = '#99000000');border-top-left-radius:1.2em 50%;-moz-border-radius-topleft:1.2em 50%;-webkit-border-top-left-radius:1.2em 50%;border-top-right-radius:1.2em 50%;-moz-border-radius-topright:1.2em 50%;-webkit-border-top-right-radius:1.2em 50%;border-bottom-left-radius:1.2em 50%;-moz-border-radius-bottomleft:1.2em 50%;-webkit-border-bottom-left-radius:1.2em 50%;border-bottom-right-radius:1.2em 50%;-moz-border-radius-bottomright:1.2em 50%;-webkit-border-bottom-right-radius:1.2em 50%;line-height:2.3;padding:0 1em;font-size:11px;color:#fff;text-align:center;position:absolute;bottom:10px;left:10px}.gif_img_tips i{vertical-align:middle;margin:-0.2em .73em 0 -2px}.gif_img_play_arrow{display:inline-block;width:0;height:0;border-width:8px;border-style:dashed;border-color:transparent;border-right-width:0;border-left-color:#fff;border-left-style:solid;border-width:5px 0 5px 8px}.gif_img_loading{width:14px;height:14px}i.gif_img_loading{margin-left:-4px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:1em 35px 1em 15px;z-index:1;background-color:#c6e0f8;color:#8c8c8c;font-size:13px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.preview_appmsg .rich_media_title{margin-top:1.9em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin:0 20px}.preview_appmsg .rich_media_title{margin-top:0}}</style>
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2c9cd6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg" ontouchstart="">
+        
+    <script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+        var write_sceen_time = (+new Date());
+    </script>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+                        <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        李善友：创始人的认知边界，是企业真正的边界|研习社课程笔记 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                                                <span id="copyright_logo" class="rich_media_meta meta_original_tag">原创</span>
+                        						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2016-08-13</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">李善友</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">混沌研习社</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">混沌研习社</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">混沌研习社</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">dfscx2014</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">一所全新的互联网大学——混沌研习社为创业公司培养具有互联网思维和全球化视野的创新人才</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                                                            
+                                                            
+                    
+                    <div class="rich_media_content " id="js_content">
+                        
+
+                        
+                        <p><span style="color: rgb(23, 134, 158);">8月13日，阔别一年，李善友教授又回到了混沌研习社的讲台，主讲《认知革命》。</span></p><p><span style="color: rgb(23, 134, 158);"><br  /></span></p><p><span style="color: rgb(23, 134, 158);">他说，<span style="color: rgb(23, 134, 158); line-height: 25.6000003814697px;">很多没有跨越不连续性的公司，管理都非常好，而一旦遭遇不连续性，恢复增长引擎的可能性只有4%。死就死在了思维上。任何时候，我们都是关闭自己认知框架的囚徒。创始人的认知边界是企业的真正边界，因为它会形成遮蔽性，<span style="color: rgb(23, 134, 158); line-height: 25.6000003814697px; white-space: pre-wrap;">无法自我突破</span>。</span></span></p><p><br  /></p><p><span style="color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; font-size: 14px; background-color: rgb(255, 255, 255);">（本文根据李善友教授8月13日上午在混沌研习社的课程内容整理而成，有删节，约为课程内容1/6。<span style="color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">研习社社员登陆混沌APP</span></span><span style="font-size: 14px;"><span style="font-size: 16px; color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; background-color: rgb(255, 255, 255);"><a href="http://m.hundun.cn/download/app?channel=dingyuehao" target="_blank" data_ue_src="http://m.hundun.cn/download/app?channel=dingyuehao" style="max-width: 100%; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; text-decoration: underline; color: rgb(255, 169, 0); background-color: rgb(255, 255, 255);"><span style="font-size: 14px; color: rgb(255, 169, 0); line-height: 25.6000003814697px; white-space: pre-wrap; max-width: 100%; text-decoration: underline; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">＜<span style="font-size: 14px; color: rgb(255, 169, 0); line-height: 22.4px; white-space: pre-wrap; max-width: 100%; text-decoration: underline; background-color: rgb(255, 255, 255);">点此下载＞</span></span></a><span style="font-size: 14px; color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">，免费观看视频回播</span></span><span style="font-size: 14px; color: rgb(136, 136, 136);">＜字幕版＞</span>，<span style="font-size: 16px; color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; background-color: rgb(255, 255, 255);"><span style="font-size: 14px; color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">8月22日之前上线，文末可入社。非社员可下载APP购买视频观看，价格为99元</span>。）</span></span></p><p><br  /></p><section class="" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section class="" style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; display: inline-block; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(23, 134, 158); word-wrap: break-word !important;"><section class="" style="padding-left: 5px; max-width: 100%; box-sizing: border-box; border-left-width: 5px; border-left-style: solid; border-left-color: rgb(23, 134, 158); word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">演讲者｜<span style="max-width: 100%; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">李善友</span></strong>（混沌大学创办人）</section></section></section></section></section></section></section></section></section><p><br  /></p><p>今天现场有2000名社员，线上直播有2万多名社员一起听课。过去几年，我一直讲《颠覆式创新》、《互联网世界观》，得到中欧和混沌各位同学的支持，但我自己却越来越惶恐，因为讲了很多现象，可现象是流变的，如果找不到创新创业的根，就像是一个说书人。</p><p>&nbsp;</p><p>所以我决定要沉下心来认真攻关，去斯坦福学习了一年。这一年我选了十七八门课，每天早上骑车去上课，晚上骑车回家，那是我一生中最美好的时光。</p><p>&nbsp;</p><p>为什么今天我们要开这样一门课？各位再想一想，拿中国为例，过去30年能够成功的大企业，不管是房地产还是互联网，完全是享受到GDP和人口增长的红利。</p><p><br  /></p><p><span style="color: rgb(23, 134, 158);">但是拐点已经到了，别人做什么你就做什么，跟着大盘增长获取红利的时代已经过去了，未来的创业可能属于思考型的创业者。</span></p><p>&nbsp;</p><p>今天我会讲2个基石假设：上午讲非连续性，下午讲组合进化。大概有六个小题目，上午主要讲三个题目：</p><p>&nbsp;</p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p><span style="color: rgb(23, 134, 158);">第一，非连续性。</span>这是现象世界的本质。</p><p><br  /></p></li><li><p><span style="color: rgb(23, 134, 158);">第二，连续性假设。</span>即使世界是非连续性的，但人类只能生存于连续性假设之上。所以古往今来思想家做的唯一事情，就是在不连续性的根基之上建立连续性假设。</p><p><br  /></p></li><li><p><span style="color: rgb(23, 134, 158);">第三，思维遮蔽性。</span>连续性假设一旦建立，难以自我突破，很多公司走着走着突然死掉了，正因如此。</p></li></ul><p><br  /></p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/9Bxribich1tvw2x8LmjglSY9XicjjVLaZlvs9IxKYLYnK5frP3b53dMrQ7VNGQdvwiciayXXtW0hAdcPqkDBaxd6avQ/0?wx_fmt=jpeg" data-ratio="0.6672661870503597" data-w="" style="line-height: 25.6000003814697px; white-space: pre-wrap;"  /><span style="line-height: 25.6000003814697px; white-space: pre-wrap; color: rgb(136, 136, 136); font-size: 14px;">建立在因果律上的连续性，只是心理假设而已</span></p><p><br  /></p><section class="" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="padding: 10px; max-width: 100%; box-sizing: border-box; display: inline-block; width: 670px; border-style: solid; border-width: 0px 0px 0px 6px; border-left-color: rgb(23, 134, 158); border-right-color: rgb(23, 134, 158); word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; color: rgb(23, 134, 158); word-wrap: break-word !important;"><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"></strong><strong><span style="line-height: 25.6000003814697px; white-space: pre-wrap;">不连续性是现象世界的本质</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong><span style="line-height: 25.6000003814697px; white-space: pre-wrap;">你看到的因果只是你的想象</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong><span style="line-height: 25.6000003814697px; white-space: pre-wrap;">时间和空间都是主观的</span></strong></p></section></section></section></section></section></section><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">&nbsp;<span style="max-width: 100%; line-height: 1.6; box-sizing: border-box !important; word-wrap: break-word !important;">&nbsp;</span></p><p><span style="line-height: 1.6;">大家学过哲学就知道“归纳法”，什么是归纳法？比如，你看到亚洲、欧洲的天鹅都是白色，就认为全世界的天鹅都是白色。或者，过去太阳总是从东方升起，所以将来太阳会继续从东方升起。</span></p><p>&nbsp;</p><p><span style="line-height: 25.6000003814697px; white-space: pre-wrap;">人类百分之百的经验知识来自于归纳法。</span>几千年里，我们一直使用这样的归纳方式。直到英国哲学家休谟第一个发现了归纳法的谬误：即使所有前提都正确，结果也可能错的。</p><p>&nbsp;</p><p><span style="color: rgb(23, 134, 158);">因为归纳法有一个致命BUG，它的隐含前提就是未来需要继续跟过去一样，也就是连续性假设。但是这在逻辑上根本无法证明。一旦前提错误，归纳法失效，人类一切知识将失去根基。</span></p><p>&nbsp;</p><p>那么，真实的世界到底是连续性的还说非连续性的？非连续性，连续性只是假设。接下来我们会证明。</p><p><br  /></p><p style="max-width: 100%; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); line-height: 25.6000003814697px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><strong style="max-width: 100%; color: rgb(49, 133, 155); font-family: 微软雅黑; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">因果律</span></strong></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><section style="margin-top: -1.2em; margin-bottom: 0.65em; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6000003814697px; white-space: normal; font-family: 微软雅黑; text-align: center; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section data-width="20%" style="margin-right: auto; margin-left: auto; max-width: 100%; box-sizing: border-box; border-top-width: 1px; border-top-style: solid; border-color: rgb(23, 134, 158); width: 134px; word-wrap: break-word !important;"><br  /></section></section><p>你应该有这个疑问，如果现象世界是非连续性，为什么我们感觉世界是连续性呢？</p><p>&nbsp;</p><p>休谟说，人类靠联想把不连续性的现象联系起来。换句话说，事物之间其实没有联系，你用因果律把两个现象连在一起而已。<span style="line-height: 1.6;">什么叫因果律？它有两个条件：</span></p><p>&nbsp;</p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p><span style="color: rgb(136, 136, 136);">第一，A事件发生在前，B事件发生在后。</span></p></li><li><p><span style="color: rgb(136, 136, 136);">第二，两者发生的关系是必然的。</span></p></li></ul><p>&nbsp;</p><p>休谟说，我们从来没有发现任何力量，让A一定导致B出来，我们所看到的只是一事件伴随着另一事件。<span style="line-height: 1.6;">所以休谟的结论是，事物并非真实联系在一起，而是在我们通过联想联系在一起。</span></p><p>&nbsp;</p><p>关于这一点，罗素有一个非常著名的比喻，农场里面有一只鸡，每一次看到农场主来会被喂食，这只鸡就认为农场主的到来和喂食存在着因果关系。结果有一天，农场主带来的不是鸡食而是猎枪。</p><p><span style="color: rgb(23, 134, 158);">&nbsp;</span></p><p><span style="color: rgb(23, 134, 158);">我们几乎在所有的时候都是这只鸡。商业上所有重大失误就是把心理假象当成了逻辑的必然。建立在因果律上的连续性，只是心理假设而已。</span></p><p><br  /></p><p style="white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><strong style="max-width: 100%; color: rgb(49, 133, 155); font-family: 微软雅黑; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">时空律</span></strong></p><p><br  /></p><section style="margin-top: -1.2em; margin-bottom: 0.65em; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6000003814697px; white-space: normal; font-family: 微软雅黑; text-align: center; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section data-width="20%" style="margin-right: auto; margin-left: auto; max-width: 100%; box-sizing: border-box; border-top-width: 1px; border-top-style: solid; border-color: rgb(23, 134, 158); width: 134px; word-wrap: break-word !important;"></section></section><p><br  /></p><p>你如果觉得这个挖得还是不够，我再往下挖，时空律。<span style="line-height: 1.6;">因果律建立在时空连续之上的，今天发生的事明天还会发生，在这发生的事情在那还会发生。</span></p><p>&nbsp;</p><p>那么，时间和空间是客观的存在，还是虚构的假设？其实都是主观的想象。</p><p>&nbsp;</p><p>牛顿认为时间和空间是绝对的客观存在，两者没有联系。但是爱因斯坦认为时间是相对时间，空间是相对空间，相对时间里，运动速度越快，时间越慢，相对空间运动速度越快，物体长度会变短。</p><p>&nbsp;</p><p>历史上最后一个大哲学家是康德，康德的结论：时空不是客观存在，也不是独立的事物，而是人类生存所必需的先验性假设，如果没有这个假设，你的感知系统无法感知外界，也无法感知自己。</p><p><span style="color: rgb(23, 134, 158);">&nbsp;</span></p><p><span style="color: rgb(23, 134, 158);">我在说什么呢？连续性的根基是时空连续，而时空本身居然是一个假设，如果这个背景都是假设，连续性当然是假设了。</span></p><p><br  /></p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/9Bxribich1tvw2x8LmjglSY9XicjjVLaZlvoupTT8CQjXIrJmCDa49MDJJx8rdHjZw7aCSaicYticelWLpPNzuXpg6w/0?wx_fmt=jpeg" data-ratio="0.6672661870503597" data-w=""  /><br  /><span style="color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; font-size: 14px;">科学取代了宗教，成为新的宗教</span></p><p>&nbsp;</p><section class="" style="line-height: 25.6px; white-space: normal; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="padding: 10px; max-width: 100%; box-sizing: border-box; display: inline-block; width: 670px; border-style: solid; border-width: 0px 0px 0px 6px; border-left-color: rgb(23, 134, 158); border-right-color: rgb(23, 134, 158); word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; color: rgb(23, 134, 158); word-wrap: break-word !important;"><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong><span style="line-height: 25.6000003814697px; white-space: pre-wrap;">人类只能生存在连续性假设上</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong><span style="line-height: 25.6000003814697px; white-space: pre-wrap;">所以所有思想家的工作</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong><span style="line-height: 25.6000003814697px; white-space: pre-wrap;">就是帮人类建立连续性假设</span></strong></p></section></section></section></section></section></section><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">&nbsp;<span style="max-width: 100%; line-height: 1.6; box-sizing: border-box !important; word-wrap: break-word !important;">&nbsp;</span></p><p>很奇怪，现象世界是不连续的，但是人类只能生存在连续性假设之上，所以古往今来所有的思想家的工作，就是帮助人类在不连续性的基础之上建立一个连续性的假设。</p><p>&nbsp;</p><p>接下来我用两场革命证明这个观点，认知革命和科学革命。</p><p><br  /></p><p style="white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><strong style="max-width: 100%; color: rgb(49, 133, 155); font-family: 微软雅黑; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">认知革命</span></strong></p><p><br  /></p><section style="margin-top: -1.2em; margin-bottom: 0.65em; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6000003814697px; white-space: normal; font-family: 微软雅黑; text-align: center; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section data-width="20%" style="margin-right: auto; margin-left: auto; max-width: 100%; box-sizing: border-box; border-top-width: 1px; border-top-style: solid; border-color: rgb(23, 134, 158); width: 134px; word-wrap: break-word !important;"></section></section><p><br  /></p><p>250万年之前人类起源于东非，15万年之前智人出现了，7万年前智人基因突变，引发了一场认知革命：</p><p><br  /></p><p>其他人类和动物只能讨论客观事物，牛、羊、食物、野兽，这是思维方式严重限制了他们合作能力，<span style="line-height: 1.6;">而智人不仅可以讨论客观事物，也可以讨论虚构的事物，这是大规模合作的基础。</span></p><p>&nbsp;</p><p>由于有虚构的故事作为根基，就可以把因果连在一起了。</p><p>&nbsp;</p><p>举个例子，文字是不是虚构的故事？可是今天离开文字我们寸步难行，它把陌生全连在一起了。钱是不是虚构的故事，当然是，任何两个竞争对手，不管打得多厉害，都会相信金钱。</p><p>&nbsp;</p><p>还有银行业的秘密，如果你存了100块钱，银行就可以贷出1000块钱，中间有900块钱其实只是数字，如果所有储户都去银行提款，任何一个银行会立刻倒闭。</p><p>&nbsp;</p><p>这不是诈骗，而是人们想象力的一个发挥，真正让银行和整个经济发展是对未来的信任，就是相信未来比过去更好，<span style="line-height: 1.6;">未来的资源肯定远远超过现在的资源。</span></p><p><span style="line-height: 1.6;"><br  /></span></p><p><span style="line-height: 1.6;">过去的人不相信“明天会更好”这个虚构的故事，你问孔子，孔子会说周公时代最美好。基督教也是一样，都认为黄金时代属于过去。</span></p><p>&nbsp;</p><p><span style="color: rgb(23, 134, 158);">1620年，英国哲学家培根说知识就是力量，历史上开始出现“进步论”的概念。进步就是在承认我们的无知之后，认为只要投资科学研究，一切就能变得更好。</span></p><p>&nbsp;</p><p>进步论这个虚构的故事，在过去400年来，建构了人们面向未来的连续性思维基础，所以整个资本主义现在成了一套伦理和信仰，增长成了无上的目标，未来更美好就是把现在和未来的因果律之间建立了一个连续性的根基。</p><p><br  /></p><p style="white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><strong style="max-width: 100%; color: rgb(49, 133, 155); font-family: 微软雅黑; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">科学革命</span></strong></p><p><br  /></p><section style="margin-top: -1.2em; margin-bottom: 0.65em; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6000003814697px; white-space: normal; font-family: 微软雅黑; text-align: center; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section data-width="20%" style="margin-right: auto; margin-left: auto; max-width: 100%; box-sizing: border-box; border-top-width: 1px; border-top-style: solid; border-color: rgb(23, 134, 158); width: 134px; word-wrap: break-word !important;"></section></section><p><br  /></p><p>我再举另外一个例子，我们今天还处于之中的科学革命。科学革命为什么会出现的欧洲？</p><p>&nbsp;</p><p>1775年，亚洲占了全球经济总量的80%以上，中国和印度占了2/3。但是，1950年，西欧加美国的经济总量占全球50%以上，中国只剩5%。<span style="line-height: 1.6;">如果欧洲人在1770年面对中国人并没有什么科技优势，为什么他们能在接下来的短短一个世纪，和中国拉开这么大的差距？</span></p><p>&nbsp;</p><p><span style="color: rgb(23, 134, 158);">中国其实并不缺乏制作蒸汽机的科技，中国缺的是西方的虚构的故事体系，包括最革命性的——科学的思维方式。</span></p><p>&nbsp;</p><p>什么叫做科学的思维方式，在前现代社会经典《圣经》、《论语》中，因果律法则一般都是用文字和故事叙述。“积善之家，必有余庆；集不善之家，必有余殃。”</p><p><span style="line-height: 1.6;"><br  /></span></p><p><span style="line-height: 1.6;">因果律建立在“微言大义”上。它的问题是不能精确预测，也不能证伪，其自身含义也经常飘摇。</span></p><p>&nbsp;</p><p>牛顿改变了今天全世界人的思维方式，用三个简单的数学公式就解释天上所有行星的运动和地上所有物体运动的规律，这就是我们看到的万有引力。<span style="line-height: 25.6000003814697px; white-space: pre-wrap;">所有因果律建立在不变的科学定律之上，可以预测，可以证伪。</span></p><p>&nbsp;</p><p><span style="color: rgb(23, 134, 158);">牛顿墓志铭有一句话：自然被隐含在黑暗中，神说让牛顿去吧，万物顿成光明。换句话说隐藏着，科学取代了宗教，成为新的宗教。</span></p><p><span style="line-height: 1.6;">&nbsp;</span><br  /></p><p><span style="line-height: 1.6;">因果律的根基已经变成了物理定律了，直到今天，所以科学无非就是两件事情，当初始条件和科学规律相结合的时候，人们会对未来预测，当最终状态和科学结合的时候，人们对过去进行解释。</span></p><p><span style="line-height: 1.6;">&nbsp;</span><br  /></p><p>牛顿的定律成为今天整个世界的世界观，我们相信机械论，相信连续性，相信可预测性。我在说什么呢？现象世界的本质是不连续性，但是人类只能生存在连续性基础之上。</p><p><br  /></p><p><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/9Bxribich1tvw2x8LmjglSY9XicjjVLaZlvJJaClk7vrK8sZYqH8Wm8icBLnSZyu9NB09Y450Iic24sJz8cnq48bgjw/0?wx_fmt=jpeg" style="" data-ratio="0.6672661870503597" data-w=""  /></p><p style="text-align: center;"><span style="color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; font-size: 14px;">当发生变化的时候，越是有丰富经验的人表现得越拙劣</span></p><p><br  /></p><section class="" style="line-height: 25.6px; white-space: normal; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="padding: 10px; max-width: 100%; box-sizing: border-box; display: inline-block; width: 670px; border-style: solid; border-width: 0px 0px 0px 6px; border-left-color: rgb(23, 134, 158); border-right-color: rgb(23, 134, 158); word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section class="" style="max-width: 100%; box-sizing: border-box; color: rgb(23, 134, 158); word-wrap: break-word !important;"><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong style="line-height: 25.6px;"><span style="line-height: 25.6000003814697px;">非连续性之间不可跨越</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong style="line-height: 25.6px;"><span style="line-height: 25.6000003814697px;">文化通道一旦建立无法改变</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong style="line-height: 25.6px;"><span style="line-height: 25.6000003814697px;">科学革命就是无知的革命</span></strong></p></section></section></section></section></section></section><p><br  /></p><p><span style="line-height: 1.6;">第三个部分叫做思维的遮蔽性，非连续之间是不可直接跨越的。连续性假设一旦建立之后，你就突破不了。</span></p><p>&nbsp;</p><p>很多人会问，善友教授，你夸大其词，这有什么难的呢？如果假设不对，我们放弃不就完了吗？</p><p>&nbsp;</p><p>但是，我们今天认知的判断系统里面，怎么判断一个信念是对的或者错的？《世界观》里有一章谈什么叫真理，有两个标准：</p><p>&nbsp;</p><p><span style="color: rgb(23, 134, 158);">第一个标准是真理符合论。道理跟客观世界相一致就是真理，否则就不是，实践是检验真理的唯一标准。</span></p><p>&nbsp;</p><p>这是一个妄想，客观现实根本离不开我们的主观信念，比如我们看到了红色，觉得是客观世界，但是客观世界根本没有红色这个东西，这本身是一个波长。<span style="line-height: 1.6;">这是人类无法突破的认知局限，我们看外在世界都是带着主观感官进行的再现。客观世界是不存在的。</span></p><p>&nbsp;</p><p><span style="color: rgb(23, 134, 158);">第二个叫做真理连贯论。一个信念如果能与整个信念体系连贯一致，它就是正确的，否则就不是。</span></p><p>&nbsp;</p><p>但是你怎么来判断整个信念体系就是正确的呢？这里会陷入循环论证，你用你的集体信念本身去判断集体信念是否正确，当然是对的。自己看自己永远是对的。</p><p>&nbsp;</p><p>我们从两个方面证明：文化的遮蔽性（王东岳）和创新者的窘境（克里斯坦森）。我接下来举的例子，都是学术大家分别在学术领域证明过的。</p><p><br  /></p><p style="white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><strong style="max-width: 100%; color: rgb(49, 133, 155); font-family: 微软雅黑; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">文化的遮蔽性</span></strong></p><p><br  /></p><section style="margin-top: -1.2em; margin-bottom: 0.65em; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6000003814697px; white-space: normal; font-family: 微软雅黑; text-align: center; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section data-width="20%" style="margin-right: auto; margin-left: auto; max-width: 100%; box-sizing: border-box; border-top-width: 1px; border-top-style: solid; border-color: rgb(23, 134, 158); width: 134px; word-wrap: break-word !important;"></section></section><p><br  /></p><p>王东岳说文化会有三个要素，第一个是生存结构。第二个是会产生特定思维方式。第三，一旦你的思维方式成立了，无论过去多么有效，环境变化了之后，就变成有遮蔽性了。</p><p>&nbsp;</p><p>比如说农业时代，我们的思维方式是儒家文化，儒家文明非常好地帮助中国适应了2000年的农业文明时代，但是今天当农业文明这个底层的根基已经被工商业文明所取代的时候，恰恰是由于儒家的强势产生巨大的遮蔽效应，让中国很难自发转换进入工商业领域。</p><p><br  /></p><p>文化的遮蔽性，大到人类、国家文化，小到企业、个人，文化都是一样的，你必须生活在连续性上，文化不就是连续性吗，而这个文化通道一旦建立之后，它维护了你原来的生存，而生存结构一旦改变之后，你几乎是过不去的。</p><p><br  /></p><p style="white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><strong style="max-width: 100%; color: rgb(49, 133, 155); font-family: 微软雅黑; line-height: 25.6000003814697px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 25.6000003814697px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">创新者的窘境</span></strong></p><p><br  /></p><section style="margin-top: -1.2em; margin-bottom: 0.65em; max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); line-height: 25.6000003814697px; white-space: normal; font-family: 微软雅黑; text-align: center; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section data-width="20%" style="margin-right: auto; margin-left: auto; max-width: 100%; box-sizing: border-box; border-top-width: 1px; border-top-style: solid; border-color: rgb(23, 134, 158); width: 134px; word-wrap: break-word !important;"></section></section><p><br  /></p><p>这跟你的能力无关，而是跟你的思维结构有关系。连续性一旦建立、不可突破，所以我认为遭遇不连续性是企业兴衰的第一因。</p><p><br  /></p><p>为什么呢？管理者通常是基于过去的经验预测未来，认为其中有因果关系，而过去的经验和未来的现实之间没有因果关系，这种因果关系是你的联想而已。</p><p>&nbsp;</p><p>当产业变化比较慢的时候，用过去预测未来不会有大的变化。如果你从一个S曲线向另外一个S曲线转折的那个当口，就是不连续期，如果再用过去预测未来，不但无用，反而有害。</p><p><br  /></p><p><span style="color: rgb(23, 134, 158);">几乎所有的大公司是死在这个时刻，当发生变化的时候，越是有丰富经验的人表现得越拙劣，越专业的人在下一个时代死得越惨烈。</span></p><p><span style="color: rgb(23, 134, 158);"><br  /></span></p><p style="max-width: 100%; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); line-height: 25.6000003814697px; font-family: 微软雅黑; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(49, 133, 155); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">举个例子</strong></span></p><p style="max-width: 100%; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); line-height: 25.6000003814697px; font-family: 微软雅黑; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; font-size: 14px; line-height: 22.4px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 16px; color: rgb(49, 133, 155); box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></strong></span></p><p>&nbsp;</p><p>1984年的IBM，税后净利润已达65.8亿美元。其中，PC销售占据市场份额的80%，但是就利润来说，占IBM整个体量很小。IBM主营业务还是大型机。</p><p>&nbsp;</p><p>1985年，大型机业务负责人埃克斯晋升为总裁，他认为IBM一直会保持爆炸性增长，事实上之后IBM陷入巨大的危机，轰然倒下。<span style="line-height: 1.6;">为什么？因为连续性发生变化了，当时遭遇的是从大型机到PC机的不连续性。</span></p><p>&nbsp;</p><p>IBM之所以跌这一跟头，跟认知遮蔽性不无关系。就在大型机的主导地位逐渐消逝之际，埃克斯与IBM所熟知的这个世界正在他们眼前急剧变化，但他们一无所知，甚至只看到自己想看到的东西。</p><p><br  /></p><p style="white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(49, 133, 155); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">再举个例子</strong></span></p><p style="white-space: normal; line-height: 25.6000003814697px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; font-size: 14px; line-height: 22.4px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 16px; color: rgb(49, 133, 155); box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></strong></span></p><p>&nbsp;</p><p>你跟我说这是个案，我们来看诺基亚。</p><p>&nbsp;</p><p>2007年，诺基亚销售额占全世界手机销售额的40%，同年，iPhone1上市了，谷歌开始做安卓。诺基亚的CEO看到苹果手机说，苹果手机就是一个小玩意，我们对手还是摩托罗拉。最后，在功能手机连续领先14年，诺基亚最后在智能手机时代插草卖身。</p><p>&nbsp;</p><p>当诺基亚现任CEO在最后的记者招待会宣布把公司卖掉的时候，说了一句话：我们并没有做错什么，但不知为什么，我们输了。死了都不知道怎么死的。</p><p>&nbsp;</p><p><span style="color: rgb(23, 134, 158);">你可能会说这是管理的问题，其实很多没有跨越不连续性的公司，都是管理最好的公司。我在说什么？管理不是企业兴衰的第一因，一旦遭遇不连续性，恢复增长引擎的可能性只有4%。死就死在了思维上。</span></p><p>&nbsp;</p><p>所以卡尔波普尔讲了一句话，任何时候，我们都是关闭自己认知框架的囚徒而已。尽管跳出去只是一个更大的囚徒框架，但是也毕竟比以前宽敞很多。</p><p>&nbsp;</p><p>一声叹息！创始人或者领导人的认知边界是企业的真正边界，因为他无法自我突破，会形成遮蔽性，你过去的成功才是你未来的最大障碍。</p><p><span style="color: rgb(23, 134, 158);">&nbsp;</span></p><p><span style="color: rgb(23, 134, 158);">为什么要加入混沌研习社？因为每个公司都已经形成自己的集体信念，在内部永远无法突破自己；用其他人的世界观来观照自己。看到了，才有可能到达。</span></p><p>&nbsp;</p><p>所以，科学革命跟前现代社会最大的不同，就是愿意承认自己的无知。前现代社会几乎所有的经典都假设：所有的重要事情已经被圣人或者神知道了。</p><p><span style="line-height: 1.6;"><br  /></span></p><p><span style="line-height: 1.6;">愿意承认自己无知，会更有求知欲。所以《人类简史》里讲这样一句话：科学革命不是知识的革命，而是无知的革命。</span></p><p>&nbsp;</p><p>还是要交代一下，我讲的都是错的，我今天努力在哲学和科学的基础之上给大家找一个关于创新的基石，这并不容易。我今天讲哲学，讲科学，讲生物学，你可能要说，李善友教授，你自己又不是专业学这些的，凭什么来讲？</p><p>&nbsp;</p><p>我不敢说我讲的都是专业的，但是我讲任何东西都很真诚的，我努力做到任何素材都有至少三个出处。也许是错的，我希望你能帮我指出来。</p><p><br  /></p><p><span style="color: rgb(136, 136, 136); line-height: 25.6000003814697px; white-space: pre-wrap; background-color: rgb(255, 255, 255);">＊本文根据李善友教授在混沌研习社的课程内容整理而成，有删节，约为课程内容的1/6。</span><span style="color: rgb(136, 136, 136); line-height: 1.6;">欢迎转发分享，转载请直接在本公众号留言获得授权，我们会及时回复。</span></p><p><br  /></p><section style="max-width: 100%; box-sizing: border-box; text-align: inherit; color: inherit; line-height: 0.6em; font-size: 4em; text-decoration: inherit; vertical-align: top; display: inline-block; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; color: inherit; word-wrap: break-word !important;"><em data-brushtype="text" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">R</em></section></section><section style="margin-left: 0.2em; max-width: 100%; box-sizing: border-box; color: inherit; line-height: 25.6px; display: inline-block; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><p data-brushtype="text" style="max-width: 100%; min-height: 1em; white-space: normal; line-height: 1.4; box-sizing: border-box !important; word-wrap: break-word !important;">&nbsp; eading</p><p data-brushtype="text" style="max-width: 100%; min-height: 1em; white-space: normal; line-height: 1.4; font-size: 18px; box-sizing: border-box !important; word-wrap: break-word !important;">推荐阅读<span style="max-width: 100%; line-height: 25.6px; font-size: 16px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">&nbsp;</span><span style="max-width: 100%; color: rgb(136, 136, 136); line-height: 25.6px; font-size: 14px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important;">(点击文章标题，直接阅读)&nbsp;</span></p></section><p><br  /></p><h2 style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661074996&amp;idx=1&amp;sn=14dc698b6731dfdb3a919abca17efae5#rd" target="_self" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661074996&amp;idx=1&amp;sn=14dc698b6731dfdb3a919abca17efae5#rd" style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box !important;">★ &nbsp;</span><strong style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;">上期必读</strong></a><span style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px;">《</span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661076628&amp;idx=1&amp;sn=1902639bbf81f52cd2180b7a05d1b99f&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661076628&amp;idx=1&amp;sn=1902639bbf81f52cd2180b7a05d1b99f&amp;scene=21#wechat_redirect" style="color: rgb(23, 134, 158); text-decoration: underline;"><span style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;">CEO们，你们可能不是公司的超级节点</span></a><span style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px;">》</span></span></h2><h2 style="line-height: 25.6000003814697px; white-space: normal; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661076620&amp;idx=1&amp;sn=eae00f1d38c1ef8b3ac4e15671581dfb#rd" target="_self" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661076620&amp;idx=1&amp;sn=eae00f1d38c1ef8b3ac4e15671581dfb#rd" style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;">★&nbsp;&nbsp;<span style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">深度</strong></span></a><span style="color: rgb(23, 134, 158); text-decoration: underline; max-width: 100%; font-size: 14px;">《</span></span><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661076325&amp;idx=1&amp;sn=b9a8151c66ec327f71aaeae593ab5e57&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661076325&amp;idx=1&amp;sn=b9a8151c66ec327f71aaeae593ab5e57&amp;scene=21#wechat_redirect" style="color: rgb(23, 134, 158); text-decoration: underline; font-size: 14px;"><span style="color: rgb(23, 134, 158); font-size: 14px;">李善友：熊彼特让我找到自己</span></a><span style="color: rgb(23, 134, 158); font-size: 14px;">》</span></h2><section label="powered by 135editor.com" style="max-width: 100%; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section data-id="86447" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section data-style="font-size: 14px;line-height:1.5em; color: rgb(62, 62, 62);" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><p style="max-width: 100%; min-height: 1em; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(23, 134, 158); font-size: 14px; text-decoration: underline; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=406660119&amp;idx=1&amp;sn=7d74bc16f76763bab00d6515bd8acf2a&amp;scene=21#wechat_redirect" target="_self" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=406660119&amp;idx=1&amp;sn=7d74bc16f76763bab00d6515bd8acf2a&amp;scene=21#wechat_redirect" style="color: rgb(23, 134, 158); max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">★ &nbsp;<strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">笔记</strong>《混沌研习课全部课程实录&amp;PPT合集》</a></span></p><p style="max-width: 100%; min-height: 1em; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p></section></section></section></section><section label="powered by 135editor.com" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section data-id="86447" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section data-style="font-size: 14px;line-height:1.5em; color: rgb(62, 62, 62);" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><section style="max-width: 100%; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><strong data-brushtype="text" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">混沌研习社第三季度课程表重磅发布</strong></section><p style="max-width: 100%; min-height: 1em; white-space: normal; text-align: center; line-height: 25.6px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;"><img width="auto" data-ratio="0.05333333333333334" data-type="png" data-w="300" width="300px" data-src="http://mmbiz.qpic.cn/mmbiz/yqVAqoZvDibEmUmjw1g1ln7tK24z5BNE2zPOdcP7L8fSb1Gib86QD302AjpzM3taqlCib3icuScdPzP6GOTjf5eWeA/640?wx_fmt=png" style="box-sizing: border-box !important; word-wrap: break-word !important; width: 300px !important; visibility: visible !important;"  /></p><p style="max-width: 100%; min-height: 1em; white-space: normal; text-align: center; line-height: 25.6px; letter-spacing: 2px; font-family: 微软雅黑; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">600元入社，即可报名听课</span></strong></span></p><p style="max-width: 100%; min-height: 1em; white-space: normal; text-align: center; line-height: 25.6px; letter-spacing: 2px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://m.hundun.cn/download/app?channel=dingyuehao" target="_self" data_ue_src="http://m.hundun.cn/download/app?channel=dingyuehao" style="text-decoration: underline; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(23, 134, 158); font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">点此下载</strong><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">混沌官方APP</strong></span></a><span style="max-width: 100%; color: rgb(23, 134, 158); text-decoration: underline; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">，</strong></span><span style="max-width: 100%; color: rgb(23, 134, 158); font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">海量课程视频随时看！</strong></span></p><p style="max-width: 100%; min-height: 1em; white-space: normal; text-align: center; line-height: 25.6px; letter-spacing: 2px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(23, 134, 158); font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></strong></span></p><p style="max-width: 100%; min-height: 1em; white-space: normal; line-height: 25.6px; letter-spacing: 2px; font-family: 微软雅黑; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(23, 134, 158); font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><img width="670" data-ratio="1.3111510791366907" data-s="300,640" data-type="jpeg" data-w="" width="670px" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/9Bxribich1tvwjib6f3MzOGpbOemPR3ia5SOHl1gpSs32GUHMJ4zYibf1TK66lZhy4buorruhN92MYqcySj3M1fG1pQ/640?wx_fmt=jpeg" style="box-sizing: border-box !important; word-wrap: break-word !important; width: 670px !important; visibility: visible !important;"  /><strong style="max-width: 100%; line-height: 25.6px; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; font-size: 16px; white-space: pre-wrap; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">点击下方“阅读原文”，查看混沌研习社超级课程表，入社听课！</span></strong></strong></span></p></section></section></section></section>
+                    </div>
+                    <script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+                        var first_sceen__time = (+new Date());
+
+                        if ("" == 1 && document.getElementById('js_content'))
+                            document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+
+                                        (function(){
+                            if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                var link = document.createElement('link');
+                                var head = document.getElementsByTagName('head')[0];
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+                                head.appendChild(link);
+                            }
+                        })();
+                    </script>
+                    
+                    
+                                        
+                                        
+                                        <div class="rich_media_tool" id="js_toobar3">
+                                                                    <a class="media_tool_meta meta_primary" id="js_view_source" href="javascript:void(0);">阅读原文</a>
+                                                <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+
+                        <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">投诉</a>
+
+                    </div>
+
+
+
+                                    </div>
+
+                <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none">
+
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        
+                    </div>
+                                        
+                    <div id="js_iframetest" style="display:none;"></div>
+                                        
+                                        <div class="rich_media_extra" id="js_cmt_area" style="display:none">
+
+                        <div class="discuss_container" id="js_cmt_main" style="display:none">
+                            <div class="rich_tips with_line title_tips discuss_title_line">
+                                <span class="tips">精选留言</span>
+                            </div>
+                            <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans1" style="display:none;">该文章作者已设置需关注才可以留言</p>
+                            <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn1" style="display:none">
+                                
+                                                                <a href="#comment">写留言<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                            </p>
+                            <ul class="discuss_list" id="js_cmt_list"></ul>
+                        </div>
+
+
+                        <div class="tips_global rich_split_tips tc" id="js_cmt_nofans2" style="display:none;">
+                            该文章作者已设置需关注才可以留言
+                        </div>
+
+                        <p class="discuss_icon_tips rich_split_tips tr" id="js_cmt_addbtn2" style="display:none">
+                            
+                                                        <a href="#comment">写留言<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                    </p>
+
+                        <p class="rich_split_tips tc tips_global" id="js_cmt_tips" style="display:none;"></p>
+
+
+                        <div class="rich_tips tips_global loading_tips" id="js_cmt_loading">
+                            <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                            <span class="tips">加载中</span>
+                        </div>
+
+                        <div class="rich_tips with_line tips_global" id="js_cmt_statement" style="display:none">
+                            <span class="tips">以上留言由公众号筛选后显示</span>
+                        </div>
+
+                        <p class="rich_split_tips tc" id="js_cmt_qa" style="display:none;">
+                            <a href="http://kf.qq.com/touch/sappfaq/150211YfyMVj150313qmMbyi.html?scene_id=kf264">
+                                了解留言功能详情
+                            </a>
+                        </p>
+
+                    </div>
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script nonce="MOONSAFE_NONCE_1470824700">
+    var __DEBUGINFO = {
+        debug_js : "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console2ca724.js",
+        safe_js : "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe2f3e84.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="MOONSAFE_NONCE_1470824700">
+(function() {
+	function _addVConsole(uri) {
+		var url = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/' + uri;
+		document.write('<script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript" src="' + url + '"><\/script>');
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		_addVConsole('2.2.1/vconsole.min.js');
+		_addVConsole('plugin/vconsole-sources/1.0.0/vconsole-sources.min.js');
+		_addVConsole('plugin/vconsole-resources/1.0.0/vconsole-resources.min.js');
+		_addVConsole('plugin/vconsole-mpopt/1.0.0/vconsole-mpopt.js');
+	}
+})();
+</script>
+        
+<script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+    var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm2c9cd6.css";
+    var windowwx_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+    var article_improve_combo_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo2eb52b.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "0";
+    var appuin = "MzA5ODMzMDkzOA=="||"";
+
+    var source = "1";
+    var scene = 75;
+
+    var itemidx = "";
+
+    var _copyright_stat = "1";
+    var _ori_article_type = "科技互联网";
+
+    var nickname = "混沌研习社";
+    var appmsg_type = "9";
+    var ct = "1471099335";
+    var publish_time = "2016-08-13" || "";
+    var user_name = "gh_a0a4d34440a0";
+    var user_name_new = "";
+    var fakeid   = "NTcxMTIzNzYw";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz/9Bxribich1tvyliaqvIdWuqIW2mMTZQHN5WAc6YeQicJHCURLGWCRt0EkqVScwiagsUnYPl2WXZsEZicL9b3iag1gyIeA/0?wx_fmt=png";
+    var msg_title = "李善友：创始人的认知边界，是企业真正的边界|研习社课程笔记";
+    var msg_desc = "任何时候，我们都是关闭自己认知框架的囚徒。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/9Bxribich1tvw2x8LmjglSY9XicjjVLaZlvJJaClk7vrK8sZYqH8Wm8icBLnSZyu9NB09Y450Iic24sJz8cnq48bgjw/0?wx_fmt=jpeg";
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=2661076650&amp;idx=1&amp;sn=e1fb6e36a0aef4e207204338e377f72a#rd";
+    var user_uin = "0"*1;
+    var msg_source_url = 'http://mp.weixin.qq.com/s?__biz=MzA5ODMzMDkzOA==&amp;mid=513592369&amp;idx=1&amp;sn=411cef6e92e774207ba978077762995a&amp;scene=25&amp;srcid=0706P4haNbZtz8KbezhFeMtq#wechat_redirect';
+    var img_format = 'jpeg';
+    var srcid = '0813QA8R0p2lH2pWDl85UO9K';
+    var req_id = '1415eluEtXo598FDPZ51IcZn';
+    var networkType;
+    var appmsgid = '' || '2661076650'|| "";
+    var comment_id = "1019050520" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM404BcAy1kVFrwbANz5EjQLSzhjxk0sc4JemDgMRib6yFQ/0"||(window.location.protocol+"//"+window.location.host + "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+    };
+    var _empty_v = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+      var icon_emotion_switch = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x2f1273.png";
+      var icon_emotion_switch_active = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x2f1273.png";
+      var icon_loading_white = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif";
+      var icon_audio_unread = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png";
+      var icon_qqmusic_default = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png";
+      var icon_qqmusic_source = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263724.png";
+
+    var topic_default_img = 'http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x2e4987.png';
+
+    
+    var wxtopic = {
+        isbn : ""
+    };
+    
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1471158709" * 1;
+
+        window.wxtoken = "";
+        window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27613,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01    
+                }
+            });
+        }
+    }
+     
+</script>
+
+        <script nonce="MOONSAFE_NONCE_1470824700">window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"appmsg/emotion/caret.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","biz_wap/jsapi/cardticket.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","appmsg/emotion/map.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide2a9cd9.js","pages/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report2eec22.js","pages/music_player.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player2b674b.js","pages/loadscript.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript2c9cd6.js","appmsg/emotion/dom.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom2f3ac3.js","appmsg/my_comment_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html2f3f48.js","biz_wap/utils/hashrouter.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter2805ea.js","a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail2f33fb.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios275627.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android2c5484.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile2f1750.js","a/mpshop.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop2f1750.js","a/card.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card2f1750.js","biz_wap/utils/position.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position2f1750.js","appmsg/a_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_report2f1750.js","biz_common/utils/respTypes.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes2c57d0.js","appmsg/cmt_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html2a2c13.js","sougou/a_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html2c6e7c.js","appmsg/emotion/emotion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion2f3ac3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","biz_common/utils/huatuo.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/huatuo293afc.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","appmsg/topic_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html2f2e72.js","pages/voice_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html2f2e72.js","pages/voice_component.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component2f3ac3.js","pages/qqmusic_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html2f2e72.js","new_video/ctl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl2d441f.js","biz_common/utils/monitor.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor2a30ee.js","appmsg/reward_entry.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry2f3ac3.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment2fb099.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2eb52b.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2f1750.js","pages/version4video.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video2e481d.js","rt/appmsg/getappmsgext.rt.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt2c21f6.js","biz_wap/utils/storage.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage2a74ac.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl2b3578.js","appmsg/img_copyright_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","appmsg/a_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_tpl.html2f1750.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax2f1747.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","biz_wap/utils/log.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log2faec8.js","sougou/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index2c7543.js","biz_wap/safe/mutation_observer_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report2fafd1.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report2f3ac3.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source2f1274.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos2ec4b2.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report2c57d0.js","appmsg/wxtopic.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic2f2e72.js","appmsg/voice.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice2f2e72.js","appmsg/qqmusic.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic2f2e72.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe2ef6ca.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2fb01a.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2f0d45.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event275627.js","appmsg/copyright_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2ec4b2.js","appmsg/cache.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cache2a74ac.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async2f1750.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img2fb01a.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share2f67f1.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion2f1d97.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib275627.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse2fb01a.js","appmsg/log.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log2fb01a.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","biz_wap/utils/device.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device2b3aae.js","biz_wap/jsapi/a8key.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2fb0b1.js"};</script><script nonce="MOONSAFE_NONCE_1470824700" async type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon2faec8.js"></script>
+  <script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+    
+    
+  </script>
+  <script nonce="MOONSAFE_NONCE_1470824700" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+    
+  </script>
+
+    </body>
+</html>
+<!--tailTrap<body></body><head></head><html></html>-->
+ 

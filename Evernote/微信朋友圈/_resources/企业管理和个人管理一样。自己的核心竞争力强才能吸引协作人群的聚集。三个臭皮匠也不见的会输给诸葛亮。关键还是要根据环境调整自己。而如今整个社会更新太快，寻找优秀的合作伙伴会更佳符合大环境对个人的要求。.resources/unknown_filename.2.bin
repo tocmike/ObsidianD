@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<!--headTrap<body></body><head></head><html></html>--><html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script nonce="1583030142" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+<script nonce="1583030142" type="text/javascript">
+    var biz = ""||"MjM5NzY4MzQyMQ==";
+    var sn = "" || ""|| "25e428048c37";
+    var mid = "" || ""|| "2650079696";
+    var idx = "" || "" || "1";
+    window.__allowLoadResFromMp = true; 
+    
+</script>
+<script nonce="1583030142" type="text/javascript">
+var page_begintime=+new Date,is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&biz&&mid&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect")),
+document.domain="qq.com";
+</script> 
+<script nonce="1583030142" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script> 
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<script nonce="1583030142" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+        <title>经典战略框架过时了，未来企业拼的是“竞争优势+生态优势”</title>
+        
+<style>html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background-color:#f3f3f3;line-height:inherit}body.rich_media_empty_extra{background-color:#fff}body.rich_media_empty_extra .rich_media_area_primary:before{display:none}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#607fa6;text-decoration:none}.rich_media_inner{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{position:relative;padding:20px 15px 15px;background-color:#fff}.rich_media_area_primary:before{content:" ";position:absolute;left:0;top:0;width:100%;height:1px;border-top:1px solid #e5e5e5;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5);top:auto;bottom:-2px}.rich_media_area_primary .original_img_wrp{display:inline-block;font-size:0}.rich_media_area_primary .original_img_wrp .tips_global{display:block;margin-top:.5em;font-size:14px;text-align:right;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.rich_media_area_extra{padding:0 15px 0}.rich_media_title{margin-bottom:10px;line-height:1.4;font-weight:400;font-size:24px}.rich_media_meta_list{margin-bottom:18px;line-height:20px;font-size:0}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px}.meta_original_tag{display:inline-block;vertical-align:middle;padding:1px .5em;border:1px solid #9e9e9e;color:#8c8c8c;border-top-left-radius:20% 50%;-moz-border-radius-topleft:20% 50%;-webkit-border-top-left-radius:20% 50%;border-top-right-radius:20% 50%;-moz-border-radius-topright:20% 50%;-webkit-border-top-right-radius:20% 50%;border-bottom-left-radius:20% 50%;-moz-border-radius-bottomleft:20% 50%;-webkit-border-bottom-left-radius:20% 50%;border-bottom-right-radius:20% 50%;-moz-border-radius-bottomright:20% 50%;-webkit-border-bottom-right-radius:20% 50%;font-size:15px;line-height:1.1}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_text{color:#8c8c8c}span.rich_media_meta_nickname{display:none}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#3e3e3e}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media screen and (device-aspect-ratio:2/3),screen and (device-aspect-ratio:40/71){.meta_original_tag{padding-top:0}}@media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2){.mm_appmsg .rich_media_inner,.mm_appmsg .rich_media_meta,.mm_appmsg .discuss_list,.mm_appmsg .rich_media_extra,.mm_appmsg .title_tips .tips{font-size:17px}.mm_appmsg .meta_original_tag{font-size:15px}}@media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3){.mm_appmsg .rich_media_title{font-size:25px}}@media screen and (min-width:1024px){.rich_media{width:740px;margin-left:auto;margin-right:auto}.rich_media_inner{padding:20px}body{background-color:#fff}}@media screen and (min-width:1025px){body{font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}.rich_media{position:relative}.rich_media_inner{background-color:#fff;padding-bottom:100px}}.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#3e3e3e;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#8c8c8c;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.weui_loading{width:20px;height:20px;display:inline-block;vertical-align:middle;-webkit-animation:weuiLoading 1s steps(12,end) infinite;animation:weuiLoading 1s steps(12,end) infinite;background:transparent url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iciIgd2lkdGg9JzEyMHB4JyBoZWlnaHQ9JzEyMHB4JyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJub25lIiBjbGFzcz0iYmsiPjwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjRTlFOUU5JwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoMCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICA8L3JlY3Q+CiAgICA8cmVjdCB4PSc0Ni41JyB5PSc0MCcgd2lkdGg9JzcnIGhlaWdodD0nMjAnIHJ4PSc1JyByeT0nNScgZmlsbD0nIzk4OTY5NycKICAgICAgICAgIHRyYW5zZm9ybT0ncm90YXRlKDMwIDUwIDUwKSB0cmFuc2xhdGUoMCAtMzApJz4KICAgICAgICAgICAgICAgICByZXBlYXRDb3VudD0naW5kZWZpbml0ZScvPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyM5Qjk5OUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSg2MCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICAgICAgICAgICAgICAgcmVwZWF0Q291bnQ9J2luZGVmaW5pdGUnLz4KICAgIDwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjQTNBMUEyJwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoOTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNBQkE5QUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxMjAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCMkIyQjInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxNTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCQUI4QjknCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxODAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDMkMwQzEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyMTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDQkNCQ0InCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEMkQyRDInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEQURBREEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNFMkUyRTInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0Pgo8L3N2Zz4=) no-repeat;-webkit-background-size:100%;background-size:100%}@-webkit-keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}@keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}.gif_img_wrp{display:inline-block;font-size:0;position:relative;font-weight:400;font-style:normal;text-indent:0;text-shadow:none 1px 1px rgba(0,0,0,0.5)}.gif_img_wrp img{vertical-align:top}.gif_img_tips{background:rgba(0,0,0,0.6)!important;filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endcolorstr = '#99000000');border-top-left-radius:1.2em 50%;-moz-border-radius-topleft:1.2em 50%;-webkit-border-top-left-radius:1.2em 50%;border-top-right-radius:1.2em 50%;-moz-border-radius-topright:1.2em 50%;-webkit-border-top-right-radius:1.2em 50%;border-bottom-left-radius:1.2em 50%;-moz-border-radius-bottomleft:1.2em 50%;-webkit-border-bottom-left-radius:1.2em 50%;border-bottom-right-radius:1.2em 50%;-moz-border-radius-bottomright:1.2em 50%;-webkit-border-bottom-right-radius:1.2em 50%;line-height:2.3;font-size:11px;color:#fff;text-align:center;position:absolute;bottom:10px;left:10px;min-width:65px}.gif_img_tips.loading{min-width:75px}.gif_img_tips i{vertical-align:middle;margin:-0.2em .73em 0 -2px}.gif_img_play_arrow{display:inline-block;width:0;height:0;border-width:8px;border-style:dashed;border-color:transparent;border-right-width:0;border-left-color:#fff;border-left-style:solid;border-width:5px 0 5px 8px}.gif_img_loading{width:14px;height:14px}i.gif_img_loading{margin-left:-4px}.gif_bg_tips_wrp{position:relative;height:0;line-height:0;margin:0;padding:0}.gif_bg_tips_wrp .gif_img_tips_group{position:absolute;top:0;left:0;z-index:9999}.gif_bg_tips_wrp .gif_img_tips_group .gif_img_tips{top:0;left:0;bottom:auto}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:1em 35px 1em 15px;z-index:1;background-color:#c6e0f8;color:#8c8c8c;font-size:13px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.preview_appmsg .rich_media_title{margin-top:1.9em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin:0 20px}.preview_appmsg .rich_media_title{margin-top:0}}</style>
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link onerror="wx_loaderror(this)" rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2c9cd6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg">
+        
+    <script nonce="1583030142" type="text/javascript">
+        var write_sceen_time = (+new Date());
+    </script>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+                        <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        经典战略框架过时了，未来企业拼的是“竞争优势+生态优势” 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                                                <span id="copyright_logo" class="rich_media_meta meta_original_tag">原创</span>
+                        						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2017-03-11</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">HBR-China</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="##" id="post-user">哈佛商业评论</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">哈佛商业评论</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">哈佛商业评论</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">hbrchinese</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">《哈佛商业评论》( Harvard Business Review，简称 HBR )创建于1922年，是哈佛商学院的标志性杂志，被全球商界誉为“管理圣经”，众多耳熟能详的管理思想家、管理理论均出自《哈佛商业评论》。更多管理智慧，请登录官方网站：www.hbrchina.org。</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                                                            
+                                                            
+                    
+                    <div class="rich_media_content " id="js_content">
+                        
+
+                        
+                        
+                        <p style="white-space: normal; text-align: center;"><img data-type="gif" data-src="http://mmbiz.qpic.cn/mmbiz/lxslyr6ibEMt6iaygib8hx3VIp4Kiclq1n7S2uWicsKsN9g44171wfyAYyqx0dUpWfBYAR6H5NiaoKFsuVVoqLeiaZBbQ/0?wx_fmt=gif" data-ratio="0.2" data-w="400"  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">获取和提高利润一直是企业安身立命的核心命题。然而，对于“超额利润从何而来”这一问题，我们的认知却一直在更新。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; color: rgb(0, 84, 147);"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">20世纪80年代，战略大师迈克尔·波特和产业结构学派的追随者将超额利润的来源归结于产业结构要素</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 0, 0);">，“规模经济”、“经验曲线”、“进入壁垒”等与产业结构息息相关的理论被奉为金科玉律；</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">20世纪90年代，随着普拉哈拉德和哈默尔等人提出“核心竞争力”，以及资源基础观和动态能力理论的崛起，</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 0, 0);">人们的视角开始转向企业自身，关注“核心竞争力”、“动态能力”等与企业价值链活动相关的经典概念。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">最近几年，在新技术应用层出不穷、产业环境日趋动荡、消费者对一体化解决方案的期望越来越高的背景下，产业边界逐渐模糊，</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">跨界合作与价值共创成为潮流，使商业生态圈成为炙手可热的概念。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">然而，构建或重构生态圈能否为企业带来持续的超额利润？它与竞争优势有什么关系：是“鱼与熊掌”，还是“缺一不可”？生态优势是否能够替代竞争优势？这些问题迫使我们今天重新思考企业优势的来源。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px;"></span></p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/lxslyr6ibEMvXNFG2YUxG2OmHS28cqcbrQkVhsdcAEhlJEH62rmia4gIrAoicZf9FlKYICL8PAKSvkOnkyRjsgVow/0?wx_fmt=jpeg" data-ratio="0.5623529411764706" data-w="850"  /></p><p style="text-align: center;"><br  /></p><section style="white-space: normal; background-color: rgb(255, 255, 255); box-sizing: border-box;"><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; text-align: center; box-sizing: border-box;"><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section><section class="" style="margin-right: -1.2em; margin-left: -1.2em; padding: 3px 1.5em; display: inline-block; vertical-align: middle; color: rgb(47, 41, 40); font-size: 24px; box-sizing: border-box;"><section style="box-sizing: border-box;"><span style="font-size: 20px;"><strong>经典战略框架的竞争优势</strong></span></section></section><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section></section></section></section><p><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">要厘清生态圈时代下竞争优势的来源，首先就要对它的参照系——经典战略框架及其对竞争优势的阐述——进行梳理。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/lxslyr6ibEMuibnsab6s53aAfW5TOJD0icbDy87usia1HMYiaGm1s0jv3cKocCjhbFSVjibnogdcYdPqga0LIfjPL7icg/0?wx_fmt=png" data-ratio="0.5394736842105263" data-w="608"  /><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">经典战略框架的观点有非常鲜明的时代烙印。该理论体系成熟于20世纪80-90年代，代表性的著作有波特的《竞争战略》（1980）、《竞争优势》（1985），普拉哈拉德与哈默尔于1990年发表于《哈佛商业评论》的《企业的核心竞争力》。20世纪80-90年代的特点是：工业化深入发展、全球化浪潮来袭、企业竞争开始加剧。但是产业界线清晰、结构也相对稳定。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">在此时代背景下，经典战略框架认为企业的利润率主要由两个部分决定：</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><strong>一是行业结构，</strong></span><span style="letter-spacing: 0px;"><span style="letter-spacing: 0px; font-size: 15px;">也就是行业内竞争、供应商与买家议价能力、新进者和替代者威胁这五股力量的综合影响。波特的“五力模型”对产业结构进行了系统的描述，并且用“规模经济”、“进入和退出壁垒”等因素来预测“五力”的影响方向。这些因素的合力最终决定行业的平均利润率。</span></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><strong>第二个决定因素是企业拥有和控制的资源，</strong></span><span style="letter-spacing: 0px;"><span style="letter-spacing: 0px; font-size: 15px;">这可以帮助企业保持成本领先或差异化的竞争优势，获得好的定位。如果企业拥有的资源是有价值、稀缺、不可模仿和难以替代的，就构成了核心竞争力。它决定了企业是否能持续获得高于行业平均的超额利润。</span></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">由此可见，行业结构和企业的核心竞争力共同决定企业的利润率。</span><span style="letter-spacing: 0px;">由于行业结构被视为既定的、且在相当长的时间内保持稳定，“核心竞争力”一直是人们考虑提高企业利润率、增强竞争优势时使用的主流概念。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em;"><span style="letter-spacing: 0px;"></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">经典战略框架整套逻辑背后有两个重要的假定：</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><strong>其一，是“零和博弈”。</strong></span><span style="letter-spacing: 0px;"><span style="letter-spacing: 0px; font-size: 15px;">因为核心资源非常稀缺、非此即彼，企业必须你争我夺。这体现在与竞争对手的关系上，是短兵相接、互不相让；体现在与上下游合作伙伴的关系上，是提高谈判力量，争抢利润池中更大的份额。</span></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><strong>其二，核心竞争力非常强调对内部资源的占有和控制。</strong></span><span style="letter-spacing: 0px;"><span style="letter-spacing: 0px; font-size: 15px;">普拉哈拉德和哈默尔在提出核心竞争力概念时，把它定义为“企业内部具有的积累性学识，特别是关于如何协调不同的生产技能和有机结合多种技术流的学识”。可见核心竞争力是内生的。也就是说，竞争优势来源于企业价值链活动上所拥有的资源。</span></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; color: rgb(0, 84, 147);"><span style="letter-spacing: 0px; font-size: 15px;">这两个假定不可避免地会带来两个局限。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><strong>第一是核心竞争力的单一性。</strong></span><span style="font-size: 15px;"><span style="letter-spacing: 0px;">对于任何一个企业而言，资源永远是有限的，不可能面面俱到，因此无法在价值链的方方面面都形成可持续的竞争优势。</span><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">事实上，能够真正培养起一个核心竞争力的企业已经相当优秀了，能有多个核心竞争力的企业几乎不存在。</span></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><strong>另一个局限是：核心竞争力往往会变成核心刚性。</strong></span><span style="font-size: 15px;"><span style="letter-spacing: 0px;">核心竞争力需要结构、流程、文化等系统性组织体系的支撑。核心竞争力越强，组织流程、文化和人等方面系统性的耦合也越强，从而形成组织的路径依赖。</span><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">当行业发生变革的时候，核心竞争力越强的企业往往改变起来越困难。</span><span style="letter-spacing: 0px;">柯达公司就是受制于核心刚性的经典案例。20世纪90年代，柯达胶卷年销售额高达190亿美元，其品牌深入人心，利润丰厚，拥有世界领先的技术研发能力。</span><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">但是，在胶卷技术上的绝对优势反而成为了其转型数码技术的最大掣肘。</span><span style="letter-spacing: 0px;">柯达公司首先发明了数码相机，但是由于数码技术的普及会损害其核心业务胶卷的销量，柯达对于数码技术的推进一直踌躇不前，最终反受其害，错过了数码时代的新机会。</span></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">经典战略框架下企业竞争优势的来源和局限都相当明显。</span><span style="letter-spacing: 0px;">在大工业时代的背景下，产业结构在相当长的时间内可以保持稳定，消费者对产品诉求也相对简单、单一。因此，核心竞争力的刚性和单一性局限表现得不突出。企业在固定的价值链环节上发展核心竞争力是获取竞争优势最通用、稳妥的方法。这也是经典战略框架在相当长时间内得以经久不衰的原因。</span></span></p><p style="white-space: normal; line-height: normal; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px;"><br  /></span></span></p><section style="white-space: normal; background-color: rgb(255, 255, 255); box-sizing: border-box;"><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; text-align: center; box-sizing: border-box;"><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section><section class="" style="margin-right: -1.2em; margin-left: -1.2em; padding: 3px 1.5em; display: inline-block; vertical-align: middle; color: rgb(47, 41, 40); font-size: 24px; box-sizing: border-box;"><section style="box-sizing: border-box;"><span style="font-size: 20px;"><strong>新竞争环境下的生态优势</strong></span></section></section><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section></section></section></section><p style="line-height: normal;"><br  /></p><p style="white-space: normal; line-height: 1.75em;"><span style="letter-spacing: 0px;"></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">进入信息时代，尤其是在移动互联网和智能硬件普及后，产业环境、消费者需求发生了巨大的变化。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">一方面，整合性的需求提高：</span><span style="letter-spacing: 0px; font-size: 15px;">消费者不再满足于单一的产品功能，而是希望通过简单、极致的交互，从极小的接触点上获得一揽子的个性化解决方案。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">另一方面，行业跨界增加了竞争的不确定性。</span><span style="letter-spacing: 0px; font-size: 15px;">2007年左右，移动互联网诞生后，行业环境进一步变得复杂和模糊。对于身处其间的企业来说，竞争对手和合作伙伴可能来自意想不到的跨界领域，它们必须时刻准备进入陌生领域、应对跨界异业者的挑战。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">也就是说在今天，核心竞争力的刚性和单一性问题成为了主要矛盾。</span><span style="font-size: 15px; letter-spacing: 0px;">产业的融合和动荡不允许企业固步自封，消费者的需求升级也迫使企业必须保持开放、灵活。显然，经典理论的适用条件发生了变化，我们必须重新思考新背景下企业竞争优势的来源。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">所以，我们提出</span><span style="font-size: 16px; line-height: normal; letter-spacing: 0px;"><strong>“生态优势”</strong></span><span style="font-size: 15px; letter-spacing: 0px;">的概念。这里的“生态”是指具有异质性的企业、个人在相互依赖和互惠的基础上形成共生、互生和再生的价值循环系统。企业的优势不仅仅来源于内部价值链活动的优化和资源能力的积累，还来源于对外部资源的有效利用，也就是企业组合商业生态圈元素，协调、优化生态圈内伙伴关系的能力。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">与内生的竞争优势相反，生态优势强调的是“外部关系”，不仅仅关注自身的价值链，还要重新定义和优化价值网上的活动，管理好不拥有的资源。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);"><br  /></span></p><p style="white-space: normal; text-align: center;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/lxslyr6ibEMuibnsab6s53aAfW5TOJD0icbq7OrrTnqsYN11gpqiaFwAc28dCbQJ8oWYZCL4VTsdzYc5PaBOksgRAg/0?wx_fmt=png" data-ratio="0.41540256709451573" data-w="857"  /><br  /></span></p><p style="white-space: normal; line-height: normal; font-family: Times;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">生态优势背后的假定不再是零和博弈、你输我赢了。它强调共赢——把饼做大，形成共生、互生和再生的利益共同体。</span><span style="letter-spacing: 0px;">生态优势不追求“为我所有”，而是“为我所用”，有效地与外部资源发生连接。<strong>腾讯</strong>并不拥有微信平台上公众大号的所有权，但是公众号文章的阅读量会推动微信平台的繁荣；<strong>亚马逊</strong>Kindle不做内容出版业务，但是优秀出版商的电子书籍下载量会惠及Kindle产品的号召力。一方的繁荣并不是以另一方的萧条为代价，而是你中有我、互惠互利。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">在经典战略框架下，企业通过占有和控制有价值的、稀缺的、难以模仿和无法替代的资源，培养核心竞争力，从而持续地提供成本领先或具有差异化的产品。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">在生态视角下，企业则应不断地增加生态圈内伙伴的异质性、嵌入性和互惠性。</span><span style="font-size: 15px; letter-spacing: 0px;">异质性对应了“共生”，使生态的功能更加丰富多元；嵌入性对应了“互生”，使生态伙伴之间彼此依赖、相互扶持；互惠性则对应了“再生”，是整个生态在个体与集体、当前与未来利益之间的平衡和放大。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">异质性、嵌入性和互惠性高的生态圈具有适应能力和放大效应——灵活地组合不同企业的核心竞争力、适应不断变化的环境，并形成协同和放大竞争优势。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);"><br  /></span></p><p style="white-space: normal; text-align: center;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/lxslyr6ibEMuibnsab6s53aAfW5TOJD0icbtGtrTFcYamQWz4whSnoHwpOSvcOQwGAbJmseYoEicDazP2w75RYIbug/0?wx_fmt=png" data-ratio="0.5731225296442688" data-w="506"  /><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">生态圈的价值在于：<strong>第一，为企业提供了在传统的行业结构、竞争地位之外的价值来源；第二，有利于行业结构的优化、核心竞争力的建立，也就是巩固传统的价值来源。</strong>最终，这为企业带来更高的投资回报率。</span></p><p><br  /></p><section style="white-space: normal; background-color: rgb(255, 255, 255); box-sizing: border-box;"><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; text-align: center; box-sizing: border-box;"><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section><section class="" style="margin-right: -1.2em; margin-left: -1.2em; padding: 3px 1.5em; display: inline-block; vertical-align: middle; color: rgb(47, 41, 40); font-size: 24px; box-sizing: border-box;"><section style="box-sizing: border-box;"><span style="font-size: 20px;"><strong>企业优势全景图</strong></span></section></section><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section></section></section></section><p style="white-space: normal;"><span style="letter-spacing: 0px;"></span></p><p><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">竞争优势与生态优势是两个平行的概念。<strong>从定义上比较，</strong>竞争优势主内，生态优势主外，在各个维度上两者都有本质的区别；<strong>从影响企业利润率的路径来看，</strong>竞争优势直接影响的是竞争地位，生态优势则改变集体行动、并通过集体行动间接优化行业结构、改善竞争地位，分别从不同的路径影响企业的利润率水平。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; color: rgb(0, 84, 147);"><span style="letter-spacing: 0px; font-size: 15px;">由此可见，竞争优势与生态优势不具有相互替代的作用，是解释企业利润率水平的不同维度。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">我们以“竞争优势”和“生态优势”为两个维度，可以勾画出不同企业的优势图谱。根据企业在图谱中的不同位置，可以区分为<strong>“熊猫”</strong>、<strong>“猛虎”</strong>、<strong>“蚁群”</strong>、<strong>“狼群”</strong>这四种类型。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; text-align: center;"><span style="letter-spacing: 0px;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/lxslyr6ibEMuibnsab6s53aAfW5TOJD0icbHvoP1D1j8DibLDDzcEaicKRkLn1An73bmFQWafFpibnzuN8oicYtQRvwdA/0?wx_fmt=png" data-ratio="0.9382470119521913" data-w="502"  /><br  /></span></p><p style="white-space: normal; text-align: center;"><br  /></p><p style="white-space: normal;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);"></span></p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p style="font-size: 18px; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 17px;"><strong>熊猫</strong></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; color: rgb(0, 84, 147);"><span style="font-size: 15px;"><span style="letter-spacing: 0px;">左下角是竞争优势和生态优势都比较欠缺的企业，我们称之为“熊猫”。</span><span style="letter-spacing: 0px; color: rgb(0, 0, 0);">自然界的大熊猫对环境适应能力很差，只能在自然保护区才能延续种群的生存。</span><span style="letter-spacing: 0px;">与此类似，熊猫型企业指的是那些自身核心资源较弱、也无法调动和充分利用商业生态圈内合作伙伴能力的企业，</span><span style="letter-spacing: 0px; color: rgb(0, 0, 0);">通常只能依靠低廉的劳动力成本、政策保护等因素模仿跟进，以求生存。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">例如，我们国家的很多产业园区、孵化器内和享受垄断地位的企业就属于这种情况：它们的生存依赖较低的要素价格（有时候以牺牲环境为代价）、与相关方的特殊关系或政策保护下的垄断地位，并没有真正建立起竞争优势和生态优势。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p style="font-size: 18px; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 17px;"><strong>猛虎</strong></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px;">第二类企业在左上角，我们称其为“猛虎”。老虎凶猛异常，独来独往，是山林里当仁不让的王者。但如果在开阔地带面对行动敏捷的群居猎物，单兵作战的老虎胜算寥寥无几。</span><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">类比到企业，猛虎型企业指的是具有核心竞争力，能够在既定的轨道上不断创新、实现突破，但是不善于接连外部资源和伙伴、生态圈优化能力较弱的企业。</span><span style="letter-spacing: 0px;">如果猛虎型企业所处的行业结构相对稳定、产业的发展轨迹主要由渐进式创新来推动，那么它们的竞争地位很难受到撼动。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">如果所在的产业在技术应用、消费需求等要素的影响下发生巨变，发展路径被非连续创新（discontinuous innovation）所推动时，猛虎型企业就会面临相当大的挑战。即使是行业中的明星企业也可能被倾覆。例如，<strong>索尼</strong>作为电子消费品领域的领先者，推出的电子书阅读器和MP3分别被亚马逊的Kindle和苹果的iPod打败，很大的原因是在无线网络应用普及的背景下，电子消费品行业的价值不仅仅是技术，还在于与内容提供方的联合，从而提供一体化（同时包括硬件、平台和内容）的解决方案。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">亚马逊和苹果公司抓住了机会，与电子书/音乐内容提供商一起构建了生态圈。</span><span style="font-size: 15px; letter-spacing: 0px;">索尼公司尽管硬件设计与工艺一流、核心竞争力强大，但是因为不善于构建生态圈，不得不在竞争中甘拜下风。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p style="font-size: 18px; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 17px;"><strong>蚁群</strong></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px;">矩阵的右下角是第三类企业“蚁群”。蚂蚁的特点是虽然身躯弱小，但是有极强的协同组织能力，因此作为一个群体，蚁群的力量不容小觑。</span><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">蚁群型企业也是如此：尽管作为个体，自身的核心竞争力不强，但是它们对产业变迁的趋势有灵敏的洞察力，对生态圈伙伴有强大的号召力，善于调动和利用外部资源为己所用。</span><span style="letter-spacing: 0px;">这样，凭借生态优势，蚁群企业很有可能在复杂、动态的环境下超越以核心竞争力见长的猛虎型企业。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">例如，<strong>亚马逊</strong>在推出第一代电子书阅读器Kindle的时候，硬件的性能和设计都不算顶尖；<strong>小米</strong>手机发布时，也只是对一些现有模块整合和系统优化，并没有独一无二的核心资源。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">但是凭借对用户需求的理解和业内资源的组合，亚马逊和小米以生态圈取胜，产生了很大的影响。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147); font-size: 15px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">不过，必须看到的是：</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">生态优势只是企业优势的一个方面，无法取代核心竞争力带来的竞争优势。</span><span style="font-size: 15px; letter-spacing: 0px;">当受到新技术的影响，产业融合、跨界合作变得频繁（也就是生态圈变得重要时）时，蚁群型企业很可能凭借生态优势在与猛虎型企业的竞争中占得上峰，但这只是暂时的。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">长期来看，产业环境的变化是间歇性的，在相对稳定的阶段主要还是依靠核心竞争力。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; color: rgb(0, 84, 147); min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">另外，当打盹的“老虎”苏醒过来，着力构建生态圈时，也会给蚁群型企业带来很大的竞争压力。小米手机虽然擅长构建生态圈，但是多年来一直没有建立起自身的核心竞争力。最近它受到了来自华为等传统明星企业的挑战，业绩不如预期，质疑小米的声音也越来越多。可</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">见，即使生态圈再完美，也不能放弃核心竞争力的培养，否则很可能是昙花一现。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p style="font-size: 18px; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 17px;"><strong>狼群</strong></span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="letter-spacing: 0px;"></span><br  /></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px;">矩阵的右上角是“狼群”。狼的速度、耐力都很出众，难能可贵的是协作能力也极佳。</span><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">对应到企业，狼群型企业指的是同时具备竞争优势和生态优势的企业。</span><span style="letter-spacing: 0px;">今天异常动荡、不确定、复杂、模糊的环境越来越要求企业具有“狼群”的特征。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;"><strong>亚马逊</strong>推出第一代Kindle时设计和性能都不如索尼阅读器，饱受诟病，但是之后其性能不断提升，先后推出背光屏幕、彩色屏幕的Kindle Fire系列等创新产品，其极简主义的设计也备受外界好评，这说明亚马逊从根本上加强巩固了竞争优势。其实在第一代Kindle大获成功后，美国最大的书籍零售商巴诺书店就效仿推出了自己的阅读器Nook，苹果公司也发布了iPad和配套的电子书市场，迎战亚马逊。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">但是这些后来者无一能够撼动Kindle的领导地位，这与亚马逊不断巩固自身的核心竞争力、构筑护城河密不可分。</span><span style="font-size: 15px; letter-spacing: 0px;">电子消费品行业背景具有典型的高度竞争、复杂模糊动荡和不确定性高的特征，要求企业同时具备生态优势与竞争优势。亚马逊正是因为具备生态优势，才能在与索尼的竞争中取得胜利；也正是因为迅速培养了竞争优势，才能在之后与巴诺书店和苹果公司等巨头企业的竞争中立于不败之地。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">企业优势图谱要表达的一个重要含义是：</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">未来优势的来源可能来自内部，也可能是外部，是竞争优势与生态优势的组合。</span><span style="font-size: 15px; letter-spacing: 0px;">每一个企业都可以根据企业优势全景图来评估自己在图谱上所处的位置。有的企业（落在虚线以下、矩阵的右下角）用外部资源来弥补内部资源能力的不足，有的企业（落在虚线以上，矩阵的左上角）则用内部资源能力来弥补外部连接的不足。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">该图谱不是要比较熊猫、猛虎、蚁群和狼群型企业的优劣，在许多情况下不同类型的企业（由于所处环境不同）并不具有可比性。其实，无论是熊猫、蚁群、猛虎还是狼群，只要与行业的竞争环境相匹配，都可以生存和发展。但是我们必须看到两点：</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;"><strong>第一，企业的优势矩阵能否帮助其获得更高的利润，与所处的环境密不可分。</strong>当竞争激烈、但产业结构稳定、渐进发展时，基于核心竞争力的竞争优势更为重要；当产业结构发生非连续的变化、跨界融合成为主旋律时，基于集体行动的生态优势更为重要；当产业环境同时具有高强度竞争和结构性变化时，则竞争优势与生态优势缺一不可。</span></p></li></ul><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><ul class=" list-paddingleft-2" style="width: 528.1875px; white-space: normal;"><li><p style="line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">第二，如果我们来看产业环境变化的大趋势，可以肯定的是：<strong>在政策、技术等因素的推动下，适合熊猫的“珍惜动物保护区”（稳定的环境）将会越来越少。</strong>企业间的竞争会越来越激烈、产业结构的变化也会越来越频繁。不同行业在经历这一过程时可能会有先后缓急之分，但这仍然是大势所趋。企业要审时度势，基于对未来业务环境的判断未雨绸缪，及时调整和更新自身的优势组合。</span></p></li></ul><p style="white-space: normal;"><span style="letter-spacing: 0px; color: rgb(0, 84, 147);"></span></p><p style="line-height: normal;"><br  /></p><section style="white-space: normal; background-color: rgb(255, 255, 255); box-sizing: border-box;"><section class="Powered-by-XIUMI V5" powered-by="xiumi.us" style="box-sizing: border-box;"><section class="" style="margin-top: 10px; margin-bottom: 10px; text-align: center; box-sizing: border-box;"><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section><section class="" style="margin-right: -1.2em; margin-left: -1.2em; padding: 3px 1.5em; display: inline-block; vertical-align: middle; color: rgb(47, 41, 40); font-size: 24px; box-sizing: border-box;"><section style="box-sizing: border-box;"><span style="font-size: 20px;"><strong>增强企业优势的路径</strong></span></section></section><section class="" style="border-top-width: 2px; border-top-style: solid; width: 1.2em; display: inline-block; vertical-align: middle; border-color: rgb(199, 45, 20); box-sizing: border-box;"></section></section></section></section><p style="line-height: normal;"><br  /></p><p style="white-space: normal;"><span style="letter-spacing: 0px;"></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="letter-spacing: 0px;">竞争环境千变万化，企业在优势矩阵上的位置也不是一成不变的。在PC时代，微软无论是自身的竞争优势，还是建立在与Intel及众多软件开发商、硬件生产商、渠道商关系基础之上生态优势，都被奉为经典。</span><span style="letter-spacing: 0px; color: rgb(0, 84, 147);">但是进入移动时代后，由于缺乏相应的布局，微软的生态优势逐渐丧失，一度危机四伏。</span><span style="letter-spacing: 0px;">但是凭借windows 10、Surface Pro等一系列产品的推出和对移动端的重视，微软正在努力重回狼群的行列。可见，企业的竞争优势和生态优势组合是动态变化的。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">而这样的动态变化有规律可循。让我们回到“企业优势全景图”上来进行剖析。</span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;"><strong>当企业处于左上角，具有“猛虎”的特征时，相对于缺乏核心竞争力的“熊猫”，能够更有效地构建生态圈。</strong>这是因为：</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">核心竞争力是号召生态圈伙伴、组合生态能力的基础。</span><span style="font-size: 15px; letter-spacing: 0px;">一旦丧失了这一基础，企业也就丧失了在生态圈里的立足点。试想一个平庸的企业如何能吸引到最优秀的伙伴、协调和调动生态圈伙伴的资源呢？在短期内或许可以——这需要企业领袖具有出众的个人魅力和资源组织能力。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">但长期来看，高质量的合作伙伴迟早会转向更有实力的企业、抛弃没有核心能力的参与者。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; color: rgb(0, 84, 147); min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;">20世纪80年代，作为PC硬件老大的<strong>IBM</strong>聚集了微软、Intel等一众企业，以开放的姿态成就了围绕在IBM-Windows-Intel周边的兼容机生态圈，并借此打败了当时的竞争对手苹果计算机。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">但是之后随着IBM进一步开放硬件标准，自己却无法保持在硬件制造上的资源独占性，IBM将核心竞争力拱手让出，丧失了在生态圈里的发言权。</span><span style="font-size: 15px; letter-spacing: 0px;">PC兼容机市场也逐渐演变成了以Windows和Intel（被称为Wintel）为核心的生态圈。今天，苹果之所以能够吸引众多软件商、渠道商和其他服务商围绕在其周围，形成良性循环的生态圈，与其在硬件和系统设计上的实力密不可分。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">所以说，基于核心竞争力的竞争优势是撬动生态优势的支点。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="font-size: 15px;"><span style="font-size: 15px; letter-spacing: 0px;"><strong>当企业处于右下角，具有“蚁群”的特征时，相对于缺乏生态优势的“熊猫”，也可以更充分地利用生态圈的力量发展竞争优势。</strong>这是因为：</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">生态圈为企业提供了丰富的外部资源库，从中可以有选择地汲取有价值、稀缺、难以模仿和不可替代的资源发展成为核心竞争力。</span><span style="font-size: 15px; letter-spacing: 0px;">例如，对于<strong>阿里巴巴</strong>来说，围绕其电子商务平台，支付工具、通信工具、O2O和其他衍生服务等形成了功能丰富的生态圈。</span><span style="font-size: 15px; letter-spacing: 0px; color: rgb(0, 84, 147);">而这些反过来又帮助阿里获得更多数据，对用户有更精准、深度的了解，巩固了其核心能力。</span><span style="font-size: 15px; letter-spacing: 0px;">由此可见，生态优势是放大竞争优势的来源。</span></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">竞争优势与生态优势是相辅相成的：<strong>竞争优势是维系生态优势的基础；生态优势是放大竞争优势的系统。</strong>无论是先发展竞争优势，再借助其力量撬动生态优势，还是先发展生态优势，再借助其资源建立竞争优势，都是殊途同归。但是路径的选择与产业环境息息相关：<strong>当竞争环境异常激烈时，竞争优势的紧迫性会比较高；当产业融合与跨界合作兴起时，生态优势的重要性会特别明显。</strong></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times; min-height: 19px;"><span style="font-size: 15px; letter-spacing: 0px;"><br  /></span></p><p style="white-space: normal; line-height: 1.75em; font-family: Times;"><span style="letter-spacing: 0px; font-size: 15px;">聪明的企业应当时刻关注产业的变化动向，调整自身的优势组合。在这一过程中，如果善于利用竞争优势与生态优势相互促进的关系，形成良性循环，将让企业事半功倍，更快地通向成功之路。</span></p><section style="border: 0px; clear: both; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="padding: 8px; border-left-width: 6px; border-left-style: solid; border-color: rgb(169, 29, 6); font-size: 87.5%; line-height: 1.4; font-family: inherit; text-decoration: inherit; color: rgb(51, 51, 51); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><span style="font-size: 13px;">廖建文 &nbsp;崔之瑜| 文 &nbsp;</span></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><span style="font-size: 13px;">廖建文是长江商学院副院长、创新研究中心学术主任。崔之瑜是长江商学院创新研究中心研究员。</span></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><span style="font-size: 13px;">李剑| 编辑</span></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><span style="font-size: 13px;">本文有删节，原文参见《哈佛商业评论》中文版2016年7月《企业优势矩阵：竞争VS生态》（<em>Eco-advantages: A new dimension of advantages</em>）。</span></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section><section style="border: 0px; text-align: center; margin-top: 0.8em; margin-bottom: 0.2em; clear: both; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="display: inline-block; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="margin-top: 0.2em; padding-right: 0.5em; padding-bottom: 5px; padding-left: 0.5em; max-width: 100%; color: rgb(180, 35, 11); font-size: 112.5%; line-height: 1; border-bottom-width: 1px; border-bottom-style: solid; border-color: black; font-family: inherit; text-decoration: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">《哈佛商业评论·战略简法》</section></section><section style="margin: 5px 1em; font-size: 75%; line-height: 1; font-family: inherit; text-decoration: inherit; color: rgb(180, 35, 11); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">编辑|马雪梅xuemeima@hbrchina.org</section></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section><p><br  /></p><section style="background-color: rgb(255, 255, 255); box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="__bg_gif" style="display: inline-block; vertical-align: top; width: 35%; background-image: url(http://mmbiz.qpic.cn/mmbiz_gif/lxslyr6ibEMvXNFG2YUxG2OmHS28cqcbr6vtTZfKEh6iaSBcmYediavPycJY6Ou9aia13ib5L2SFQUyH8ZdM49HEcDA/s640?); background-size: 103.1008%; background-attachment: scroll; box-sizing: border-box; background-position: 50% 50%; background-repeat: no-repeat no-repeat;"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" text-align: center; margin: 15px 0%;  box-sizing: border-box; "><img style="vertical-align: middle; width: 80%; box-sizing: border-box;" class="" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/lxslyr6ibEMvXNFG2YUxG2OmHS28cqcbrYpsTWujoicBvnJWjEeUuE3KucbcBhsLpA8Iu7KO1u7ksOxSGnQxhoLA/0?wx_fmt=jpeg" data-ratio="1" data-w="430" width="80%" data-type="jpeg"  /></section></section></section><section class="" style="display: inline-block; vertical-align: top; width: 65%; box-sizing: border-box;"><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style=" margin: 20px 0% 8px; font-size: 12.8px;  box-sizing: border-box; "><section class="" style="display: inline-block; height: 2em; padding: 0.3em 0.5em; vertical-align: top; background-color: rgb(199, 45, 20); color: rgb(255, 255, 255); box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">公众号ID：hbrchinese</strong></p></section><section class="" style="width: 0.5em; display: inline-block; height: 2em; vertical-align: top; border-bottom-width: 1em; border-bottom-style: solid; border-bottom-color: rgb(199, 45, 20); border-top-width: 1em; border-top-style: solid; border-top-color: rgb(199, 45, 20); border-right-width: 1em !important; border-right-style: solid !important; border-right-color: transparent !important; box-sizing: border-box;"></section></section></section><section class="Powered-by-XIUMI V5" style="   box-sizing: border-box; " powered-by="xiumi.us"><section class="" style="   box-sizing: border-box; "><section class="" style="font-size: 14px; padding-right: 5px; padding-left: 5px; color: rgb(98, 94, 93); box-sizing: border-box;"><p style="box-sizing: border-box;"><strong style="box-sizing: border-box;">长按二维码，订阅属于你的“卓越密码”。</strong></p></section></section></section></section></section></section></section>
+                    </div>
+                    <script nonce="1583030142" type="text/javascript">
+                        var first_sceen__time = (+new Date());
+
+                        if ("" == 1 && document.getElementById('js_content'))
+                            document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+
+                                        (function(){
+                            if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                var link = document.createElement('link');
+                                var head = document.getElementsByTagName('head')[0];
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx31619e.css";
+                                head.appendChild(link);
+                            }
+                        })();
+                    </script>
+                    
+                    
+                                        
+                    <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;">
+
+                    </div>
+
+                    
+                                        
+                                        <div class="rich_media_tool" id="js_toobar3">
+                                                                    <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+
+                        <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="##">投诉</a>
+
+                    </div>
+
+
+
+                                    </div>
+
+                <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none">
+
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        
+                    </div>
+                                        
+                    <div id="js_iframetest" style="display:none;"></div>
+                                        
+                                        <div class="rich_media_extra" id="js_cmt_area" style="display:none">
+
+                        <div class="discuss_container" id="js_cmt_main" style="display:none">
+                            <div class="rich_tips with_line title_tips discuss_title_line">
+                                <span class="tips">精选留言</span>
+                            </div>
+                            <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans1" style="display:none;">该文章作者已设置需关注才可以留言</p>
+                            <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn1" style="display:none">
+                                
+                                                                <a href="" id="js_cmt_write1">写留言<img class="icon_edit" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                            </p>
+                            <ul class="discuss_list" id="js_cmt_list"></ul>
+                        </div>
+
+
+                        <div class="tips_global rich_split_tips tc" id="js_cmt_nofans2" style="display:none;">
+                            该文章作者已设置需关注才可以留言                        </div>
+
+                        <p class="discuss_icon_tips rich_split_tips tr" id="js_cmt_addbtn2" style="display:none">
+                            
+                                                        <a href="" id="js_cmt_write2">写留言<img class="icon_edit" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                    </p>
+
+                        <p class="rich_split_tips tc tips_global" id="js_cmt_tips" style="display:none;"></p>
+
+
+                        <div class="rich_tips tips_global loading_tips" id="js_cmt_loading">
+                            <img src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                            <span class="tips">加载中</span>
+                        </div>
+
+                        <div class="rich_tips with_line tips_global" id="js_cmt_statement" style="display:none">
+                            <span class="tips">以上留言由公众号筛选后显示</span>
+                        </div>
+
+                        <p class="rich_split_tips tc" id="js_cmt_qa" style="display:none;">
+                            <a href="http://kf.qq.com/touch/sappfaq/150211YfyMVj150313qmMbyi.html?scene_id=kf264">
+                                了解留言功能详情                            </a>
+                        </p>
+
+                    </div>
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script nonce="1583030142">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console2ca724.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe2f3e84.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1583030142">
+(function() {
+	function _addVConsole(uri) {
+		var url = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/' + uri;
+		document.write('<script nonce="1583030142" type="text/javascript" src="' + url + '"><\/script>');
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		_addVConsole('2.5.1/vconsole.min.js');
+		_addVConsole('plugin/vconsole-elements/1.0.2/vconsole-elements.min.js');
+		_addVConsole('plugin/vconsole-sources/1.0.1/vconsole-sources.min.js');
+		_addVConsole('plugin/vconsole-resources/1.0.0/vconsole-resources.min.js');
+		_addVConsole('plugin/vconsole-mpopt/1.0.0/vconsole-mpopt.js');
+	}
+})();
+</script>
+        
+<script nonce="1583030142" type="text/javascript">
+    
+    if (!window.console) window.console = { log: function() {} };
+    
+    if (typeof getComputedStyle == 'undefined') {
+        if (document.body.currentStyle) {
+            window.getComputedStyle = function(el) {
+                return el.currentStyle;
+            }
+        } else {
+            window.getComputedStyle = {};
+        }
+    }
+    var occupyImg = function() {
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        var ua = navigator.userAgent.toLowerCase();
+        var re = new RegExp("msie ([0-9]+[\.0-9]*)");
+        var version;
+        if (re.exec(ua) != null) {
+            version = parseInt(RegExp.$1);
+        }
+        var isIE = false;
+        if (typeof version != 'undefined' && version >= 6 && version <= 9) {
+            isIE = true;
+        }
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        for (var i = 0; i < length; ++i) {
+            var src_ = images[i].getAttribute('data-src');
+            var realSrc = images[i].getAttribute('src');
+            if (!src_ || realSrc) continue;
+            var width_ = 1 * images[i].getAttribute('data-w') || max_width;
+            var ratio_ = 1 * images[i].getAttribute('data-ratio');
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var img_style = getComputedStyle(images[i]);
+                var init_width = images[i].style.width;
+                
+                if (init_width) {
+                    images[i].setAttribute('_width', init_width);
+                    if (init_width != 'auto') width_ = parseFloat(img_style.width);
+                }
+                var parent_width = 0;
+                var parent = images[i].parentNode;
+                var outerWidth = 0;
+                while (true) {
+                    var parent_style = getComputedStyle(parent);
+                    if (!parent || !parent_style) break;
+                    parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight) - outerWidth;
+                    if (parent_width > 0) break;
+                    outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+                    parent = parent.parentNode;
+                }
+                parent_width = parent_width || max_width;
+                var width = width_ > parent_width ? parent_width : width_; 
+                var img_padding_border = parseFloat(img_style.paddingLeft) + parseFloat(img_style.paddingRight) + parseFloat(img_style.borderLeftWidth) + parseFloat(img_style.borderRightWidth);
+                var img_padding_border_top_bottom = parseFloat(img_style.paddingTop) + parseFloat(img_style.paddingBottom) + parseFloat(img_style.borderTopWidth) + parseFloat(img_style.borderBottomWidth);
+                img_padding_border = img_padding_border || 0;
+                img_padding_border_top_bottom = img_padding_border_top_bottom || 0;
+                height = (width - img_padding_border) * ratio_ + img_padding_border_top_bottom;
+                images[i].style.cssText += ";width: " + width + "px !important;";
+                if (isIE) {
+                    var url = images[i].getAttribute('data-src');
+                    images[i].src = url;
+                } else {
+                    images[i].src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJDQzA1MTVGNkE2MjExRTRBRjEzODVCM0Q0NEVFMjFBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJDQzA1MTYwNkE2MjExRTRBRjEzODVCM0Q0NEVFMjFBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkNDMDUxNUQ2QTYyMTFFNEFGMTM4NUIzRDQ0RUUyMUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkNDMDUxNUU2QTYyMTFFNEFGMTM4NUIzRDQ0RUUyMUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6p+a6fAAAAD0lEQVR42mJ89/Y1QIABAAWXAsgVS/hWAAAAAElFTkSuQmCC";
+                }
+            } else {
+                images[i].style.cssText += ";visibility: hidden !important;";
+            }
+            images[i].style.cssText += ";height: " + height + "px !important;";
+        }       
+    }
+    occupyImg();
+</script>
+<script nonce="1583030142" type="text/javascript">
+    
+    var not_in_mm_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm322696.css";
+    var windowwx_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx31619e.css";
+    var article_improve_combo_css = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo34477f.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "0";
+    var appuin = ""||"MjM5NzY4MzQyMQ==";
+
+    var source = "";
+    var abtest_cookie = "";
+
+    var scene = 75;
+
+    var itemidx = "";
+
+    var _copyright_stat = "1";
+    var _ori_article_type = "金融财经";
+
+    var nickname = "哈佛商业评论";
+    var appmsg_type = "9";
+    var ct = "1489194757";
+    var publish_time = "2017-03-11" || "";
+    var user_name = "gh_5323868cd99f";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmsns.qpic.cn/mmsns/lxslyr6ibEMueEItMl0ylZdhia7HXKjKvTeu08mVTzD9FibfFLtgl2lyg/0";
+    var ori_head_img_url = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7Q13QA9lasuDypHeB4HW6PrgLTYCJUZvNPGxC8AbqUdw/132";
+    var msg_title = "经典战略框架过时了，未来企业拼的是“竞争优势+生态优势”";
+    var msg_desc = "获取和提高利润一直是企业安身立命的核心命题。然而，对于“超额利润从何而来”这一问题，我们的认知却一直在更新。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/lxslyr6ibEMvXNFG2YUxG2OmHS28cqcbrQkVhsdcAEhlJEH62rmia4gIrAoicZf9FlKYICL8PAKSvkOnkyRjsgVow/0?wx_fmt=jpeg";
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==\x26amp;mid=2650079696\x26amp;idx=1\x26amp;sn=25e428048c37718a6302f90d2ca648fb\x26amp;chksm=bed7e86289a061742048ea30a0038eaaab9cdebbfb3eab98fc6ef2bf8e69aa6e38c4b47e0c73#rd";
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '1110YDLEBvQ2EzO4NZQQZvQ2';
+    var networkType;
+    var appmsgid = '' || ''|| "2650079696";
+    var comment_id = "923384096" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "1" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM7Q13QA9lasuDypHeB4HW6PrgLTYCJUZvNPGxC8AbqUdw/0"||(window.location.protocol+"//"+window.location.host + "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+    };
+    var _empty_v = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+    var appmsg_fe_filter = "contenteditable";
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+      var icon_emotion_switch = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x2f1273.png";
+      var icon_emotion_switch_active = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x2f1273.png";
+      var icon_loading_white = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif";
+      var icon_audio_unread = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png";
+      var icon_qqmusic_default = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png";
+      var icon_qqmusic_source = "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263724.png";
+
+    var topic_default_img = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x2e4987.png';
+
+    
+    
+    
+    
+    
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1489198173" * 1;
+    
+    var is_transfer_msg = ""*1||0;
+
+        window.wxtoken = "";
+        
+    
+    
+    
+    
+    window.is_login = '0' * 1; 
+
+    window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27613,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01,    
+                    badjs_rate: 0.1 
+                }
+            });
+        }
+    }
+        
+
+</script>
+
+        <script nonce="1583030142">window.__moon_host = 'res.wx.qq.com';window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"appmsg/emotion/caret.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","biz_wap/jsapi/cardticket.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","appmsg/emotion/map.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide2a9cd9.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report340996.js","pages/music_player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player333ed7.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript30203e.js","appmsg/emotion/dom.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom31ff31.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash33de59.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk30bcdd.js","a/sponsor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor3189b5.js","a/app_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card333f3d.js","a/ios.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios333f3d.js","a/android.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android2c5484.js","a/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile31ff31.js","a/sponsor_a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html32c414.js","a/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html32c414.js","a/mpshop.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop311179.js","a/card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card311179.js","biz_wap/utils/position.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position2f1750.js","a/a_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report32e586.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes2c57d0.js","appmsg/my_comment_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html325336.js","appmsg/cmt_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html34477f.js","sougou/a_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html2c6e7c.js","appmsg/emotion/emotion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion2f3ac3.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk315b3f.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor304edd.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","appmsg/open_url_with_webview.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/open_url_with_webview3145f0.js","biz_common/utils/http.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http30b871.js","biz_common/utils/cookie.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","appmsg/topic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html31ff31.js","pages/voice_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html2f2e72.js","pages/voice_component.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component3338bb.js","pages/qqmusic_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html32c414.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl2d441f.js","a/testdata.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/testdata31a4be.js","appmsg/reward_entry.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry3004a4.js","appmsg/comment.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment33dc11.js","appmsg/like.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2eb52b.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video33de59.js","a/a.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a333f3d.js","rt/appmsg/getappmsgext.rt.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt2c21f6.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage2a74ac.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl33dd00.js","appmsg/img_copyright_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","biz_common/ui/imgonepx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax33d6e9.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log2fcb7c.js","sougou/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index3420dc.js","biz_wap/safe/mutation_observer_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report2fafd1.js","appmsg/fereport.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport33a3b2.js","appmsg/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report3404b3.js","appmsg/report_and_source.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source33ddd7.js","appmsg/page_pos.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos3404b3.js","appmsg/cdn_speed_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report3097b2.js","appmsg/wxtopic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic31a3be.js","appmsg/voice.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice310e30.js","appmsg/qqmusic.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic31623d.js","appmsg/iframe.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe3408af.js","appmsg/review_image.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image309c11.js","appmsg/outer_link.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2ffa93.js","appmsg/copyright_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2ec4b2.js","appmsg/async.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async341b97.js","biz_wap/ui/lazyload_img.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img32a62b.js","biz_common/log/jserr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share322696.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib30b785.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse2fb01a.js","page/appmsg/not_in_mm.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm.css32c99a.js","page/appmsg/page_mp_article_improve_combo.css":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo.css34477f.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event32e586.js","appmsg/test.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test314065.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion2f1d97.js","appmsg/max_age.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age2fdd28.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log300330.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device2b3aae.js","biz_wap/jsapi/a8key.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","appmsg/index.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index3457a3.js"};</script><script nonce="1583030142" type="text/javascript">(function(){function d(a){window.__wxgspeeds.moonls_loadjs_begin=+new Date;var c=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(c);c.type="text/javascript";c.async="async";;c.onload=function(){a&&f()};c.src=b;window.__wxgspeeds.moonls_loadjs_end=+new Date}function f(){window.__wxgspeeds.moonls_save_begin=+new Date;localStorage.setItem("__WXLS__moon",String(__moonf__));localStorage.setItem("__WXLS__moonarg",JSON.stringify({version:b,method:""}));window.__wxgspeeds.moonls_save_end=+new Date}var a=!!top&&!!top.window&&top.window.user_uin||0,e=0!==a&&1>Math.floor(a/100)%100;if(2876363900==a||1506075==a||942807682==a)e=!0;var b="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon32ebc4.js";window.__loadAllResFromMp&&(b=b.replace("res.wx.qq.com","mp.weixin.qq.com"),(new Image).src=location.protocol+"//mp.weixin.qq.com/mp/jsmonitor?idkey=27613_12_1");window.__wxgspeeds||(window.__wxgspeeds={});if("function"==typeof __moonf__)__moonf__(),e&&localStorage&&f();else if(window.__wxgspeeds.moonloadtime=+new Date,e&&localStorage)try{var g=JSON.parse(localStorage.getItem("__WXLS__moonarg"))||{};if(g&&g.version==b){var h=localStorage.getItem("__WXLS__moon");localStorage.setItem("__WXLS__moonarg",JSON.stringify({version:b,method:"fromls"}));window.__moonls_fromls=!0;window.__wxgspeeds.moonls_loadls_end=+new Date;eval(h);__moonf__()}else d(!0)}catch(k){window.__moonls_fail=!0,d(!0)}else d(!1)})();</script>
+  <script nonce="1583030142" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+    
+  </script>
+
+    </body>
+    <script nonce="1583030142" type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+</html>
+<!--tailTrap<body></body><head></head><html></html>-->
+ 
+

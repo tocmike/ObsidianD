@@ -1,0 +1,775 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="dns-prefetch" href="//zkres.myzaker.com">
+<link rel="dns-prefetch" href="//zkres1.myzaker.com">
+<link rel="dns-prefetch" href="//zkres2.myzaker.com">
+
+
+
+<link rel="apple-touch-icon" href="//zkres.myzaker.com/data/wap_image/logo.png">
+<link rel="apple-touch-icon" sizes="76x76" href="//zkres.myzaker.com/data/wap_image/logo_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="//zkres.myzaker.com/data/wap_image/logo_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="//zkres.myzaker.com/data/wap_image/logo_152x152.png">
+<link rel="canonical" href="https://www.myzaker.com/article/5a75b8f89490cbd650000067"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title> 坑惨古天乐，《贪玩蓝月》的团队却乐开了花</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<meta name="keywords" content="古天乐,神州专车,贪玩蓝月,uber,ceo" />
+<script src="//msite.baidu.com/sdk/c.js?appid=1551600451668502"></script>
+    <script src="//zkres.myzaker.com/static/wap/js/web3.js?v=1" type="text/javascript"></script>
+<link rel="stylesheet" id="css" type="text/css" href="//zkres.myzaker.com/static/wap/css/main_v2.css?v=20171114" />
+<style>
+    body{
+        font-family: "FZLanTingHei-R-GBK", STHeiti STXihei, Microsoft Yahei, Arial;
+    }
+</style>
+<script type="text/javascript">
+    var browser = {
+        versions: (function () {
+            var u = navigator.userAgent.toLowerCase(),
+            isPad = false,isAndroidPad = false,isIpad = false,isMobile = false,isPc = false;
+        
+            if(u.indexOf(''))
+                
+            if(u.indexOf('android') > -1){
+                if(u.indexOf('mobile') == -1){ 
+                    isAndroidPad = true;
+                }
+            } 
+
+            if(u.indexOf('ipad') > -1){
+                isIpad = true;
+            }
+
+            if(isAndroidPad||isIpad){
+                isPad = true;
+            }else if((u.indexOf('mobile') > -1 && !isPad ) || (u.indexOf('android') > -1 && !isAndroidPad) || (u.indexOf('phone') > -1)){
+                isMobile = true;
+            }else{
+                isPc = true;
+            }
+
+            return {
+                android: u.indexOf('android') > -1 || u.indexOf('Linux') > -1,
+                iPhone: u.indexOf('iphone') > -1,
+                isPad: isPad,
+                isMobile:isMobile,
+                isPc:isPc,
+                wx:u.toLowerCase().indexOf('micromessenger') > -1,
+            };
+        })()
+}
+
+
+    var checkInZaker = function(){
+        if (navigator.appinfo) {
+            return true;
+        }
+
+        return false;
+    }
+
+if(browser.versions.isPc || browser.versions.isPad){
+    var style = '<style type="text/css">';
+    style+= 'html{background-color:#f8f8f8;}';
+    style+= '#body{width:720px;margin:0 auto;background-color:#fff;border-left:1px solid #e8e8e8;border-right:1px solid #e8e8e8;font-style:normal}';
+    style+= '#temple_title,#content_text,.icon-font-origin,#top5{padding:0 50px;}';
+    style+= '#downTips{width:720px;}';
+    style+= '#qrcode{position:fixed;background-color:#fff;margin:44px 0 0 740px;}';
+    style+= '#downTips{display:none;}';
+    style+= '</style>';
+    document.write(style);
+}
+
+var _$ = function(id){return document.querySelector(id);},
+    isWap = true;
+
+
+
+
+</script>
+</head>
+<body id="body" >
+    <script type="text/javascript">
+        if(browser.versions.isPc){
+            document.write('<img id="qrcode" src="dist/images/qrcode.png"/>');
+        }
+        
+        
+    </script>
+<div class="zk_top_barwrap" style="display:none;">
+    <div class="zk_top_bar"><a href="//app.myzaker.com /">
+        <img class="zk_top_bar_logo" src="https://zkres3.myzaker.com/static/wap/images/wap_logo.png" style="height:27px;width:90px;" alt="">
+    </a> <a class="zk_top_bar_link">
+        <img src="http://zkres.myzaker.com/static/wap/images/open_zk.png" style="height: 27px;width: 70px;">
+    </a>
+</div>
+</div>
+
+<div style="display: none"><img  style="width: 1px;height: 1px" src="//zkres.myzaker.com/data/ads_web/share_pic.png" /></div>
+<style>
+    .zaker_quote {
+        color:#AAAAAA;
+        padding:1em;
+        text-align:center;
+        margin:3em auto;
+    }
+    .zaker_quote p {
+        margin-top:2em;
+        text-align:left;
+    }
+    .zaker_quote .night_pic {
+        margin:auto;
+        opacity:0.5;
+    }
+    .zaker_link {
+        margin-top:30px;
+        margin-bottom:30px;
+        text-align:center;
+        -webkit-tap-highlight-color:transparent;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+    }
+    .zaker_link a {
+        text-decoration:none;
+        border-bottom:0px;
+    }
+    .zaker_btn_blue {
+        color:#74b8ff;
+        border:1px solid #71b7ff;
+        border-radius:30px;
+        padding:10px 30px;
+        display:inline-block;
+    }
+    a.zaker_link_inline:link {
+        text-decoration:none;
+        border-bottom:0px;
+        border:0px;
+        margin:0px;
+    }
+    .zaker_link_inline zkspan {
+        color:#00abff !important;
+        border-bottom:1px solid #00abff !important;
+    }
+    .zaker_abstract {
+        border-left:2px solid #262626;
+        padding-left:1em;
+        margin:3em auto;
+    }
+    .zaker_pic_info {
+        color:#c0c0c0;
+        font-size:0.8em;
+        font-style:italic;
+        line-height:1.5em;
+        margin:1em auto;
+    }
+    .zaker_hr hr {
+        border:0;
+        background-color:#E8E8E8;
+        height:1px;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .night .zaker_quote {
+        color:#8b8b8b;
+        padding:1em;
+        text-align:center;
+        margin:3em auto;
+    }
+    .night .night_pic {
+        opacity:1;
+        margin:auto;
+    }
+    .night .zaker_abstract {
+        border-left:2px solid #8b8b8b;
+        padding-left:1em;
+        color:#8b8b8b;
+    }
+    .night .zaker_pic_info {
+        color:#444444;
+        font-size:0.8em;
+        font-style:italic;
+        line-height:1.1em;
+    }
+    .night .zaker_hr hr {
+        border:0px;
+        background-color:#292929;
+        height:1px;
+        line-height:1px;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .zaker_quote_v2 {
+        border-left:0.216em solid #292929;
+        padding-left:1em;
+        margin:1.8em auto;
+        font-size:1.0em;
+        line-height:1.5em;
+    }
+    .zaker_pic_info_v2 {
+        margin:0.1em auto;
+        font-size:0.8em;
+        font-style:bold;
+        text-align:left;
+        line-height:1.5em;
+    }
+    .zaker_element_triangleup {
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+        border-bottom:10px solid;
+        display:inline-block;
+        height:0;
+        width:0;
+        line-height:0.8em;
+        margin-right:0.34em;
+    }
+    .zaker_paragraph {
+        font-size:1em;
+        color:#d2d2d2;
+        padding:0.4em 0.64em;
+        background-color:#353535;
+        display:inline-block;
+    }
+    .zaker_link_v2 {
+
+        text-align:center;
+        -webkit-tap-highlight-color:transparent;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        margin: 22px 0;
+    }
+    .zaker_link_v2 a {
+        text-decoration:none;
+        border-bottom:0px;
+    }
+    .zaker_btn_blue_v2 {
+        background-color:#00abff;
+        border:1px solid #00abff;
+        border-radius:5px;
+        color:#fff;
+        display:block;
+        padding:0.7em 2em;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+    a.zaker_btn_blue_v2:link {
+        text-decoration:none;
+        border-bottom:0px;
+        border:0px;
+        margin:0px;
+    }
+    .zaker_abstract_v2 {
+        margin:1.8em auto;
+    }
+    .zaker_abstract_v2 .zaker_element_abstract {
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .zaker_abstract_v2 .zaker_element_abstract.zaker_element_abstract_top_right {
+        float:right;
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+    .zaker_abstract_v2 .zaker_element_abstract.zaker_element_abstract_bottom_right {
+        float:right;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .zaker_abstract_v2 .zaker_abstract_content {
+        margin-top:0px;
+        margin-bottom:0px;
+        border-left:2px solid #cfcfcf;
+        border-right:2px solid #cfcfcf;
+        padding:0 1em;
+        background:#151515;
+    }
+
+
+    .bottom_open_zaker{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .bottom_open_zaker_a,bottom_open_zaker_a:link,bottom_open_zaker_a:active,bottom_open_zaker_a:hover{
+        background-color: #f84444;
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .default_hidden{
+          display: none;
+    }
+   #content a:link,
+   #content a:hover,
+   #content a:active{
+       text-decoration: none;
+       border-bottom: 1px solid #455767;
+       color:#455767;
+   } 
+</style>
+<script>
+    var os_match = function(){
+        var ua = navigator.userAgent;
+        if(ua.match(/android/ig)){
+            return 'android';
+        }else if(ua.match(/iphone/ig)){
+            if(ua.match(/os (9|[1-9]\d)/ig)){
+                return 'iphone_ios9';
+            }else{
+                return 'iphone';
+            }
+        }
+    };
+
+     var is_chrome = function() {
+         var flag = !!window.chrome;
+         if (flag) {
+             return true;
+         }
+         return false;
+     };
+
+    var openlink = function(type){
+        if(type=='main'){
+            var default_link = "http://www.myzaker.com/download_app.php?s=wap&bfrom=article_main&f=Normal";
+            var ios9_link = "http://applink.myzaker.com/zaker/ioslink/?type=article&bfrom=article_main&pk=5a75b8f89490cbd650000067&f=Normal";
+            var android_link = "//applink.myzaker.com/zaker/androidlink/?t=a&type=article&bfrom=article_main&pk=5a75b8f89490cbd650000067&f=Normal";
+        }else{
+            var default_link = "http://www.myzaker.com/download_app.php?s=wap&bfrom=article_pl&f=Normal";
+            var ios9_link = "http://applink.myzaker.com/zaker/ioslink/?type=article&bfrom=article_pl&pk=5a75b8f89490cbd650000067&f=Normal";
+            var android_link = "//applink.myzaker.com/zaker/androidlink/?t=a&type=article&bfrom=article_pl&pk=5a75b8f89490cbd650000067&f=Normal";
+        }
+        var link = default_link;
+         var android_chrome_link = "intent://t=a&pk=5a75b8f89490cbd650000067&type=article#Intent;scheme=zakeriphone;package=com.myzaker.ZAKER_Phone;S.browser_fallback_url=http%3A%2F%2Fapplink.myzaker.com%2Fzaker%2Fandroidlink%2F%3Ff%3DNormal%26bfrom%3Darticle_main;end";
+
+        if(os_match() == 'iphone_ios9'){
+            link = ios9_link;
+        }else if(os_match() == 'android'){
+            if (is_chrome()) {
+                link = android_chrome_link;
+            } else {
+                link = android_link;
+            }
+        }
+        
+        window.location.href = link;
+    }
+
+</script>
+
+
+
+<div id="temple_title">
+    <div id="news_template_03_title">
+        <div id="news_template_03_titleContent"> 坑惨古天乐，《贪玩蓝月》的团队却乐开了花</div>
+        <div id="news_template_03_AuthorAndTime">金错刀<span style='padding-left: 18px;'>8小时前</span></div>
+    </div>
+</div>
+<div id="alpha_bg"></div>
+<p id="back-to-top" onclick="showInput();stopBubble(event)">&nbsp;<img data-src="dist/images/btn_comments_100_2.png" width="50"/></span></p>
+<div id="content_text"><div id="content"><p>坑惨古天乐、被知乎狂骂一整天，《贪玩蓝月》的团队却乐开了花</p><p><div class="img_box" id="id_imagebox_0" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_0" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c00003b_640.jpg"  data-height='500' data-width='900' /></div></div>编辑 / 金错刀频道</p><p>源：运营研究社</p><p>作者：套路编辑部</p><p>昨天，一款叫做《贪玩蓝月》的网页游戏冲上了知乎热榜的第一。原因很奇葩，这款游戏预告古天乐将在 B 站做一场直播，但是在持续几小时的直播过程中，古天乐一共只对镜头前的观众说了一句话：</p><p>大架好，我系贪玩蓝月的代言人咕天乐。</p><p>剩下的古天乐镜头属于“偷拍”性质，而且时长只有半小时；其他的几个小时，观众看到的一直是素人主播和广告。</p><p><div class="img_box" id="id_imagebox_1" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_1" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c00003c_640.jpg"  data-height='272' data-width='489' /></div></div>也就是说<strong>，</strong>350 万用户被《贪玩蓝月》当猴耍了。</p><p>之后的种种迹象表明，古天乐本人很有可能根本就不知道有这次直播。《贪玩蓝月》一头欺骗用户来看直播，另一头瞒着古天乐让他来拍广告，最后生米煮成熟饭，搞定了这场“直播”。</p><p><div class="img_box" id="id_imagebox_2" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_2" data-original="https://zkres3.myzaker.com/201802/5a7411d57f52e9713c00003d_640.jpg"  data-height='300' data-width='540' /></div></div>不出意料，《贪玩蓝月》被 B 站、知乎用户骂得狗血喷头。这就很奇怪了，难道《贪玩蓝月》不知道他们的这种行为会挨骂吗？笔者认为，这次挨骂八成就是他们的运营团队精心策划的结果，<strong>骂得越厉害，他们越高兴。</strong></p><p><div class="img_box" id="id_imagebox_3" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_3" data-original="https://zkres2.myzaker.com/201802/5a7411d57f52e9713c00003e_640.jpg"  data-height='792' data-width='525' /></div></div><strong>那些主动找骂的企业</strong></p><p>实际上，确实有大量的企业是在主动找骂的。</p><p>自媒体“游戏葡萄”讲了这样一个案例：</p><p>此前曾有多家社会媒体报道，一个叫做孙立坡的庄河小伙子的照片被某页游盗用：</p><p><div class="img_box" id="id_imagebox_4" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_4" data-original="https://zkres0.myzaker.com/201802/5a7411d57f52e9713c00003f_640.jpg"  data-height='380' data-width='696' /></div></div>小伙子接受采访时说：“（他们）未经过我的同意就使用了（这张照片），现在很多人跟我来借钱，生活很受困扰。”</p><p><div class="img_box" id="id_imagebox_5" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_5" data-original="https://zkres0.myzaker.com/201802/5a7411d57f52e9713c000040_640.jpg"  data-height='713' data-width='495' /></div></div>这家自媒体对此事进行了报道，抨击该游戏公司的无良行为。结果第二天，游戏公司联系到这家自媒体，表示自己其实有这个小伙子的肖像授权，而且还向他支付过费用，并提供了合同原件照片。</p><p><div class="img_box" id="id_imagebox_6" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_6" data-original="https://zkres0.myzaker.com/201802/5a7411d57f52e9713c000041_640.jpg"  data-height='859' data-width='593' /></div></div>也就是说<strong>，</strong>是这家游戏公司主动炮制假新闻，给自己招揽骂名。</p><p>再比如溜溜梅。在溜溜梅的那个“经典”广告中，杨幂对着镜头前的你不停地问道：“你没事儿吧？你没事儿吧？你没事儿吧？你没事儿吧？&hellip;&hellip; ”</p><p><div style="background-color:#ececec" id="g012393qft0" class="iframe_video"><iframe src="//v.qq.com/iframe/player.html?vid=g012393qft0&auto=0" allowfullscreen="" frameborder="0" height="100%" width="100%" style="max-width: 100%; word-wrap: break-word !important; box-sizing: border-box !important; z-index: 1;"></iframe></div></p><p>溜溜梅广告</p><p>一提起烂广告，大家就会想到这个。但是你知道这则广告是谁做的吗？是著名的广告人叶茂中。他所著的《广告人手记》是每一个广告人必读的经典。资深、精明如叶茂中，难道不知道这个广告放出来会挨骂吗？他当然知道，这个骂就是他主动找的。</p><p>那么，主动找骂真的对品牌有帮助吗？</p><p>答案是：有。</p><p>我们开头提到的《贪玩蓝月》是盈利非常好的产品，官方称其全平台月流水已经突破 5 亿。企业创始人吴旭波还在近期宣布，未来五年内公司要在国内 A 股上市。</p><p><div class="img_box" id="id_imagebox_7" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_7" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c000042_640.jpg"  data-height='733' data-width='1080' /></div></div>贪玩游戏创始人吴旭波</p><p>溜溜梅是 2006 年的产品，一直打不开市场。那则奇葩广告播出后，溜溜梅迅速成为领导品牌，畅销至今。</p><p><div class="img_box" id="id_imagebox_8" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_8" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c000043_640.jpg"  data-height='253' data-width='720' /></div></div>当时百度指数</p><p><strong>为什么越受争议的品牌活得越好？</strong></p><p>迈克尔 &middot; 怀尔斯和萨沙 &middot; 赖特尔在《哈佛商业评论》上发表文章指出，研究成果表明：</p><p>受到争议并不只是会给品牌带来负面影响，也可能给品牌带来前所未有的好印象。</p><p>也就是说，有的时候挨骂反倒会给企业带来帮助。</p><p>这是为什么呢？</p><p><strong>1）提高知名度</strong></p><p>挨骂能提高知名度，这非常好理解。不好理解的是，为什么这种骂名并没有转化成消费者的抵制，而是最终沉淀成了非常高的销量呢？主要原因有 2 点：</p><p><strong>① 曝光效应</strong></p><p>大量实验证明，人们对自己熟悉的事物好感度更高，心理学家称之为“曝光效应”。两包话梅摆在你面前，一包是溜溜梅，一包是没听过的牌子，即使你不喜欢杨幂的广告，你也多半会选择买溜溜梅。类似的案例还有恒源祥。</p><p><div class="img_box" id="id_imagebox_9" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_9" data-original="https://zkres3.myzaker.com/201802/5a7411d57f52e9713c000044_640.jpg"  data-height='344' data-width='608' /></div></div>恒源祥，羊羊羊</p><p><strong>② 睡眠者效应</strong></p><p>研究表明，人接收到的信息会被编码进两种记忆系统，一种叫语义记忆，一种叫情景记忆，其中情景记忆衰退得更快。“这个产品是什么”属于语义记忆，“这个广告真烦人”属于情景记忆，一段时间过后，人们会牢记前者，淡忘后者。</p><p>2015 年，有市民遭到 Uber 专车司机骚扰，Uber 的安全性受到质疑。神州专车趁机推出一系列广告攻击 Uber，借势抬高自己。</p><p><div class="img_box" id="id_imagebox_10" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_10" data-original="https://zkres3.myzaker.com/201802/5a7411d57f52e9713c000045_640.jpg"  data-height='541' data-width='1080' /></div></div>神州专车打击 Uber 广告</p><p>这批广告立即引起反感，抨击神州“炒作”“无底线”“恶意竞争”的声音不绝于耳。不过，活动仅仅过去了一天，在安卓应用市场，神州专车的下载量由不到 6 千 增至近 2 万；在苹果应用市场，神州专车跻身苹果 App Store 免费榜 top 100。</p><p>人们对神州专车反感的情绪很快过去，而对其“安全性”的认知则长久地留了下来。</p><p><div class="img_box" id="id_imagebox_11" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_11" data-original="https://zkres2.myzaker.com/201802/5a7411d57f52e9713c000046_640.jpg"  data-height='607' data-width='1080' /></div></div><strong>2）切割目标人群</strong></p><p>这个世界上，除了人民币可能没有第二样东西能被所有人都喜欢。因此，主动亮明自己的人群特征，对于自己的目标人群全力讨好，而对于非目标人群则不予理会甚至是主动挑衅，能实现切割目标人群的效果。</p><p>可能在你的圈子中很多人都非常讨厌快手，但是不争的事实就是快手用户正在以惊人的速度增长（月活跃用户高达微信的三分之一）。</p><p><div class="img_box" id="id_imagebox_12" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_12" data-original="https://zkres2.myzaker.com/201802/5a7411d57f52e9713c000047_640.jpg"  data-height='315' data-width='553' /></div></div>而且忠诚度和黏性超高。基本的逻辑是：对方和你的价值观正好相反，你喜欢的就是他讨厌的，你讨厌的就是他喜欢的<strong>。</strong>因此，你骂得越狠，他们对这个产品的认同反倒更高。</p><p>对于有明确目标人群的品牌来说，非目标人群只是讨厌它还不是最好的局面，最好的局面是非目标人群骂它，骂的越多越狠，品牌的知名度越高，被目标人群看见的概率就越大，已经成为用户的目标人群的忠诚度就越高、黏性就越强。</p><p><div class="img_box" id="id_imagebox_13" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_13" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c000048_640.jpg"  data-height='220' data-width='423' /></div></div>没有非目标人群的疯狂恶搞，贪玩蓝月不可能获得如今的知名度；没有非目标人群的反复嘲讽，咪蒙的大名不会如此如雷贯耳<strong>。</strong>和菜头因为《每一个文盲都喜欢用“殇”字》一文被几千网友围攻，但是通过这次事件，他净增了两万粉丝。</p><p><div class="img_box" id="id_imagebox_14" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_14" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c000049_640.jpg"  data-height='107' data-width='472' /></div></div><strong>负面营销是万能的吗？</strong></p><p>有没有“玩脱”的负面营销呢？当然是有的。</p><p>2016 年，没落品牌凡客的 CEO 陈年在一档综艺节目上说 100 年后人们肯定记得穆旦，而周杰伦就是垃圾。该事件引发轩然大波，在一片骂声中，凡客上架 73 款与穆旦相关的 T 恤，短期内平台销量猛增 5 倍，但是很快就只剩下了一地鸡毛，凡客衰落的脚步也并没有因此中断。</p><p><div class="img_box" id="id_imagebox_15" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_15" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c00004a_640.jpg"  data-height='870' data-width='522' /></div></div>为什么凡客 CEO 陈年的负面营销一败涂地，而有些企业的负面营销却能大获全胜呢？这主要取决于以下 2 个关键点。</p><p><strong>1）在负面信息中暗含产品卖点</strong></p><p>在别人骂完你之后，脑子里除了对你的讨厌之外，还剩下什么？</p><p>骂完了神州专车，我们对它的印象是这个公司格局不够大、对竞争对手落井下石，但与此同时，我们也接收到了它“更安全”的信息。在我们做打车决策的时候，对我们而言更重要的信息是什么？是这家公司的格局是否够大，还是这家公司提供的服务是否安全呢？</p><p>而陈年在攻击周杰伦的同时，并没有传达出任何产品卖点，平台上架的穆旦 T 恤也只有短期蹭热点的战术价值，而缺乏长远的战略价值，至于颠覆，理固宜然。</p><p><strong>2）人群特征要明确</strong></p><p>做负面营销，必须让你的目标受众明确感知到你跟他们站在一边。</p><p>在这一点上，咪蒙就非常的聪明，我们历数咪蒙得罪过的人（“贱人”、穷亲戚、灌鸡汤的老板、直男 &hellip;&hellip;），会发现她 diss 的都是典型的非目标受众，从而最大程度地吸引了她目标受众的关注和喜爱。和菜头也是个中高手，除了前文提到的《每一个文盲都喜欢用“殇”字》，他日常在评论区攻击非目标受众，由此非常精准地切割了目标群体。</p><p><div class="img_box" id="id_imagebox_16" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_16" data-original="https://zkres2.myzaker.com/201802/5a7411d57f52e9713c00004b_640.jpg"  data-height='424' data-width='700' /></div></div>和菜头在《<爱乐之城>观后》文章的留言区回复</p><p>《贪玩蓝月》团队并非不懂什么游戏高级、什么游戏垃圾，但是他们主动降低格调，只讨好他们的目标人群，故意“冒犯”非目标人群。目前看来，非目标人群主动帮助《贪玩蓝月》做了海量的免费广告，效果好得惊人，简直是铺天盖地。</p><p><div class="img_box" id="id_imagebox_17" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_17" data-original="https://zkres0.myzaker.com/201802/5a7411d57f52e9713c00004c_640.jpg"  data-height='360' data-width='504' /></div></div>网友自制表情包</p><p><div class="img_box" id="id_imagebox_18" onclick=''><div class="content_img_div perview_img_div"><img class="lazy opacity_0 " id="img_18" data-original="https://zkres1.myzaker.com/201802/5a7411d57f52e9713c00004d_640.jpg"  data-height='688' data-width='1021' /></div></div>已成 B 站鬼畜区常客</p><p>同理，凤凰传奇的两位歌手并非不懂什么音乐高雅、什么音乐“土鳖”，快手团队的精英们也并非不懂什么东西文明、什么东西恶俗，漫天的吐槽声恐怕都是公司早有预见、并且乐于见到的。</p><p>凡客 CEO 陈年炒作的失败之处也正在于此，他通过骂周杰伦并没有切割到他想要的受众，反倒得罪了大量目标人群<strong>，</strong>因此该事件也只能是博博眼球，而起不到任何营销效果了。</p><p><strong>总结</strong></p><p>总结一下，今天我们知道了一件反常识的事情 &mdash;&mdash; 挨骂有时候对企业大有裨益，企业主动找骂的行为用术语说叫做“负面营销”。</p><p>负面营销之所以有效，第一个原因是，基于曝光效应和睡眠者效应，即使是负面消息带来的名声，也能转化为销量；第二个原因是，得罪非目标受众反倒能激发目标受众的关注和喜爱。</p><p>为了保证负面营销的效果，公司一方面需要在负面信息中暗含产品卖点，另一方面需要鲜明地亮出自己的人群特征。</p><p><strong>挨骂，也是门手艺啊！</strong></p><div id="recommend_bottom"></div><div id="article_bottom"></div><p id="ID_disclaimer" style="text-align:center;color:#666;font-size:10px;">原网页已经由 ZAKER 转码以便在移动设备上查看</p></div></div>
+
+<script type="text/javascript">
+    var new_style = '';
+    var vo = document.createElement("a");
+    vo.className = 'icon-font-origin-btn';
+    vo.style.borderBottom = 'none';
+    vo.style.color = '#00abff';
+    if(new_style){     
+        vo.style.cssText="border-bottom-style: none;font-size: 11px;color: #ababab;margin-left: 6px;";
+        document.getElementById('ID_disclaimer').style.cssText='text-align: left;color:#ababab;font-size: 16px;line-height: 32px;padding:0;padding-top: 4px;';
+    }
+    vo.href = 'http://mp.weixin.qq.com/s?__biz=MjM5NDgwNzUwMA==&mid=2650370294&idx=2&sn=370b37ee830f329e44100d8bfd879708&chksm=be8ffb5589f8724367f293086c4f776d980d3d732afadedd4d16d0240f1046141ffa914103cd&scene=27';
+    vo.innerHTML = '查看原文';
+
+//    _$("#content p:last-child").appendChild(vo);
+
+    var el_disclaimer =  _$("#ID_disclaimer");
+    if(el_disclaimer){
+        el_disclaimer.appendChild(vo);
+    }
+
+</script>
+<div class="share-box">
+                     <div class='div-like-align' style="margin:0">
+            <div class="div-like">
+                <div class="icon icon-wx texture"></div>
+            </div>
+            <div id="add_like" class="div-like-add-box">
+                <div class="icon texture"></div>
+            </div>
+        </div>
+            </div>
+<div id="downTips_end" class="none">
+    </div>
+
+<div class="cb"></div>
+
+
+<div id="comment_box"></div>
+<div class="top-liubai"></div>
+<div class="common_top" >评论</div>
+<!--<div class="comment-input-box">
+    <div class="comment-input-div">
+        <input type="text" class="comment-input left" id="comment-input-id" placeholder="我也说两句..."  />
+        <span id="comment-input-btn" class="right">发送</span>
+        <p class="cb input-cb"></p>
+    </div>
+</div>-->
+<div class='c pr' onclick="showInput(this)">
+    <div class='tx'>
+        <div class='box'><img class="lazy" data-original="//ucres.myzaker.com/img_upload/user_avatar/2016/5164/10327421_1455278669.jpg.210.jpg" /></div>
+        </div>
+        <div class="tx_r">
+            <div class="author">云顶天籁</div>
+            <div class="clear"></div>
+            <div class="time">12小时前</div>
+            <div class="clear"></div>
+            <div class='con'>大渣好，我系咕田落，我四渣渣辉，叹惋揽月，介四里魅有碗过的船新版本，挤需体验三番钟，里揍会干我一样，爱像介款游戏。</div>
+             
+            <input type="hidden" name="cid" value="59DBD152-5D4F-539F-CB65-455BCBA704D2" />
+        </div>
+       
+        <a class="like_box icon-font" onclick="zan(this);stopBubble(event)">
+            <span class="like_num">56</span><span class="like"></span>
+        </a>
+        <div class="cb"></div>
+    </div>
+</div>
+<div class='c pr' onclick="showInput(this)">
+    <div class='tx'>
+        <div class='box'><img class="lazy" data-original="//ucres.myzaker.com/img_upload/user_avatar/2017/699/1396065_1504415704.jpg.210.jpg" /></div>
+        </div>
+        <div class="tx_r">
+            <div class="author">可可溪</div>
+            <div class="clear"></div>
+            <div class="time">13小时前</div>
+            <div class="clear"></div>
+            <div class='con'>达嘎猴，我系陈小春，系兄弟就来探挽蓝月砍我！<br />
+达嘎猴，我系古天乐，系兄弟就来探挽蓝月和我一起砍陈小春！</div>
+             
+            <input type="hidden" name="cid" value="A7C8FABA-EC77-B7EA-AF42-BFE48A1BE511" />
+        </div>
+       
+        <a class="like_box icon-font" onclick="zan(this);stopBubble(event)">
+            <span class="like_num">14</span><span class="like"></span>
+        </a>
+        <div class="cb"></div>
+    </div>
+</div>
+<div class='c pr' onclick="showInput(this)">
+    <div class='tx'>
+        <div class='box'><img class="lazy" data-original="//ucres.myzaker.com/img_upload/user_avatar/2017/360/719022_1489908935.jpg.210.jpg" /></div>
+        </div>
+        <div class="tx_r">
+            <div class="author">Mr_Mandeling</div>
+            <div class="clear"></div>
+            <div class="time">12小时前</div>
+            <div class="clear"></div>
+            <div class='con'>这么说 那些评论下面喷华为的很有可能是华为自己的水军啊[晕]</div>
+             
+            <input type="hidden" name="cid" value="57BDE01D-6401-F4E1-085D-AE0C73D212B3" />
+        </div>
+       
+        <a class="like_box icon-font" onclick="zan(this);stopBubble(event)">
+            <span class="like_num">12</span><span class="like"></span>
+        </a>
+        <div class="cb"></div>
+    </div>
+</div>
+<div class='c pr' onclick="showInput(this)">
+    <div class='tx'>
+        <div class='box'><img class="lazy" data-original="//ucres.myzaker.com/img_upload/user_avatar/2017/154/306346_1496139137.jpg.210.jpg" /></div>
+        </div>
+        <div class="tx_r">
+            <div class="author">琉璃寺</div>
+            <div class="clear"></div>
+            <div class="time">12小时前</div>
+            <div class="clear"></div>
+            <div class='con'>看到杨幂我就想起我老公呢😏</div>
+             
+            <input type="hidden" name="cid" value="42CE31CD-A9EA-22B4-3A17-2C64F429DFE9" />
+        </div>
+       
+        <a class="like_box icon-font" onclick="zan(this);stopBubble(event)">
+            <span class="like_num">11</span><span class="like"></span>
+        </a>
+        <div class="cb"></div>
+    </div>
+</div>
+<div class='c pr' onclick="showInput(this)">
+    <div class='tx'>
+        <div class='box'><img class="lazy" data-original="//q.qlogo.cn/qqapp/100318686/83909E024ECD6C5FB1D2348AF655BA0B/40" /></div>
+        </div>
+        <div class="tx_r">
+            <div class="author">故事慢慢开始</div>
+            <div class="clear"></div>
+            <div class="time">7小时前</div>
+            <div class="clear"></div>
+            <div class='con'>B站是什么  谁知道的说一下  不知道的顶一下</div>
+             
+            <input type="hidden" name="cid" value="0B23DA14-BEBC-2897-5926-328C806F47F6" />
+        </div>
+       
+        <a class="like_box icon-font" onclick="zan(this);stopBubble(event)">
+            <span class="like_num none">0</span><span class="like"></span>
+        </a>
+        <div class="cb"></div>
+    </div>
+</div>
+
+    <input id="next_url" type="hidden"/>
+    <div id="new_comment_id" class="none">
+        <div class="common_top" ></div>
+        <div class="new_comment_box_all"></div>
+    </div>
+<div class="downloal-zaker no_show_in_zaker"><a href="javascript:openlink('comment')"><img src="http://zkres.myzaker.com/static/wap/images/comment.png"></a></div>
+
+<div class="top-liubai"></div>
+<div class="common_top">大家都在看</div>
+<div id="top5"></div>
+    
+
+<!--<div class="bottom_open_zaker no_show_in_zaker"><a class="bottom_open_zaker_a" href="javascript:openlink()">打开 ZAKER 阅读更多资讯</a></div>-->
+
+
+
+
+
+
+<div id="picture" style="padding:0"></div>
+<textarea rows="3" cols="8" id="comment_li">
+    <div class="c pr" onclick="showInput(this)">
+        <div class="tx">
+            <div class="box"><img class="lazy" <{data_original}>="<{auther_icon}>"></div>
+            </div>
+            <div class="tx_r">
+                <div class="author"><{auther_name}></div>
+                <div class="clear"></div>
+                <div class="time"><{ctime}></div>
+                <div class="clear"></div>
+                <div class="con"><{content}></div>
+            	<{reply}>
+                <input type="hidden" name="cid" value="<{pk}>"/>
+            </div>
+            <div class="like_box icon-font" onclick="zan(this);stopBubble(event)">
+                <span class="like_num"><{like_num}></span><span class="like"></span>
+            </div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</textarea>
+<textarea rows="3" cols="8" id="comment_li2">
+    <div class="c pr">
+        <div class="tx">
+            <div class="box"><img  class="lazy" <{data_original}>="<{auther_icon}>"></div>
+            </div>
+            <div class="tx_r">
+                <div class="author"><{auther_name}></div>
+                <div class="clear"></div>
+                <div class="time"><{ctime}></div>
+                <div class="clear"></div>
+                <div class="con"><{content}></div>
+            	<{reply}>
+            </div>
+            <div class="like_box icon-font" onclick="zan(this);stopBubble(event)">
+                <span class="like_num"><{like_num}></span><span class="like"></span>
+            </div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</textarea>
+<input type="hidden" id="reply_cid" />
+ 
+<div class="loading"><div class="loading_moddle"><img class="lazy"  data-original="dist/images/loading2x.gif" width="17" /></div></div>
+
+
+<div style="height:0px;"></div>
+<script type="text/javascript">
+    var CONFIG = {};
+        CONFIG['pkid'] = "5a75b8f89490cbd650000067",
+        CONFIG['app_id'] = "660",
+        CONFIG['f'] = "Normal",
+        CONFIG['req_f'] = "",
+        CONFIG['isTopBtn'] = 0,
+        CONFIG['isTop5'] = 1,
+        CONFIG['isRelate'] = 0,
+        CONFIG['isWonderful'] = 0,
+        CONFIG['stat_url'] = "//stat.myzaker.com/stat.php?pk=5a75b8f89490cbd650000067&app_id=660&readlast=15&url=http%3A%2F%2Fiphone.myzaker.com%2Fl.php%3Fl%3D5a75b8f89490cbd650000067&_version=4.0&for=Normal",
+        CONFIG['wx_share_link'] = 'https://app.myzaker.com/news/article.php?pk=5a75b8f89490cbd650000067',
+        CONFIG['wx_share_title'] = '坑惨古天乐，《贪玩蓝月》的团队却乐开了花',
+        CONFIG['wx_share_desc'] = '坑惨古天乐、被知乎狂骂一整天，《贪玩蓝月》的团队却乐开了花编辑 / 金错刀频道源：运营研究社作者：套路编辑部昨天，一款叫做《贪玩蓝月》的网页游戏冲上了知乎热榜的第一。原因很奇葩，这款游戏预告古天乐将在',
+        CONFIG['img_url'] = 'https://zkres1.myzaker.com/201802/5a7411d57f52e9713c00003b_640.jpg',
+        CONFIG['baiduHm'] = 'https://hm.baidu.com/hm.gif?si=cc7727963122f971608bd86205279c54&amp;et=0&amp;nv=1&amp;st=1&amp;v=wap-0-0.2&amp;rnd=3333714773',
+        CONFIG['cnzz'] = '',
+        CONFIG['isShowAds'] = 1,
+        CONFIG['ad_url'] = '//ggs.myzaker.com/zk_wap_article_gg.php?pk=5a75b8f89490cbd650000067&app_id=660&author=%E9%87%91%E9%94%99%E5%88%80&http_type=1&url_host=mp.weixin.qq.com&jsoncallback=?',
+        CONFIG['article_wonderful_url'] = '/news/article_wonderful.php?pk=5a75b8f89490cbd650000067',
+        CONFIG['article_action_url'] = '/news/article_action.php',
+        CONFIG['article_recommend_url'] = '/news/article_recommend.php?v=3',
+        CONFIG['article_relate_url'] = '/news/article_related.php?pk=5a75b8f89490cbd650000067',
+       // CONFIG['zk_wap_ad_recommend_url'] = '',
+        CONFIG['wx_share_stat_url'] = 'https://stat.myzaker.com/stat_share.php?pk=5a75b8f89490cbd650000067&app_id=660&for=weixin';
+       
+       var https = 'https:' == document.location.protocol ? true:false; 
+       if(https){
+         CONFIG['wx_share_link'].replace('http://','https://');
+      }
+      
+//图片初始化
+(function () {
+    var imglazy = document.querySelectorAll('.img_box .lazy');
+    imglazy = Array.prototype.slice.call(imglazy);
+    imglazy.forEach(function(img){
+        // 获取宽高
+        var dWidth = img.dataset['width'];
+        var dHeight = img.dataset['height'];
+
+        // 获取父元素
+        var parentEle = img;
+        do{
+            parentEle = parentEle.parentNode;
+        }
+        while(!parentEle.classList.contains('img_box') || parentEle.id == "content")
+
+        // 获取图片的父容器占宽
+        var parentWidth = parentEle.offsetWidth;
+
+        // 1.  图片原宽度大于容器宽度70%，撑到100%
+        // 2.  图片原宽度大于容器宽度40%，小于容器宽度70%，保持图片原尺寸
+        // 3.  图片原宽度小于容器宽度40%，撑到40%
+        var maxRate = 0.7;
+        var minRate = 0.4;
+
+        // 计算阀值
+        var maxWidth = maxRate * parentWidth;
+        var minWidth = minRate * parentWidth;
+
+        // 最终设定图片的宽高
+        var imgWidth, imgHeight;
+
+        if (dWidth) {
+            if (dWidth > maxWidth) {
+                imgWidth = parentWidth;
+            } else if (dWidth > minWidth) {
+                imgWidth = dWidth;
+                img.parentNode.style['display'] = 'inline-block';
+                // img.parent('.content_img_div').css('display', 'inline-block');
+            } else {
+                imgWidth = minWidth;
+                img.parentNode.style['display'] = 'inline-block';
+                // img.parent('.content_img_div').css('display', 'inline-block');
+            }
+
+            // 计算高度
+            imgHeight = dHeight / dWidth * imgWidth;
+        } else {
+            imgWidth = parentWidth;
+        }
+        
+        // 设置图片大小
+        img.style['width'] = imgWidth + "px";
+        img.style['height'] = imgHeight + "px";
+    });
+
+	// for (var i = 0; i < imglazy.length; i++) {
+	// 	//var w = parseInt(imglazy[i].getAttribute('width'));
+	// 	//var h = parseInt(imglazy[i].getAttribute('height'));
+
+	// 	//if (!(w > 0 && h > 0)) {
+	// 	    var w = parseInt(imglazy[i].getAttribute('data-width'));
+	// 		var h = parseInt(imglazy[i].getAttribute('data-height'));
+	// 	//}
+	// 	//if (w > 0 && h > 0) {
+	// 		var rdw = document.getElementById("content").clientWidth;
+	// 		//var rw = w < rdw ? w : rdw;
+	// 		var rh = rdw * (h / w);
+	// 		imglazy[i].setAttribute('width', Math.floor(rdw));
+	// 		imglazy[i].setAttribute('height', Math.floor(rh));
+	// 	//}
+	// }
+})();
+
+</script>
+
+
+
+
+<script src="//zkres.myzaker.com/static/wap/js/article_base.js?v=20170619" type="text/javascript"></script>
+<script src="//zkres.myzaker.com/static/wap/js/article_main.js?v=20180111" type="text/javascript"></script>
+
+
+<!--<script src="//zkres.myzaker.com/static/public/zkTopBar.js?v=6" type="text/javascript"></script>-->
+<script src="//zkres.myzaker.com/static/public/zkTopBar_v2.js?v=20180115" type="text/javascript"></script>
+
+<script>
+	
+    zkTopBar.config({
+        //点击 “打开” 后执行的函数
+        openFunc: function(){
+            openlink('main')
+        },
+        //点击 “打开” 后跳转的链接地址
+        openUrl : "" 
+   });
+
+		
+	var inzaker = false;
+	setTimeout(function(){
+		if(!inzaker){
+			zkTopBar.init();
+		}
+	},2000);
+	
+	window.zkgetWebConfig = function() {
+        inzaker = true;
+    };
+
+</script>
+<!--
+<script src="http://121.9.213.58/app.myzaker.com/news/js/cover-article.js"></script>
+<script> 
+	$('#content').coverArticle({});
+</script>-->
+
+<script type="text/javascript">
+
+    if(browser.versions.wx){
+        //将默认在微信里有效的元素，去掉default_hidden样式
+
+       var thisclasselement =  Array.prototype.slice.call(document.querySelectorAll('.only_show_in_wx'));
+        thisclasselement.forEach(function(e){
+            e.classList.remove("default_hidden");
+        })
+    }
+
+    if(checkInZaker()){
+        var tmp_classelement =  Array.prototype.slice.call(document.querySelectorAll('.no_show_in_zaker'));
+        tmp_classelement.forEach(function(e){
+            e.style.display = "none";
+        })
+    }
+</script>
+
+<script type="application/ld+json">{
+        "@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+        "@id": "https://app.myzaker.com/news/article.php?pk=5a75b8f89490cbd650000067",
+        "appid": "1551600451668502",
+        "title": "坑惨古天乐，《贪玩蓝月》的团队却乐开了花",
+        "images": ["http:\/\/zkres1.myzaker.com\/201802\/5a7411d57f52e9713c00003b_640.jpg"],
+        "description": "坑惨古天乐、被知乎狂骂一整天，《贪玩蓝月》的团队却乐开了花编辑 / 金错刀频道源：运营研究社作者：套路编辑部昨天，一款叫做《贪玩蓝月》的网页游戏冲上了知乎热榜的第一。原因很奇葩，这款游戏预告古天乐将在",
+        "pubDate": "2018-02-03T21:28:24"
+    }</script>
+</body>
+</html>
+

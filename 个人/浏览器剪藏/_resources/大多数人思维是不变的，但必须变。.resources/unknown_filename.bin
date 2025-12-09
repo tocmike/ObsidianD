@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<!--headTrap<body></body><head></head><html></html>--><html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+<script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+window.__nonce_str = "MOONSAFE_NONCE_1471507671"
+if (location.href.indexOf("safe=0") == -1 && window.__nonce_str) {
+	window.__moonsafe_csp_offset || (window.__moonsafe_csp_offset = 18);
+	document.write('<meta http-equiv="Content-Security-Policy" content="script-src https: \'unsafe-inline\' \'unsafe-eval\' *.qq.com *.weishi.com'+(window.__nonce_str ? ' \'nonce-' + window.__nonce_str + "\'":"")+ '">');
+        
+}
+</script>
+
+        <script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+<script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+var page_begintime=+new Date,biz="MzI0ODEyMTM1OQ==",sn="46b87efe3930e96083892a75d8fbbf7e",mid="2649894171",idx="1",is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect")),
+document.domain="qq.com";
+</script> 
+<script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script> 
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var query = url.split('?')[1].split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || '';
+        window.key = params['key'] || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+</script>
+
+        <title>年轻的时候相信假的，老了以后怀疑真的｜十问冯叔</title>
+        
+<style>html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background-color:#f3f3f3;line-height:inherit}body.rich_media_empty_extra{background-color:#fff}body.rich_media_empty_extra .rich_media_area_primary:before{display:none}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#607fa6;text-decoration:none}.rich_media_inner{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{position:relative;padding:20px 15px 15px;background-color:#fff}.rich_media_area_primary:before{content:" ";position:absolute;left:0;top:0;width:100%;height:1px;border-top:1px solid #e5e5e5;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5);top:auto;bottom:-2px}.rich_media_area_primary .original_img_wrp{display:inline-block;font-size:0}.rich_media_area_primary .original_img_wrp .tips_global{display:block;margin-top:.5em;font-size:14px;text-align:right;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.rich_media_area_extra{padding:0 15px 0}.rich_media_title{margin-bottom:10px;line-height:1.4;font-weight:400;font-size:24px}.rich_media_meta_list{margin-bottom:18px;line-height:20px;font-size:0}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px}.meta_original_tag{display:inline-block;vertical-align:middle;padding:1px .5em;border:1px solid #9e9e9e;color:#8c8c8c;border-top-left-radius:20% 50%;-moz-border-radius-topleft:20% 50%;-webkit-border-top-left-radius:20% 50%;border-top-right-radius:20% 50%;-moz-border-radius-topright:20% 50%;-webkit-border-top-right-radius:20% 50%;border-bottom-left-radius:20% 50%;-moz-border-radius-bottomleft:20% 50%;-webkit-border-bottom-left-radius:20% 50%;border-bottom-right-radius:20% 50%;-moz-border-radius-bottomright:20% 50%;-webkit-border-bottom-right-radius:20% 50%;font-size:15px;line-height:1.1}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_text{color:#8c8c8c}span.rich_media_meta_nickname{display:none}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#3e3e3e}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em;white-space:pre-wrap}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2){.mm_appmsg .rich_media_inner,.mm_appmsg .rich_media_meta,.mm_appmsg .discuss_list,.mm_appmsg .rich_media_extra,.mm_appmsg .title_tips .tips{font-size:17px}.mm_appmsg .meta_original_tag{font-size:15px}}@media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3){.mm_appmsg .rich_media_title{font-size:25px}}@media screen and (min-width:1024px){.rich_media{width:740px;margin-left:auto;margin-right:auto}.rich_media_inner{padding:20px}body{background-color:#fff}}@media screen and (min-width:1025px){body{font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}.rich_media{position:relative}.rich_media_inner{background-color:#fff;padding-bottom:100px}}.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#3e3e3e;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#8c8c8c;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.weui_loading{width:20px;height:20px;display:inline-block;vertical-align:middle;-webkit-animation:weuiLoading 1s steps(12,end) infinite;animation:weuiLoading 1s steps(12,end) infinite;background:transparent url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iciIgd2lkdGg9JzEyMHB4JyBoZWlnaHQ9JzEyMHB4JyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJub25lIiBjbGFzcz0iYmsiPjwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjRTlFOUU5JwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoMCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICA8L3JlY3Q+CiAgICA8cmVjdCB4PSc0Ni41JyB5PSc0MCcgd2lkdGg9JzcnIGhlaWdodD0nMjAnIHJ4PSc1JyByeT0nNScgZmlsbD0nIzk4OTY5NycKICAgICAgICAgIHRyYW5zZm9ybT0ncm90YXRlKDMwIDUwIDUwKSB0cmFuc2xhdGUoMCAtMzApJz4KICAgICAgICAgICAgICAgICByZXBlYXRDb3VudD0naW5kZWZpbml0ZScvPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyM5Qjk5OUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSg2MCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICAgICAgICAgICAgICAgcmVwZWF0Q291bnQ9J2luZGVmaW5pdGUnLz4KICAgIDwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjQTNBMUEyJwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoOTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNBQkE5QUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxMjAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCMkIyQjInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxNTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCQUI4QjknCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxODAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDMkMwQzEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyMTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDQkNCQ0InCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEMkQyRDInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEQURBREEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNFMkUyRTInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0Pgo8L3N2Zz4=) no-repeat;-webkit-background-size:100%;background-size:100%}@-webkit-keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}@keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}.gif_img_wrp{display:inline-block;font-size:0;position:relative;font-weight:400;font-style:normal;text-indent:0;text-shadow:none 1px 1px rgba(0,0,0,0.5)}.gif_img_wrp img{min-height:120px;min-width:120px;vertical-align:top}.gif_img_tips{background:rgba(0,0,0,0.6)!important;filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endcolorstr = '#99000000');border-top-left-radius:1.2em 50%;-moz-border-radius-topleft:1.2em 50%;-webkit-border-top-left-radius:1.2em 50%;border-top-right-radius:1.2em 50%;-moz-border-radius-topright:1.2em 50%;-webkit-border-top-right-radius:1.2em 50%;border-bottom-left-radius:1.2em 50%;-moz-border-radius-bottomleft:1.2em 50%;-webkit-border-bottom-left-radius:1.2em 50%;border-bottom-right-radius:1.2em 50%;-moz-border-radius-bottomright:1.2em 50%;-webkit-border-bottom-right-radius:1.2em 50%;line-height:2.3;padding:0 1em;font-size:11px;color:#fff;text-align:center;position:absolute;bottom:10px;left:10px}.gif_img_tips i{vertical-align:middle;margin:-0.2em .73em 0 -2px}.gif_img_play_arrow{display:inline-block;width:0;height:0;border-width:8px;border-style:dashed;border-color:transparent;border-right-width:0;border-left-color:#fff;border-left-style:solid;border-width:5px 0 5px 8px}.gif_img_loading{width:14px;height:14px}i.gif_img_loading{margin-left:-4px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:1em 35px 1em 15px;z-index:1;background-color:#c6e0f8;color:#8c8c8c;font-size:13px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.preview_appmsg .rich_media_title{margin-top:1.9em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin:0 20px}.preview_appmsg .rich_media_title{margin-top:0}}</style>
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2c9cd6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg" ontouchstart="">
+        
+    <script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+        var write_sceen_time = (+new Date());
+    </script>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+                        <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        年轻的时候相信假的，老了以后怀疑真的｜十问冯叔 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                                                <span id="copyright_logo" class="rich_media_meta meta_original_tag">原创</span>
+                        						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2016-08-27</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">冯仑风马牛</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">冯仑风马牛</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">冯仑风马牛</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">冯仑风马牛</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">fengluntalk</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">“冯仑风马牛”是冯仑唯一官方公众号。首推全新公路脱口秀和独家专栏，冯仑用“浅入深出”、“似非而是”的方式，聊风马牛不相及之事，与你一起酒后听段子，行走看世界。</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                                                            
+                                                            
+                    
+                    <div class="rich_media_content " id="js_content">
+                        
+
+                        
+                        <p><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2DURxLmKgARaQ4pt1hFFu49ibOKYmKOTBAiaFibaO0Pibb6icnPIcDFJgGNXg/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6666666666666666" data-w="600"  /><br  /></p><p><span style="font-size: 15px;"><br  /></span></p><p><span style="font-size: 15px;">其实大部分人都很讨厌「改变」，因为这意味着打破原有的「舒适圈」，自己给自己找不舒服。但还有一种改变是悄没声息的，那就是时间的痕迹，可能在某个不经意的瞬间回首，才会发现自己的成长。那么，冯叔是怎么看待发生在自己身上的「改变」的呢？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">01</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：您觉得从一个毛躁的年轻人，成长为一个成熟的人，这种改变是由什么带来的？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：其实人的变化和年龄、阅历有非常大的关系。<strong>年轻时，也许别人多看你一眼就能直接打架，老了以后谁骂都不动声色，惯看秋月春风。</strong>老了以后知道人和人在一起，互相冲突、互相批评是正常的，两只猫狗在一块都不能互相兼容，何况是两个利益不同的人。所以老了之后会有一种状态：「古今多少事，都付笑谈中。」</span></p><p><span style="font-size: 15px;"><br  /></span></p><p style="text-align: right;"><span style="font-size: 15px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2DY70dGWwyrTsqPicPXPlM20S8qhJ1ibWTErU6moGzHERQ21MVKyvBPUgg/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6666666666666666" data-w="600"  /><br  /><span style="max-width: 100%; text-align: right; white-space: pre-wrap; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="max-width: 100%; color: rgb(62, 62, 62); text-align: right; white-space: pre-wrap; font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《卧虎藏龙》｜看不看得透，有时候是凭经历，而不是年纪</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">02</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：改变好像是一件很玄的事情，因为没办法测量今天改变了多少、明天改变了多少，我们有什么动力去坚持改变自己呢？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：大家都知道美特斯邦威是一个年轻的、时尚的服饰品牌，但美邦的周总年轻时候是一个弹棉花的，拿着一台缝纫机在温州走街串巷。他没有上过北大、清华，更没有听过哈佛的MBA，但是他总是不满足现状，于是一有机会就跟别人学习，或者去上课，主动改变自己，最后变得能说外文，变得很时尚。</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><strong><span style="font-size: 15px;">改变都是从偶然的一件事情、一个婚姻、一个朋友、一段经历开始的。</span></strong><span style="font-size: 15px;">发生了非常多认为不可能的事情之后，最后就可能了。</span></p><p><span style="font-size: 15px;"><br  /></span></p><p style="text-align: right;"><span style="font-size: 15px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2Dq6ic9MlXichjicxsibu9VTZOePETvqH5eVoaYspTdAt6iblteoxSfR47wgQ/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.7272727272727273" data-w="550"  /><br  /><span style="text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《少林足球》｜如果不去改变，体内的潜力永远都不会爆发</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">03</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：您说的这种是潜移默化的、缓慢的变化，有很多是类似「顿悟」的突然改变，一般是什么带来的呢？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：正常情况下，小时候的家庭环境基本上已经把一个人的性格都塑造得差不多了，长大以后，只是不断地适应环境，做一些微调。<strong>而当一个人遇到意外之喜或者意外之悲，性格就会发生非常大改变。</strong>比如坐牢出来的人，比如突然有了一大笔钱的人，性格开始改变了，开始进贼了，折腾了，把人整死了。</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><strong><span style="font-size: 12px;">（总觉得冯叔举的例子很有故事……）</span></strong></p><p><strong><span style="font-size: 12px;"><br  /></span></strong></p><p style="text-align: right;"><strong><span style="font-size: 12px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2D4auapXVuKRhiadyzXB33VBEtnZBRry9gHzJIYdgbwq0128ufW8bQdsw/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6666666666666666" data-w="600"  /><br  /></span></strong><span style="font-size: 12px;"><span style="text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《少女哪吒》｜青春期是一个化学反应特别剧烈的时期</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">04</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：您身边有这种因为「意外」而促成的人生转变的故事吗？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：史玉柱陷入人生最低点的时候，公司几乎破产，他就东躲西藏，到了西藏的阿拉善，那儿有一个叫「南寺」的寺庙。当时他很困扰，在那儿瞎走，碰到一个老人家。老人家告诉他，他正在这里盖一座庙，每天从山上下来一次，捡一块砖头放上，三十年以后就能盖成。</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">史玉柱当时不信，他觉得这事有点悬，但后来这个庙果然盖成了，虽然只有不到十平米。<strong>但是每天坚持捡一块石头，几十年后，心里的东西就变成真的了。</strong>史玉柱受到启发，认为要改变自己，不能因为失败而颓丧。于是他就重新拿着仅有的三四万块钱，重出江湖，最后把脑白金做成了。</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p style="text-align: right;"><span style="font-size: 15px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2DIhgGibZo0qhNHDHWTYllYGEaUqpG05qdhal4NYCjGPPiba3mO7AibY07g/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.665" data-w="600"  /><br  /><span style="font-size: 12px; text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="font-size: 12px; text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《琅琊榜》｜在所有东山再起的故事中</span></span></p><p style="text-align: right;"><span style="color:#3e3e3e;font-family:宋体"><span style="font-size: 12px; line-height: normal; background-color: rgb(255, 255, 255);">意外只是机缘，坚持才是成功的原因</span></span></p><p><span style="font-size: 15px;"><br  /></span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">05</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：「真理是永恒不变的」，是不是一个人再怎么改变，总有一部分是不变的？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：对真假的认知，也是会不断改变的。<strong>年轻的时候相信假的，老了以后怀疑真的。</strong>刚出社会的时候看到的全是阳光的一面；到三十岁你才发现，其实有些人不怎么好；等到六十岁的时候，你连坏人都理解了，觉得坏人也是好人，因为他也不过是为了自己的事。</span></p><p><span style="font-size: 15px;"><br  /></span></p><p style="text-align: right;"><span style="font-size: 15px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2Dlz6MICVQdmu8sYVGV05b6YZ1Vdt4qibucfyu1Rkmia1Kb9ibLnTo5ouRA/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6666666666666666" data-w="600"  /><br  /><span style="text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《西游记》｜作恶多端，也是因为曾经受过太深的伤害</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">06</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：每个人都逃不开时代的变迁，您这一代企业家经历了经济、政治、文化各种转型，这种社会大变革给您带来一种什么感受？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：从过去僵化的社会体制逐步转化到一个开放的、充分竞争的市场体制，和直接走向成熟的市场体制是很不一样的。<strong>这种转变本身就需要极大的耐心，</strong>再加上中国人本性温和，泡在比较中庸的中国文化中，因此所有的事都不能操之过急。</span></p><p><span style="font-size: 15px;"><br  /></span></p><p style="text-align: right;"><span style="font-size: 15px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2DFjuWorw2dXZ7ylVbw1OqB60cK7zZwmbCgH9R6OOHDDtztIaNrUq4Qw/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6666666666666666" data-w="600"  /><br  /><span style="text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《刺客聂隐娘》｜用一整天，等一阵风</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">07</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：本性的温和，会不会导致在转变的过程中过于妥协、保守，缺少探索和创新的勇气？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：我觉得中国企业家具备一切探索的精神，他们进行着所有的尝试。<strong>也许也正是因为想拥有所有的尝试机会，所以有时候他们不得不委屈地活着。</strong></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">这就有点类似于《辛德勒的名单》中的情况。<strong>被送进毒气室的人没有发生任何集体暴动，未被选中的人都认为这次去的是别人，自己还活着就行。</strong>中国民营企业的集体意识就是如此，所以他们就要委屈地活着，艰难地奋斗着，带着幻想和希望憧憬着，这样慢慢地一路走来。</span></p><p><span style="font-size: 15px;"><br  /></span></p><p style="text-align: right;"><span style="font-size: 15px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2D7A8qfagicMJQz1h4bbKPpxSBYf1icgg42yB0mpCMRAsVa8HfnFdSeEuQ/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6616666666666666" data-w="600"  /><br  /><span style="text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《辛德勒的名单》｜最怕的是集体的沉默</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">08</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：有时候的改变就是要「先破后立」，这种「破坏」会不会对当下的自己造成伤害？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯仑：这不仅仅是一个个人的问题。其实这个问题可以变成：<strong>我们究竟是要树立一个法制的、开放的、受约束的权力，还是要以某种公益、道德和国家公共利益的名义去破坏这套既有规则？</strong>社会中还有很多结构没有发生变化，估计还需要一代人的努力。目前在处理事情上，大家仍然倾向于使用熟练的旧方法。</span></p><p><span style="font-size: 15px;"><br  /></span></p><p style="text-align: right;"><span style="font-size: 15px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2DkoC0icYGPNpCtTdV8hsydicdhBPSmckEfoGDVibvjziaPoz72tuoqJlicuw/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.4266666666666667" data-w="600"  /><br  /><span style="text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> 《熔炉》｜哪怕这些旧的方法被人诟病</span></span></p><p style="text-align: right;"><span style="color:#3e3e3e;font-family:宋体"><span style="font-size: 12px; line-height: normal; background-color: rgb(255, 255, 255);">哪怕最后的结果会因为惯性而没有丝毫改变</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 20px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important;">09</span></strong></span></p><p><span style="font-size: 15px;"></span><br  /></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：在这种陈旧的、转变困难的体制下办企业，您有没有曾经感到绝望过？</span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：没有。天上还有一点亮光，就会有一点希望。曾经有段时间，我身边很多人开始谈论移民的事情，这在以前是非常罕见的，这也是社会释放出来的一个非常重要的信号。但这并不意味着绝望，而是一种不安全感导致的。<strong>企业领导人没有安全感，就意味着投资的减少，也就意味着就业机会的减少与税收的减少，以至于社会整体利益的减少。</strong></span></p><p><span style="font-size: 15px;"><strong><br  /></strong></span></p><p style="text-align: right;"><span style="font-size: 15px;"><strong><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2D1tNdRTcJf9KbwjSgvMdQzyBnUSKSiaMenv4HickMTx7qPibAF6ososfCA/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.7133333333333334" data-w="600"  /><br  /><span style="text-align: right; white-space: pre-wrap; max-width: 100%; font-family: 宋体; line-height: normal; font-size: 12px; color: rgb(228, 110, 0); box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">▲</span><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"> </span></strong><span style="text-align: right; white-space: pre-wrap; max-width: 100%; color: rgb(62, 62, 62); font-family: 宋体; line-height: normal; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">《活着》｜人活着，就靠那点念想</span></span></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;"></span></p><p style="line-height: 25.6px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; color: rgb(255, 105, 31); font-family: 宋体; font-size: 15px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">▼</span></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="color: rgb(228, 110, 0); font-size: 20px; line-height: 24px;"><strong>10</strong></span></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="color: rgb(228, 110, 0); font-size: 20px; line-height: 24px;"><strong><br  /></strong></span></p><p><span style="font-size: 15px; color: rgb(228, 110, 0);">问：有些人致力于改变环境来让自己过得更好，有些人选择改变自己去适应环境，您比较偏向于哪一种？</span><br  /></p><p><span style="font-size: 15px;">&nbsp;</span></p><p><span style="font-size: 15px;">冯叔：在企业经营中，我更倾向于后者。<strong>经营企业最大的困难是自己，在全球化的过程中，最重要的是改变自己、适应全球。</strong>我在美国做项目的时候，一开始完全用中国本土的经验来办事，所以遇到的困难也都是自己造成的。当我改变自己、按照当地的规则做事，会发现困难不是这么大。</span></p><p><br  /></p><p style="margin-top: 5px; padding-top: 10px; padding-bottom: 10px; max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; border: none; box-sizing: border-box !important; word-wrap: break-word !important; background-image: none; background-color: rgb(255, 255, 255);"><img width="22px" data-ratio="0.45454545454545453" data-w="22" data-type="gif" data-src="http://mmbiz.qpic.cn/mmbiz/EFJNcXnhmV8QAq6aaA58x6xjib3ZILwHt4FWctUDHugc6NvSm8uqBN5qpPZLkGr1vCt3Nibls7f7aEZtxQcFnQpg/0?wx_fmt=gif" style="margin-right: auto; margin-left: auto; line-height: 25.6px; display: block; box-sizing: border-box !important; word-wrap: break-word !important; visibility: visible !important; width: 22px !important;"  /></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">封面图片<span style="max-width: 100%; line-height: 25.6px;">｜《黑天鹅》</span></span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;"> 编辑｜Hat </span><span style="max-width: 100%; font-size: 11px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">&nbsp;主编｜寿佳茵</span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;"> 总编｜喻潇潇 &nbsp;&nbsp; </span><span style="max-width: 100%; font-size: 11px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">顾问｜王淑琪</span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><br  /></p><section class="" style="max-width: 100%; color: rgb(62, 62, 62); font-family: inherit; line-height: 25.6px; text-align: inherit; white-space: normal; border-color: rgb(249, 110, 87); width: 670px; overflow: hidden; text-decoration: inherit; vertical-align: top; display: inline-block; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(239, 239, 239);"><section class="" style="padding: 10px; max-width: 100%; width: 670px; line-height: 1.5em; box-sizing: border-box !important; word-wrap: break-word !important;"><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(228, 110, 0); font-size: 15px; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">推荐阅读</strong></span></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">点击下列标题 &nbsp;阅读更多「十问冯叔」</span></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649892298&amp;idx=1&amp;sn=6b79747d1bbc52b606ae4c4bc0e25411&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649892298&amp;idx=1&amp;sn=6b79747d1bbc52b606ae4c4bc0e25411&amp;scene=21#wechat_redirect" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">美国的现在会是中国的未来吗？</span></a></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649892156&amp;idx=1&amp;sn=76625c2dc0f8b73f514ff571f530eb9e&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649892156&amp;idx=1&amp;sn=76625c2dc0f8b73f514ff571f530eb9e&amp;scene=21#wechat_redirect" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">长得漂亮的女生是不是更有优势？</span></a></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649891954&amp;idx=1&amp;sn=7e4dba21d631472d855318d39d4f6be1&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649891954&amp;idx=1&amp;sn=7e4dba21d631472d855318d39d4f6be1&amp;scene=21#wechat_redirect" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">在未来，我们还有隐私吗？</span></a></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649891849&amp;idx=1&amp;sn=49920f2a57885a0e1a0dcc7762a89243&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649891849&amp;idx=1&amp;sn=49920f2a57885a0e1a0dcc7762a89243&amp;scene=21#wechat_redirect" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">今天的重点，不是冯叔</span></a></p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;"><a href="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649891484&amp;idx=1&amp;sn=c5361f333ac7df81c878947f4ddabda6&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649891484&amp;idx=1&amp;sn=c5361f333ac7df81c878947f4ddabda6&amp;scene=21#wechat_redirect" style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">我特别不愿意做青年导师</a></span></p></section></section><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">－商务联系－</span></strong></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-size: 12px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">阿牛｜13311153963</span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-size: 11px; box-sizing: border-box !important; word-wrap: break-word !important;">微信<span style="max-width: 100%; line-height: 25.6px;">｜&nbsp;niuniu-fengmaniu</span></span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="font-size: 11px; max-width: 100%; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;"></span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><img width="22px" data-ratio="0.45454545454545453" data-w="22" data-type="gif" data-src="http://mmbiz.qpic.cn/mmbiz/EFJNcXnhmV8QAq6aaA58x6xjib3ZILwHt4FWctUDHugc6NvSm8uqBN5qpPZLkGr1vCt3Nibls7f7aEZtxQcFnQpg/0?wx_fmt=gif" style="margin-right: auto; margin-left: auto; line-height: 25.6px; display: block; box-sizing: border-box !important; word-wrap: break-word !important; visibility: visible !important; width: 22px !important;"  /></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;">浅入深出讲故事</span></p><p style="max-width: 100%; min-height: 1em; color: rgb(62, 62, 62); line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="max-width: 100%; font-size: 12px; box-sizing: border-box !important; word-wrap: break-word !important;">似非而是观世界</span></p><p><img data-type="gif" data-src="http://mmbiz.qpic.cn/mmbiz_gif/EFJNcXnhmV8pJaGDoVBva73NeUlAJOOk44k34SZV5cfVKeiaUtC544OtwctNXib3Md7BzEhiaraibtVAZT8VfL1bEw/0?wx_fmt=gif" style="width: 100%; height: auto;" data-ratio="0.546875" data-w="640"  /></p>
+                    </div>
+                    <script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+                        var first_sceen__time = (+new Date());
+
+                        if ("" == 1 && document.getElementById('js_content'))
+                            document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+
+                                        (function(){
+                            if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                var link = document.createElement('link');
+                                var head = document.getElementsByTagName('head')[0];
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+                                head.appendChild(link);
+                            }
+                        })();
+                    </script>
+                    
+                    
+                                        
+                                        
+                                        <div class="rich_media_tool" id="js_toobar3">
+                                                                    <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+
+                        <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">投诉</a>
+
+                    </div>
+
+
+
+                                    </div>
+
+                <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none">
+
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        
+                    </div>
+                                        
+                    <div id="js_iframetest" style="display:none;"></div>
+                                        
+                                        <div class="rich_media_extra" id="js_cmt_area" style="display:none">
+
+                        <div class="discuss_container" id="js_cmt_main" style="display:none">
+                            <div class="rich_tips with_line title_tips discuss_title_line">
+                                <span class="tips">精选留言</span>
+                            </div>
+                            <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans1" style="display:none;">该文章作者已设置需关注才可以留言</p>
+                            <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn1" style="display:none">
+                                
+                                                                <a href="#comment">写留言<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                            </p>
+                            <ul class="discuss_list" id="js_cmt_list"></ul>
+                        </div>
+
+
+                        <div class="tips_global rich_split_tips tc" id="js_cmt_nofans2" style="display:none;">
+                            该文章作者已设置需关注才可以留言
+                        </div>
+
+                        <p class="discuss_icon_tips rich_split_tips tr" id="js_cmt_addbtn2" style="display:none">
+                            
+                                                        <a href="#comment">写留言<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                    </p>
+
+                        <p class="rich_split_tips tc tips_global" id="js_cmt_tips" style="display:none;"></p>
+
+
+                        <div class="rich_tips tips_global loading_tips" id="js_cmt_loading">
+                            <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                            <span class="tips">加载中</span>
+                        </div>
+
+                        <div class="rich_tips with_line tips_global" id="js_cmt_statement" style="display:none">
+                            <span class="tips">以上留言由公众号筛选后显示</span>
+                        </div>
+
+                        <p class="rich_split_tips tc" id="js_cmt_qa" style="display:none;">
+                            <a href="http://kf.qq.com/touch/sappfaq/150211YfyMVj150313qmMbyi.html?scene_id=kf264">
+                                了解留言功能详情
+                            </a>
+                        </p>
+
+                    </div>
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script nonce="MOONSAFE_NONCE_1471507671">
+    var __DEBUGINFO = {
+        debug_js : "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console2ca724.js",
+        safe_js : "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe2f3e84.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="MOONSAFE_NONCE_1471507671">
+(function() {
+	function _addVConsole(uri) {
+		var url = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/' + uri;
+		document.write('<script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript" src="' + url + '"><\/script>');
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		_addVConsole('2.3.1/vconsole.min.js');
+		_addVConsole('plugin/vconsole-sources/1.0.1/vconsole-sources.min.js');
+		_addVConsole('plugin/vconsole-resources/1.0.0/vconsole-resources.min.js');
+		_addVConsole('plugin/vconsole-mpopt/1.0.0/vconsole-mpopt.js');
+	}
+})();
+</script>
+        
+<script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+    var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm2c9cd6.css";
+    var windowwx_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+    var article_improve_combo_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo2eb52b.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "0";
+    var appuin = "MzI0ODEyMTM1OQ=="||"";
+
+    var source = "0";
+    var scene = 75;
+
+    var itemidx = "";
+
+    var _copyright_stat = "1";
+    var _ori_article_type = "金融财经";
+
+    var nickname = "冯仑风马牛";
+    var appmsg_type = "9";
+    var ct = "1472249033";
+    var publish_time = "2016-08-27" || "";
+    var user_name = "gh_cf3ec21045d5";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz/EFJNcXnhmVicR4dwAAticVyQKKDS1qKVVeeibHeWC6SWNcMyXXL4ibHMdI0Uw7Pic1icxDOl3JxJicEPUBvYIrkLjLL7g/0?wx_fmt=png";
+    var msg_title = "年轻的时候相信假的，老了以后怀疑真的｜十问冯叔";
+    var msg_desc = "等到六十岁的时候，你连坏人都能理解了，觉得坏人也是好人，因为他也不过是为了自己的事。";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz_jpg/EFJNcXnhmV9u5TAiaHibPCXX9TSV7Ryo2DD2TCtZvb6M5ibyrGlLmKGV4ZuEicBGvWDVY9Y9qI1T2YibxEF9ZtMUXDQ/0?wx_fmt=jpeg";
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzI0ODEyMTM1OQ==&amp;mid=2649894171&amp;idx=1&amp;sn=46b87efe3930e96083892a75d8fbbf7e#rd";
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'jpeg';
+    var srcid = '';
+    var req_id = '2717ohpUufApsiketRM128Mq';
+    var networkType;
+    var appmsgid = '' || '2649894171'|| "";
+    var comment_id = "3140213827" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "0" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6GDuV1GE2UROV61mvzPpb8SV9NmJ1Rlicib5dDCMyn4zew/0"||(window.location.protocol+"//"+window.location.host + "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+    };
+    var _empty_v = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+      var icon_emotion_switch = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x2f1273.png";
+      var icon_emotion_switch_active = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x2f1273.png";
+      var icon_loading_white = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif";
+      var icon_audio_unread = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png";
+      var icon_qqmusic_default = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png";
+      var icon_qqmusic_source = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263724.png";
+
+    var topic_default_img = 'http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x2e4987.png';
+
+    
+    var wxtopic = {
+        isbn : ""
+    };
+    
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1472288692" * 1;
+
+        window.wxtoken = "";
+        window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27613,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01    
+                }
+            });
+        }
+    }
+     
+</script>
+
+        <script nonce="MOONSAFE_NONCE_1471507671">window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"appmsg/emotion/caret.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","biz_wap/jsapi/cardticket.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","appmsg/emotion/map.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide2a9cd9.js","pages/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report300356.js","pages/music_player.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player2b674b.js","pages/loadscript.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript2c9cd6.js","appmsg/emotion/dom.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom2f3ac3.js","biz_wap/utils/hashrouter.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter2805ea.js","a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail2f33fb.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios275627.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android2c5484.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile2f1750.js","a/mpshop.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop2f1750.js","a/card.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card2f1750.js","biz_wap/utils/position.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position2f1750.js","appmsg/a_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_report2f1750.js","biz_common/utils/respTypes.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes2c57d0.js","appmsg/my_comment_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html2f3f48.js","appmsg/cmt_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html2a2c13.js","sougou/a_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html2c6e7c.js","appmsg/emotion/emotion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion2f3ac3.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","biz_common/utils/huatuo.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/huatuo293afc.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","appmsg/topic_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html2f2e72.js","pages/voice_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html2f2e72.js","pages/voice_component.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component2f3ac3.js","pages/qqmusic_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html2f2e72.js","new_video/ctl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl2d441f.js","biz_common/utils/monitor.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor2a30ee.js","appmsg/reward_entry.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry3004a4.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment2fb099.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2eb52b.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2f1750.js","pages/version4video.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video2ff437.js","rt/appmsg/getappmsgext.rt.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt2c21f6.js","biz_wap/utils/storage.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage2a74ac.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl2b3578.js","appmsg/img_copyright_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","appmsg/a_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_tpl.html2f1750.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax2f1747.js","biz_wap/utils/log.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log2fcb7c.js","sougou/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index2fd671.js","biz_wap/safe/mutation_observer_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report2fafd1.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report2fd7e3.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source2f1274.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos2fcc6e.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report2c57d0.js","appmsg/wxtopic.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic2f2e72.js","appmsg/voice.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice300356.js","appmsg/qqmusic.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic300356.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe2ff82f.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2fcb7c.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2ffa93.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event275627.js","appmsg/copyright_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2ec4b2.js","appmsg/cache.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cache2a74ac.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async2f1750.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img2fcb7c.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share2f67f1.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion2f1d97.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib30053f.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse2fb01a.js","appmsg/max_age.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age2fdd28.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","appmsg/log.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log300330.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","biz_wap/utils/device.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device2b3aae.js","biz_wap/jsapi/a8key.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2ff43e.js"};</script><script nonce="MOONSAFE_NONCE_1471507671" async type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon2ffa93.js"></script>
+  <script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+    
+    var occupyImg = function() {
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        if (typeof getComputedStyle != "undefined") {
+            var container_style = getComputedStyle(container)
+            container_padding = parseInt(container_style.paddingLeft) + parseInt(container_style.paddingRight);
+        } else if (container.currentStyle) {
+            container_padding = parseInt(container.currentStyle.paddingLeft) + parseInt(container.currentStyle.paddingRight);
+        }
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        for (var i = 0; i < length; ++i) {
+            var src_ = images[i].getAttribute('data-src');
+            if (!src_) continue;
+            var width_ = 1 * images[i].getAttribute('data-w') || max_width;
+            var ratio_ = 1 * images[i].getAttribute('data-ratio');
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                if (images[i].style.width) images[i].setAttribute('_width', images[i].style.width);
+                var width = width_ > max_width ? max_width : width_; 
+                height = width * ratio_;
+                images[i].style.cssText += "width: " + width + "px !important;";
+                images[i].src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJDQzA1MTVGNkE2MjExRTRBRjEzODVCM0Q0NEVFMjFBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJDQzA1MTYwNkE2MjExRTRBRjEzODVCM0Q0NEVFMjFBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkNDMDUxNUQ2QTYyMTFFNEFGMTM4NUIzRDQ0RUUyMUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkNDMDUxNUU2QTYyMTFFNEFGMTM4NUIzRDQ0RUUyMUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6p+a6fAAAAD0lEQVR42mJ89/Y1QIABAAWXAsgVS/hWAAAAAElFTkSuQmCC";
+            } else {
+                images[i].style.cssText += "visibility: hidden !important;";
+            }
+            images[i].style.cssText += "height: " + height + "px !important;";
+        }                   
+    }
+    if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', function()  {
+            occupyImg();                                                   
+        });
+    } else {
+        
+        document.onreadystatechange = function() {
+            if (document.readyState === 'complete') {
+                occupyImg();
+            }
+        }
+    }
+  </script>
+  <script nonce="MOONSAFE_NONCE_1471507671" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+    
+  </script>
+
+    </body>
+</html>
+<!--tailTrap<body></body><head></head><html></html>-->
+ 

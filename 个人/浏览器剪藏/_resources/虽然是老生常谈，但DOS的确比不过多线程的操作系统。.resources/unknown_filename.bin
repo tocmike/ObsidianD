@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!--headTrap<body></body><head></head><html></html>--><html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+<script nonce="1845933282" type="text/javascript">
+window.__nonce_str = "1845933282"
+if (location.href.indexOf("safe=0") == -1 && window.__nonce_str) {
+	window.__moonsafe_csp_offset || (window.__moonsafe_csp_offset = 18);
+	document.write('<meta http-equiv="Content-Security-Policy" content="script-src https: \'unsafe-inline\' \'unsafe-eval\' *.qq.com *.weishi.com'+(window.__nonce_str ? ' \'nonce-' + window.__nonce_str + "\'":"")+ '">');
+        
+}
+</script>
+
+        <script nonce="1845933282" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+<script nonce="1845933282" type="text/javascript">
+var page_begintime=+new Date,biz="MzAxNzI4MTMwMw==",sn="468e4eca4bca8a7cd5e23ca66d1c8d42",mid="400793862",idx="1",is_rumor="",norumor="";
+1*is_rumor&&!(1*norumor)&&(document.referrer&&-1!=document.referrer.indexOf("mp.weixin.qq.com/mp/rumor")||(location.href="http://mp.weixin.qq.com/mp/rumor?action=info&__biz="+biz+"&mid="+mid+"&idx="+idx+"&sn="+sn+"#wechat_redirect")),
+document.domain="qq.com";
+</script> 
+<script nonce="1845933282" type="text/javascript">
+var MutationObserver=window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver,isDangerSrc=function(t){
+if(t){
+var e=t.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+if(e&&!/qq\.com(\:8080)?$/.test(e[1])&&!/weishi\.com$/.test(e[1]))return!0;
+}
+return!1;
+},ishttp=0==location.href.indexOf("http://");
+-1==location.href.indexOf("safe=0")&&ishttp&&"function"==typeof MutationObserver&&"mp.weixin.qq.com"==location.host&&(window.__observer_data={
+count:0,
+exec_time:0,
+list:[]
+},window.__observer=new MutationObserver(function(t){
+window.__observer_data.count++;
+var e=new Date,r=[];
+t.forEach(function(t){
+for(var e=t.addedNodes,o=0;o<e.length;o++){
+var n=e[o];
+if("SCRIPT"===n.tagName){
+var i=n.src;
+isDangerSrc(i)&&(window.__observer_data.list.push(i),r.push(n)),!i&&window.__nonce_str&&n.getAttribute("nonce")!=window.__nonce_str&&(window.__observer_data.list.push("inlinescript_without_nonce"),
+r.push(n));
+}
+}
+});
+for(var o=0;o<r.length;o++){
+var n=r[o];
+n.parentNode&&n.parentNode.removeChild(n);
+}
+window.__observer_data.exec_time+=new Date-e;
+}),window.__observer.observe(document,{
+subtree:!0,
+childList:!0
+})),function(){
+if(-1==location.href.indexOf("safe=0")&&Math.random()<.01&&ishttp&&HTMLScriptElement.prototype.__lookupSetter__&&"undefined"!=typeof Object.defineProperty){
+window.__danger_src={
+xmlhttprequest:[],
+script_src:[],
+script_setAttribute:[]
+};
+var t="$"+Math.random();
+HTMLScriptElement.prototype.__old_method_script_src=HTMLScriptElement.prototype.__lookupSetter__("src"),
+HTMLScriptElement.prototype.__defineSetter__("src",function(t){
+t&&isDangerSrc(t)&&window.__danger_src.script_src.push(t),this.__old_method_script_src(t);
+});
+var e="element_setAttribute"+t;
+Object.defineProperty(Element.prototype,e,{
+value:Element.prototype.setAttribute,
+enumerable:!1
+}),Element.prototype.setAttribute=function(t,r){
+"SCRIPT"==this.tagName&&"src"==t&&isDangerSrc(r)&&window.__danger_src.script_setAttribute.push(r),
+this[e](t,r);
+};
+}
+}();
+</script> 
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<script nonce="1845933282" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var query = url.split('?')[1].split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || '';
+        window.key = params['key'] || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+</script>
+
+        <title>惊喜的定义与创造惊喜的方法论</title>
+        
+<style>html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;line-height:1.6}body{-webkit-touch-callout:none;font-family:-apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background-color:#f3f3f3;line-height:inherit}body.rich_media_empty_extra{background-color:#fff}body.rich_media_empty_extra .rich_media_area_primary:before{display:none}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:16px}*{margin:0;padding:0}a{color:#607fa6;text-decoration:none}.rich_media_inner{font-size:16px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.rich_media_area_primary{position:relative;padding:20px 15px 15px;background-color:#fff}.rich_media_area_primary:before{content:" ";position:absolute;left:0;top:0;width:100%;height:1px;border-top:1px solid #e5e5e5;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(0.5);transform:scaleY(0.5);top:auto;bottom:-2px}.rich_media_area_primary .original_img_wrp{display:inline-block;font-size:0}.rich_media_area_primary .original_img_wrp .tips_global{display:block;margin-top:.5em;font-size:14px;text-align:right;width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.rich_media_area_extra{padding:0 15px 0}.rich_media_title{margin-bottom:10px;line-height:1.4;font-weight:400;font-size:24px}.rich_media_meta_list{margin-bottom:18px;line-height:20px;font-size:0}.rich_media_meta_list em{font-style:normal}.rich_media_meta{display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px}.meta_original_tag{display:inline-block;vertical-align:middle;padding:1px .5em;border:1px solid #9e9e9e;color:#8c8c8c;border-top-left-radius:20% 50%;-moz-border-radius-topleft:20% 50%;-webkit-border-top-left-radius:20% 50%;border-top-right-radius:20% 50%;-moz-border-radius-topright:20% 50%;-webkit-border-top-right-radius:20% 50%;border-bottom-left-radius:20% 50%;-moz-border-radius-bottomleft:20% 50%;-webkit-border-bottom-left-radius:20% 50%;border-bottom-right-radius:20% 50%;-moz-border-radius-bottomright:20% 50%;-webkit-border-bottom-right-radius:20% 50%;font-size:15px;line-height:1.1}.meta_enterprise_tag img{width:30px;height:30px!important;display:block;position:relative;margin-top:-3px;border:0}.rich_media_meta_text{color:#8c8c8c}span.rich_media_meta_nickname{display:none}.rich_media_thumb_wrp{margin-bottom:6px}.rich_media_thumb_wrp .original_img_wrp{display:block}.rich_media_thumb{display:block;width:100%}.rich_media_content{overflow:hidden;color:#3e3e3e}.rich_media_content *{max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}.rich_media_content p{clear:both;min-height:1em;white-space:pre-wrap}.rich_media_content em{font-style:italic}.rich_media_content fieldset{min-width:0}.rich_media_content .list-paddingleft-2{padding-left:30px}.rich_media_content blockquote{margin:0;padding-left:10px;border-left:3px solid #dbdbdb}img{height:auto!important}@media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2){.mm_appmsg .rich_media_inner,.mm_appmsg .rich_media_meta,.mm_appmsg .discuss_list,.mm_appmsg .rich_media_extra,.mm_appmsg .title_tips .tips{font-size:17px}.mm_appmsg .meta_original_tag{font-size:15px}}@media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3){.mm_appmsg .rich_media_title{font-size:25px}}@media screen and (min-width:1024px){.rich_media{width:740px;margin-left:auto;margin-right:auto}.rich_media_inner{padding:20px}body{background-color:#fff}}@media screen and (min-width:1025px){body{font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}.rich_media{position:relative}.rich_media_inner{background-color:#fff;padding-bottom:100px}}.radius_avatar{display:inline-block;background-color:#fff;padding:3px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;overflow:hidden;vertical-align:middle}.radius_avatar img{display:block;width:100%;height:100%;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;background-color:#eee}.cell{padding:.8em 0;display:block;position:relative}.cell_hd,.cell_bd,.cell_ft{display:table-cell;vertical-align:middle;word-wrap:break-word;word-break:break-all;white-space:nowrap}.cell_primary{width:2000px;white-space:normal}.flex_cell{padding:10px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.flex_cell_primary{width:100%;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;box-flex:1;flex:1}.original_tool_area{display:block;padding:.75em 1em 0;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#3e3e3e;border:1px solid #eaeaea;margin:20px 0}.original_tool_area .tips_global{position:relative;padding-bottom:.5em;font-size:15px}.original_tool_area .tips_global:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #dbdbdb;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:scaleY(0.5);transform:scaleY(0.5)}.original_tool_area .radius_avatar{width:27px;height:27px;padding:0;margin-right:.5em}.original_tool_area .radius_avatar img{height:100%!important}.original_tool_area .flex_cell_bd{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.original_tool_area .flex_cell_ft{font-size:14px;color:#8c8c8c;padding-left:1em;white-space:nowrap}.original_tool_area .icon_access:after{content:" ";display:inline-block;height:8px;width:8px;border-width:1px 1px 0 0;border-color:#cbcad0;border-style:solid;transform:matrix(0.71,0.71,-0.71,0.71,0,0);-ms-transform:matrix(0.71,0.71,-0.71,0.71,0,0);-webkit-transform:matrix(0.71,0.71,-0.71,0.71,0,0);position:relative;top:-2px;top:-1px}.weui_loading{width:20px;height:20px;display:inline-block;vertical-align:middle;-webkit-animation:weuiLoading 1s steps(12,end) infinite;animation:weuiLoading 1s steps(12,end) infinite;background:transparent url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iciIgd2lkdGg9JzEyMHB4JyBoZWlnaHQ9JzEyMHB4JyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJub25lIiBjbGFzcz0iYmsiPjwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjRTlFOUU5JwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoMCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICA8L3JlY3Q+CiAgICA8cmVjdCB4PSc0Ni41JyB5PSc0MCcgd2lkdGg9JzcnIGhlaWdodD0nMjAnIHJ4PSc1JyByeT0nNScgZmlsbD0nIzk4OTY5NycKICAgICAgICAgIHRyYW5zZm9ybT0ncm90YXRlKDMwIDUwIDUwKSB0cmFuc2xhdGUoMCAtMzApJz4KICAgICAgICAgICAgICAgICByZXBlYXRDb3VudD0naW5kZWZpbml0ZScvPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyM5Qjk5OUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSg2MCA1MCA1MCkgdHJhbnNsYXRlKDAgLTMwKSc+CiAgICAgICAgICAgICAgICAgcmVwZWF0Q291bnQ9J2luZGVmaW5pdGUnLz4KICAgIDwvcmVjdD4KICAgIDxyZWN0IHg9JzQ2LjUnIHk9JzQwJyB3aWR0aD0nNycgaGVpZ2h0PScyMCcgcng9JzUnIHJ5PSc1JyBmaWxsPScjQTNBMUEyJwogICAgICAgICAgdHJhbnNmb3JtPSdyb3RhdGUoOTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNBQkE5QUEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxMjAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCMkIyQjInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxNTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNCQUI4QjknCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgxODAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDMkMwQzEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyMTAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNDQkNCQ0InCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEMkQyRDInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgyNzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNEQURBREEnCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMDAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0PgogICAgPHJlY3QgeD0nNDYuNScgeT0nNDAnIHdpZHRoPSc3JyBoZWlnaHQ9JzIwJyByeD0nNScgcnk9JzUnIGZpbGw9JyNFMkUyRTInCiAgICAgICAgICB0cmFuc2Zvcm09J3JvdGF0ZSgzMzAgNTAgNTApIHRyYW5zbGF0ZSgwIC0zMCknPgogICAgPC9yZWN0Pgo8L3N2Zz4=) no-repeat;-webkit-background-size:100%;background-size:100%}@-webkit-keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}@keyframes weuiLoading{0%{-webkit-transform:rotate3d(0,0,1,0deg)}100%{-webkit-transform:rotate3d(0,0,1,360deg)}}.gif_img_wrp{display:inline-block;font-size:0;position:relative;font-weight:400;font-style:normal;text-indent:0;text-shadow:none 1px 1px rgba(0,0,0,0.5)}.gif_img_wrp img{vertical-align:top}.gif_img_tips{background:rgba(0,0,0,0.6)!important;filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endcolorstr = '#99000000');border-top-left-radius:1.2em 50%;-moz-border-radius-topleft:1.2em 50%;-webkit-border-top-left-radius:1.2em 50%;border-top-right-radius:1.2em 50%;-moz-border-radius-topright:1.2em 50%;-webkit-border-top-right-radius:1.2em 50%;border-bottom-left-radius:1.2em 50%;-moz-border-radius-bottomleft:1.2em 50%;-webkit-border-bottom-left-radius:1.2em 50%;border-bottom-right-radius:1.2em 50%;-moz-border-radius-bottomright:1.2em 50%;-webkit-border-bottom-right-radius:1.2em 50%;line-height:2.3;font-size:11px;color:#fff;text-align:center;position:absolute;bottom:10px;left:10px;min-width:65px}.gif_img_tips.loading{min-width:75px}.gif_img_tips i{vertical-align:middle;margin:-0.2em .73em 0 -2px}.gif_img_play_arrow{display:inline-block;width:0;height:0;border-width:8px;border-style:dashed;border-color:transparent;border-right-width:0;border-left-color:#fff;border-left-style:solid;border-width:5px 0 5px 8px}.gif_img_loading{width:14px;height:14px}i.gif_img_loading{margin-left:-4px}.rich_media_global_msg{position:fixed;top:0;left:0;right:0;padding:1em 35px 1em 15px;z-index:1;background-color:#c6e0f8;color:#8c8c8c;font-size:13px}.rich_media_global_msg .icon_closed{position:absolute;right:15px;top:50%;margin-top:-5px;line-height:300px;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);background:transparent url(/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x.png) no-repeat 0 0;width:11px;height:11px;vertical-align:middle;display:inline-block;-webkit-background-size:100% auto;background-size:100% auto}.rich_media_global_msg .icon_closed:active{background-position:0 -17px}.preview_appmsg .rich_media_title{margin-top:1.9em}@media screen and (min-width:1024px){.rich_media_global_msg{position:relative;margin:0 20px}.preview_appmsg .rich_media_title{margin-top:0}}</style>
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2c9cd6.css">
+<![endif]-->
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg" ontouchstart="">
+        
+    <script nonce="1845933282" type="text/javascript">
+        var write_sceen_time = (+new Date());
+    </script>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+                        <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        惊喜的定义与创造惊喜的方法论 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                                                <span id="copyright_logo" class="rich_media_meta meta_original_tag">原创</span>
+                        						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-12-01</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">李笑来</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">学习学习再学习</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">学习学习再学习</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">学习学习再学习</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">xiaolai-xuexi</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">一生只有一个职业：学生</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                                                            
+                                        <div class="rich_media_thumb_wrp" id="media">
+                        
+                                                <script nonce="1845933282">
+                            (function(){
+                                var cover = "http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicrBVv87X94mWpPVrvuiaOJWxopjjVVF5hIY30ptmbPvpicZo98dM3RF9FNIgqQ2GTicGZUkh4jx73KPw/0?wx_fmt=gif";
+                                document.write('<img class="rich_media_thumb" id="js_cover" onerror="this.parentNode.removeChild(this)" data-backsrc='+ cover +'  data-src="' + cover + '" />');
+                            })();
+                        </script>
+                                            </div>
+                                        
+                    
+                    <div class="rich_media_content " id="js_content">
+                        
+
+                        
+                        
+                        <p><br  /></p><blockquote><p style="min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-size: 18px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="color: rgb(79, 129, 189); max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">版权声明</span></strong></span></p><p style="min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-size: 18px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">本文首发自微信公共帐号：xiaolai-xuexi；<br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></span></p><p style="min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-size: 18px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">作者：李笑来</span></p><p style="min-height: 1em; white-space: pre-wrap; color: rgb(62, 62, 62); font-size: 18px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">无需授权即可转载，但请自觉保留以上版权声明。</span></p></blockquote><p><br  /></p><p>关于<span style="color: rgb(123, 12, 0);"><strong>概念</strong></span>与<span style="color: rgb(123, 12, 0);"><strong>方法论</strong></span>，请移步之前的一篇文章《<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400738999&amp;idx=1&amp;sn=a8256339161ccc3eceae6d2ba80061fc&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400738999&amp;idx=1&amp;sn=a8256339161ccc3eceae6d2ba80061fc&amp;scene=21#wechat_redirect">什么是朋友？</a>》（这篇文章还有个续篇，明天再发……）</p><p><br  /></p><p>这一篇略长，可后面还会有很多扩充，现在的样子，就是一个骨架。</p><p><br  /></p><p>《<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400702197&amp;idx=1&amp;sn=2fceb48856007fa49c6557bcd17be8df&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400702197&amp;idx=1&amp;sn=2fceb48856007fa49c6557bcd17be8df&amp;scene=21#wechat_redirect">七年就是一辈子</a>》的内容是不可能让人失望的 —— 除非读不懂。嘿嘿。<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400702197&amp;idx=1&amp;sn=2fceb48856007fa49c6557bcd17be8df&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400702197&amp;idx=1&amp;sn=2fceb48856007fa49c6557bcd17be8df&amp;scene=21#wechat_redirect">点击这里了解预售详情</a>……</p><p><br  /></p><hr  /><p><br  /></p><p>什么是惊喜？</p><p><br  /></p><p style="text-align: center;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicrBVv87X94mWpPVrvuiaOJWx8LhZqWWLhVF7OfojVpWVqcubKtR3sTiatBTeMxrPG3P0Bypxia1sb9gg/0?wx_fmt=png" data-ratio="0.5899280575539568" data-w=""  /><br  /></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">姜文的电影里总是有很多好玩的台词，看到这儿的时候，我才忽然想到，Serendipity 可以直接翻译为“<span style="color: rgb(123, 12, 0);"><strong>惊喜</strong></span>”，虽然还差了一层意味，可实际上总比“意外的好运”来的自然一些，因为“惊喜”是一个已经用熟了的词汇。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">Serendipity 这个词，被认为是地球上最难翻译的一个词，也是英国人最喜欢的一个词 —— Jesus 和 Money 排在并列第十。<br  /></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">牛津的解释是：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;"><em>The occurrence and development of events by chance in a happy or beneficial way.</em> 以愉悦的或有益的方式，偶然发生或发展的事件或一系列事件。</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">Wiktionary 的解释是：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;"><em>An unsought, unintended, and/or unexpected, but fortunate, discovery and/or learning experience that happens by accident.</em> 并未刻意寻找的，并未提前期待的，可又是幸运的且意外发现（或学习经验）。</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">最近十年里，提起 Serenidipity，最著名的一个例子是一种蓝色药片，名称叫“西地那非”，也译作“喜多芬”。这个药物原本的研发目的是资料心脏病，最终双盲测试失败；可后来竟然发现这东西可以治疗男人的阳痿…… 嗯，对，这蓝色药片在中国的名字是“伟哥”。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">其实在中文中，也早就有了相同的意识，我们经常说的“机缘巧合”，某种意义上也是同一个意思，只不过“惊喜”也好，“机缘巧合”也罢，它们不像 Serendipity 那样是为了描述一个现象而刻意锻造的一个词汇。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">以下，我就直接用“惊喜”这个词翻译和替代“Serendipity” 了。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">科学史上充满了这种惊喜，阿司匹林、微波炉、X 光透视，都是惊喜的产物。再比如，我们今天普遍使用，甚至没有就绝对不行的一种物质，玻璃，也是惊喜的产物。<br  /></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">许多年来，“惊喜”一直是我最痴迷的概念，我身边的人总是反复听到我提及这个词汇，但大多数情况下，他们总觉得这事儿跟他们没有任何关系 —— 这从他们的眼神和其后的行动可以明显看得出来。<br  /></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">这是我的“<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400738999&amp;idx=1&amp;sn=a8256339161ccc3eceae6d2ba80061fc&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400738999&amp;idx=1&amp;sn=a8256339161ccc3eceae6d2ba80061fc&amp;scene=21#wechat_redirect">操作系统</a>”中一个格外重要的<span style="color: rgb(123, 12, 0);"><strong>概念</strong></span>，久而久之，我也发展出了一套完整的<span style="color: rgb(123, 12, 0);"><strong>方法论</strong></span>。我有个朋友，闫文闻，一个连续创业者，最近的一个创业项目是 音乐笔记，一个手环，可以纪录肌肉电，于是可以在弹琴的时候自动生成“音乐笔记”，这可是能让音乐教育发生惊天逆转的事情。他每隔一段时间就说一次：<br  /></p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">哎，这好事儿怎么总发生在你身上呢？</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">活着换个说法：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">哎，你咋总能摊上这好事儿呢？</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">创造惊喜的方法论第一条，就是</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><span style="color: rgb(0, 122, 170);"><strong><span style="color: rgb(0, 122, 170); font-size: 24px;">1. 你必须相信你自己会有好运的</span></strong></span></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">至于那好运是什么，不知道，但它就是会发生的，这事儿你必须提前知道。<strong style="color: rgb(123, 12, 0);">我真的相信惊喜是可以创造的，而且从一开始就笃信这事儿。</strong></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">在 28 岁之前，我没啥太多的好运，甚至厄运连连。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">出生就营养不良，乃至于后面几颗牙齿都发育不全；上学没多久滑冰栽倒，脑震荡，后遗症就是原本很会唱歌，结果那次之后就开始五音不全；初中的时候晚上回家写作业趴桌子上睡着了，结果三叉神经麻痹 —— 就是面瘫；那之后没多久又因为在大河里游泳差点被淹死；又过半年，骑自行车被大卡车从后面“追尾”整个人飞出几米之外；高二的时候，在一场能决定是否保送清华的计算机竞赛中我的名额被老师换成了他自己的侄子；高考前的三周，急性阑尾炎入院手术……（这些经历中的一些后面我还会细讲）<br  /></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">我是什么时候开始笃信自己将来一定会有好运的呢？大学的时候认真研究概率论的时候。如果生活在一定程度上是随机的，而有些事件是好的，有些事件是坏的，那么无论我现在遇到过的坏事儿有多少，好事儿还是会出现的，大小不同而已，早晚而已。这是多简单的道理啊！<br  /></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">果然，26 岁之后，我的倒霉事儿开始少了起来，幸运事儿渐渐开始多了起来……这就是乐观，这也是乐观的力量。<span style="color: rgb(123, 12, 0);"><strong> 乐观是一种需要时间、需要耐心才能生成的一种态度。</strong></span></p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><span style="font-size: 24px;"><strong><span style="color: rgb(0, 122, 170);">2. 尽量不做可能倒霉的事情</span></strong></span><br  /></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">为什么小的时候倒霉事儿相对较多呢？在我看来有两个主要的原因，</p><p style="text-align: left;"><br  /></p><blockquote><ul class=" list-paddingleft-2" style="list-style-type: circle;"><li><p style="text-align: left;">没能力和实力做出<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400644750&amp;idx=1&amp;sn=c21362913bc3b25fde60c4886fe17438&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400644750&amp;idx=1&amp;sn=c21362913bc3b25fde60c4886fe17438&amp;scene=21#wechat_redirect">主动的选择</a></p></li><li><p style="text-align: left;">没有足够完善的逻辑思考能力</p></li></ul></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">第一个不用说了，大家都差不多。在这一点上，富二代有更多的幸运。中国人对富二代有格外的鄙视，是因为富人反复被打倒，搞得最终好像只有暴发户才能生出富二代似的。Serendipity 这个词的锻造者就是个富二代，后面再专门找个篇幅介绍一下这个人和这个词的来历。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">在我看来，<span style="color: rgb(123, 12, 0);"><strong>所谓“尽量不做可能倒霉的事情”，其实只不过是打磨自己的逻辑思考能力，使其完善，乃至于你不大可能去做未来可能产生恶果的事情。</strong></span></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">二十六岁那年我突然意识到自己的逻辑思考能力不够完善 —— 尽管总是有人说我聪明，可这并不算数。我的逻辑思考能力就是不够完善的，甚至在同一天上午下午听到两个截然相反的理论，竟然觉得他们都是有道理的！于是我钻进图书馆，找到了我的启蒙读物《<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400361267&amp;idx=1&amp;sn=85e62c2b68ff3af3b34ce029c8ed0e71&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400361267&amp;idx=1&amp;sn=85e62c2b68ff3af3b34ce029c8ed0e71&amp;scene=21#wechat_redirect">Beyond Feelings</a>》……</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">笃信逻辑，精于推演，是<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400682395&amp;idx=1&amp;sn=69e0f0146b5847a5780a0fc4d717dea1&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400682395&amp;idx=1&amp;sn=69e0f0146b5847a5780a0fc4d717dea1&amp;scene=21#wechat_redirect">活在未来</a>的关键。有些事情，有些选择，在做的那一瞬间，就注定了未来一定会倒霉，这样的事情不能去做。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">这也是个公开的例子。有些人知道，但具体名字我就隐去罢。曾经有个人要求我做一件我不应该做的事情，我不肯，于是他说，大意是：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">你这样这样悄悄做就行了，我一定帮你保密。</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">我看着那条私信一下子被逗乐了，心想，我这种人，需要你这种人帮我保密，那我以后还怎么活下去啊？开玩笑！于是，我只好公开地说，</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">我做事情，该公开的都是公开的；此为其一，其二，我不做需要别人给我保密的事情，那样没劲。<br  /></p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">于是，后面的很多麻烦就自动消失了，或者准确地说，原本就不存在了。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><span style="color: rgb(0, 122, 170);"><strong><span style="font-size: 24px;">3. 保持开放</span></strong></span></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">不要给自己建造围墙。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">围墙的作用除了可能提供一些庇护之外，更大的作用是让别人走不进来、也让你走不出去。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">这个例子我说过好多次了，我在 Twitter 上 Follow 了 18,000+ 账户，为什么呢？因为我不觉得预先筛选信息对我有好处。而且从逻辑上看，我们明明要的是<strong>信息</strong>，却通过<strong>人</strong>来过滤，这是效率相当低下的方式。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">迄今为止，别人能看到的，在我身上发生的最大惊喜，就是比特币。</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">……当然还有更大的惊喜，只不过我没必要告诉别人而已。</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">我怎么知道比特币的啊？这并不完全是意外，一定程度上，这是我特有的方法论的结果。就是因为我 Follow 了那么多人，我才会有机会“随便扫了一眼，看到一个惊悚的新闻标题”：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">“这个虚拟币价格超过了一美元！”</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">有些东西、有些知识，一旦知道了，就是不可逆的，你不可能从此装作不知道。于是我就开始去研究这个东西去了……</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">可问题是，如果我像绝大多数人一样，给自己建个围墙，提前过滤了很多信息，只关注自己觉得重要的人物，那么我估计早晚也会知道比特币的 —— 许多年后呗。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><span style="color: rgb(123, 12, 0);"><strong>开放（Open）就是可以创造好运和惊喜的，无论在哪个领域。</strong></span>开源运动不是没有原因的，开源软件的作者无一例外都遇到过惊喜；中国的改革开放也一样，许多年来很多人因此遇到了惊喜…… 反过来，封闭是一种打压惊喜的模式，不多说了罢。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><strong><span style="font-size: 24px; color: rgb(0, 122, 170);">4. 持续学习</span></strong></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">学习，从来都是创造惊喜、创造好运的最优路径。每个真正习得过技能的人终究有一天会发出惊叹：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">真没想到在这里可以用上！</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">《把时间当作朋友》里，我就提到过好几个我自己的例子，读者可以自己去翻。这并不是只有在我身上才能发生的事情，这是很多人都经历过的事情，只不过是我写出来了，并且比较戏剧性；又只不过是我一直在互联网上公开地生活着（尽管我从不谈及隐私），于是人们又看到了更为戏剧性的结果而已。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">学习真的很简单，</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;"><span style="color: rgb(123, 12, 0);"><strong>学习</strong></span>就是掌握一系列新的<span style="color: rgb(123, 12, 0);"><strong>概念</strong></span>。</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">我母亲在我很小的时候教我，说，你看，</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">这么厚厚一本书，就那么几个概念；讲一个概念就要花费一个章节的篇幅，讲的都一样，无非是，它是什么，它不是什么，它和别的概念有什么异同，使用的时候需要注意什么，怎样使用是正确的，怎样使用是错误的，容易发生错误的地方是什么……</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">其实这段话，也是学习任何概念的方法论，不就这点事儿麽！</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">我小时候学习真的很好，但我也确实从来没有像知乎上的人描述的那样，白天当着同学的面拼命玩，晚上回家熬夜死磕…… 我只是在开学的时候，拿着新书回来，花上一小会的时间，把新书里的那十来个概念先死记硬背下来…… 然后呢？然后就没有然后了，学习的最重要部分已经结束了。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">虽然先是死记硬背，一个字不拉地死记硬背，但随着时间的推移，它们在我脑子中就会发酵，上课的时候虽然总是自顾自地在下面玩，偶尔听进去的只言片语可能已经足矣让我把那些概念深入了解下去，随便做几道题，也可以达成同样的效果…… 所以，学习真的很轻松。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">为什么持续学习一定会产生好运和惊喜呢？理由也很简单，<span style="color: rgb(123, 12, 0);"><strong>只有概念多到一定程度的时候，它们之间才有机会产生“意外的连接” —— 即，所谓的融会贯通。</strong></span>若是你脑子里有用的概念寥寥无几，他们之间有什么连接价值啊？就算有连接，又怎么可能有“意外的连接”呢？这道理是不是很浅显？</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">所以，学习的定义，在我的操作系统也是不一样的：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;"><span style="color: rgb(123, 12, 0);"><strong>学习就是反复打磨概念与方法论，等着注定的惊喜注定地发生。</strong></span></p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;"><strong><span style="font-size: 24px; color: rgb(0, 122, 170);">5. 创造更多的连接</span></strong></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">前面已经提到，<span style="color: rgb(123, 12, 0);"><strong>只有节点多到一定程度，才可能有“意外的连接”出现。</strong></span>概念如此，那么，掌握概念的人们更是如此罢。这曾是我的猜想，现在是我的方法论。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">认识很多的人，其实是没用的，因为绝大多数人是没有操作系统的，活着即便有，也是过时的操作系统。认识他们没用，不仅没用，甚至是一种罪，因为你在耽误自己可能的效率。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">要想办法认识很多真正拥有高效率的操作系统的人。长期以来，我发现外界的定义都是没用的，学历、身份、地位等各种标签，都是除了迷惑他人之外完全没用的东西。到最后，只有一种方式有用：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;"><span style="color: rgb(123, 12, 0);"><strong>交流</strong></span></p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">可能是坐下来喝茶，也可能是读对方的文字，更可能是长期观察。甄别出那些有属于自己的高效操作系统的人，甄别出那些愿意打磨自己的操作系统的人，遇到了，必须<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400738999&amp;idx=1&amp;sn=a8256339161ccc3eceae6d2ba80061fc&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400738999&amp;idx=1&amp;sn=a8256339161ccc3eceae6d2ba80061fc&amp;scene=21#wechat_redirect">马上连接</a>。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">这还不够，我甚至开始用各种方式创造可能产生连接的模型，比如《共同成长》社群，再比如我正在创作的《七年就是一辈子》—— 最终，那不是一本书，那是一个社群，一个会产生很多有效连接的社群，一个注定会产生意外惊喜的社群。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><span style="color: rgb(0, 122, 170);"><strong><span style="font-size: 24px;">6. 保留适当的随机</span></strong></span></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">因果思考，是人类固化在基因里的一种思考模式。所以人们通常难以理解没有因果的事情竟然可能发生。随机就是不讲究因果的，所以，这样的事情需要千百年才能形成学科，需要更久的时间才能刻进人类的基因。所以，即便是现在，还是有很多“受过高等教育”的人依然并不理解随机究竟是什么，在他们的操作系统里，依然运行着这样的方法论：</p><p style="text-align: left;"><br  /></p><blockquote><p style="text-align: left;">“万物皆有因果”。</p></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">事实上，宗教之所以长存，依赖的也是这个方法论。因为做了好事所以可以上天堂；因为做了坏事就必须下地狱；善有善报恶有恶报，不是不报时候未到…… 都是完全基于因果的世界观。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">可是，一旦概率论确立，这世界上开始有一些人能够理解随机的概念，开始明白<strong><span style="color: rgb(123, 12, 0);">这世上有些事儿是不讲因果的</span></strong>。你抛一个硬币，结果是正面，为什么呢？为什么不是反面呢？不是因为你抛了一个硬币，也不是因为你上一次抛硬币的结果是反面…… 没有原因。反过来，当你抛出一个硬币的时候，因为我们知道那是随机事件，所以我们也知道那结果不是正面就是反面，至于究竟是哪一面，概率是 1:1 —— 虽然我们不知道确切的结果，但我们确切地知道可能性。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">在《把时间当作朋友》里，我曾经提到过学习的时候不要问有什么用，因为不一定在将来在什么时候在什么地方会用到。本质上来看，这也是一种放弃直接因果判断，利用一定的随机性创造惊喜的方法论。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">对，在一些时候，在一定程度上，跨越因果思考与判断，在生活、工作、学习中天下一点随机性，就是创造惊喜的方法论。在我们所创见的社群中，由于我们刻意创建了更多的连接，所以就更可能有机会随机地去认识一些人。注意，其实是一定范围内随机，毕竟不是跑到大街上随便撞到谁就开始准备与人家交往……</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><strong><span style="color: rgb(0, 122, 170); font-size: 24px;">7. 多管齐下，齐头并进</span></strong></p><p style="text-align: left;"><br  /></p><p style="text-align: left;">一定要想办法把自己打造成一个多任务操作系统。不要做一个低级的单任务操作系统。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">过去我一直不好意思公开说，因为觉得说出来太伤人。现在我是个连《<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=210678304&amp;idx=1&amp;sn=e4f46f8ba31ba9b87e3ab9f5b045f190&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=210678304&amp;idx=1&amp;sn=e4f46f8ba31ba9b87e3ab9f5b045f190&amp;scene=21#wechat_redirect">挤挤都会有的</a>》这种书都敢写的人，有些事儿也想开了，有些事儿也不在乎了，所以就直说罢。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">我特别讨厌别人跟我说：“我一次只能做一件事儿”；我觉得这样的人很笨。我也特别讨厌别人说我，“笑来你做的事儿太多了，不够专注”—— DOS 是没办法理解 Uinux 的。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">人笨一点是没关系的，这世界之所以进步了，就表现在它允许笨蛋们活得很好。但，人不能因为自己笨，就觉得别人也笨；更不能要求别人有义务跟自己一样笨。不过，我们反过来倒是能够理解，笨蛋不知道自己笨，即便别人指出来也不肯相信自己笨的。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><span style="color: rgb(123, 12, 0);"><strong>我们每个人天生都是多任务操作系统</strong></span>，我们的输入设备那么多，听觉、视觉、触觉、味觉、嗅觉……不是多任务操作系统如何处理？别听某些愚蠢的心理学家在那里“有根有据地”证明切换任务多么降低效率……这帮人是属于那种天天做一套却努力相信另一套的人。从小上学，就是第一节课语文，下节课数学，再下一节课生物……我们从来都是一天里处理很多事情，面对很多领域的，你什么时候见到一个学校这样安排课？第一周只学语文、下一周只学数学…… 就这样一路读到博士，竟然写篇论文说切换任务浪费时间降低效率，这也太过份了吧？</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">国内的人这么想事儿我就更不理解了，明明在读小学的时候就应该读过华罗庚的《统筹方法》的啊！这不是什么必须读了博士才能明白的道理啊！</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">要是所谓的专注指的是永远只做一件事儿，那我这种人完全活不下去啊…… 我搞什么创业啊，我搞什么投资啊？我得一辈子教英语才对……不对，我甚至不能教英语，我得做一辈子销售……嗯？还是不对，我大学学得是会计，可实际上我一天会计都没有做过。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;"><span style="color: rgb(123, 12, 0);"><strong>通过恰当的统筹，让自己多开几个进程，齐头并进地去做一些事情，永远是提高效率的基本手段。</strong></span>而多管齐下，齐头并进，也是创造惊喜的好方法，理由很简单，效率搞了，成果就多了，成果这东西，跟之前提到的“连接”啊、“节点”啊一样，越多越好，这些成果本身也是节点，它们之间也会产生连接，最终一样产生聚变，至于能够获得什么，我们还不知道，但我们知道一定会有所获得。</p><p style="text-align: left;"><br  /></p><p style="text-align: left;">好了，回顾一下，创造惊喜的方法论，有这么七个：</p><p style="text-align: left;"><br  /></p><blockquote><ol class=" list-paddingleft-2" style="list-style-type: decimal;"><li><p>你必须相信你自己会有好运的</p></li><li><p>尽量不做可能倒霉的事情</p></li><li><p>保持开放</p></li><li><p>持续学习</p></li><li><p>创造更多的连接</p></li><li><p>保留适当的随机</p></li><li><p>多管齐下，齐头并进</p></li></ol></blockquote><p style="text-align: left;"><br  /></p><p style="text-align: left;">其实，这些都是老生常谈，无非是在说这么几件事儿：<span style="color: rgb(123, 12, 0);"><strong>逻辑很重要、概率学很重要、统筹学很重要</strong></span> —— 这些明明原本就是应该在学校里就搞定的事情，却基于种种原因，被绝大多数人忽视了、误解了、稀里糊涂地放弃了而已。</p><p style="text-align: left;"><br  /></p><hr style="white-space: normal;"  /><p style="white-space: normal;"><br  /></p><p style="white-space: normal;"><span style="color: rgb(0, 122, 170);"><strong><span style="font-size: 24px;">广告</span></strong></span></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">2015 年 11 月 23 日凌晨发布计划，至 2015 年 11 月 30 日 23:26 为止，缴费参与<a href="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400702197&amp;idx=1&amp;sn=2fceb48856007fa49c6557bcd17be8df&amp;scene=21#wechat_redirect" target="_blank" data_ue_src="http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400702197&amp;idx=1&amp;sn=2fceb48856007fa49c6557bcd17be8df&amp;scene=21#wechat_redirect">《七年就是一辈子》预售</a>的朋友总计 822 名。请扫描以下二维码（微信上保存到相册，再打开支付宝识别）缴费加入预售群。</p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; text-align: center;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicphDTZ7wXtJwCQ5HaqDBdmDlPEpicibiaY9vW8Q3eg3uu9weQVWc95WA5LibDugMOiasgK7JxawgxF9AwQ/0?wx_fmt=png" data-ratio="1.175" data-w="480" style="text-align: center;"  /></p><p style="white-space: normal;">另外，我将于12月19日（周六）下午在北京举办一场《把时间当作朋友》七年读者见面会（具体地点待定），请用微信扫描下图中的二维码报名：<br  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal; text-align: center;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicqkibUrYKibXYRwjrjTEUibetwfw4UkELeYRoicmvjU9Blc1CYxAKbAFjssYPXn0ynfzG8SS9cmoH1GEA/0?wx_fmt=png" data-ratio="0.5467625899280576" data-w=""  /><br  /></p><p style="white-space: normal;"><br  /></p><p style="white-space: normal;">至 2015 年 11 月 29 日 21:11 为止，报名人数为 450 人，看来我得去订个 500 人的场子了…… 订好场子之后，在这里通知大家。敬请关注。</p><p style="white-space: normal;"><br  /></p><hr style="white-space: normal;"  /><p style="white-space: normal;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicqsjic6R46tyVXVMqRJxNfmiaFp5FmJCDOyJqBnVE1hGcusfAicibHS9rogJG1jfjCx3oErFX2HoDaJ3g/0?wx_fmt=png" data-ratio="0.5" data-w="" data-src="http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicqsjic6R46tyVXVMqRJxNfmiaFp5FmJCDOyJqBnVE1hGcusfAicibHS9rogJG1jfjCx3oErFX2HoDaJ3g/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" style="box-sizing: border-box !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;"  /><br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></span></p><p style="white-space: normal;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></span></p><p style="white-space: normal;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"></span></p><hr style="white-space: normal;"  /><p style="white-space: normal;"><span style="font-size: 12px; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"></span><br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="white-space: normal;">长按以上二维码关注“学习学习再学习”（xiaolai-xuexi），后台输入关键字有自动回复：</p><p style="white-space: normal;"><br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><blockquote style="white-space: normal;"><p style="min-height: 1em; white-space: pre-wrap; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">输入“<span style="color: rgb(192, 80, 77); max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">理财</strong></span>”，一篇文章推送：《理财系列文章列表（第一部分15篇）；</p></blockquote><blockquote style="white-space: normal;"><p style="min-height: 1em; white-space: pre-wrap; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">输入“<span style="color: rgb(192, 80, 77); max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">女生</strong></span>”，三篇文章推送；</p><p style="min-height: 1em; white-space: pre-wrap; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">输入“<span style="color: rgb(192, 80, 77); max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">社交</strong></span>”，一篇文章推送；<br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="min-height: 1em; white-space: pre-wrap; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">输入“<span style="color: rgb(192, 80, 77); max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">利息</strong></span>”，一篇文章推送；<br style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"  /></p><p style="min-height: 1em; white-space: pre-wrap; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">输入“<span style="color: rgb(192, 80, 77); max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important;">时间</strong></span>”，获得《把时间当作朋友》（第三版）全文在线阅读链接……</p></blockquote><p style="text-align: left;"><br  /></p>
+                    </div>
+                    <script nonce="1845933282" type="text/javascript">
+                        var first_sceen__time = (+new Date());
+
+                        if ("" == 1 && document.getElementById('js_content'))
+                            document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+
+                                        (function(){
+                            if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                var link = document.createElement('link');
+                                var head = document.getElementsByTagName('head')[0];
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+                                head.appendChild(link);
+                            }
+                        })();
+                    </script>
+                    
+                    
+                                        
+                    <div class="ct_mpda_wrp" id="js_sponsor_ad_area" style="display:none;">
+
+                    </div>
+
+                    
+                                        <div class="reward_area tc" id="js_reward_area" style="display:none;">
+                                                <p>
+                            <a class="reward_access" id='js_reward_link' href="javascript:;">赞赏</a>
+                        </p>
+                        <div id="js_reward_inner" class="reward_area_inner" style="display:none;">
+                            <p class="tips_global reward_user_tips"><a href="javascript:;" id="js_reward_total"></a>人赞赏</p>
+                            <div id="js_reward_list" class="reward_user_list"></div>
+                        </div>
+                    </div>
+                                        
+                                        <div class="rich_media_tool" id="js_toobar3">
+                                                                    <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+
+                        <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">投诉</a>
+
+                    </div>
+
+
+
+                                    </div>
+
+                <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none">
+
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        
+                    </div>
+                                        
+                    <div id="js_iframetest" style="display:none;"></div>
+                                        
+                                        <div class="rich_media_extra" id="js_cmt_area" style="display:none">
+
+                        <div class="discuss_container" id="js_cmt_main" style="display:none">
+                            <div class="rich_tips with_line title_tips discuss_title_line">
+                                <span class="tips">精选留言</span>
+                            </div>
+                            <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans1" style="display:none;">该文章作者已设置需关注才可以留言</p>
+                            <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn1" style="display:none">
+                                
+                                                                <a href="#comment">写留言<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                            </p>
+                            <ul class="discuss_list" id="js_cmt_list"></ul>
+                        </div>
+
+
+                        <div class="tips_global rich_split_tips tc" id="js_cmt_nofans2" style="display:none;">
+                            该文章作者已设置需关注才可以留言
+                        </div>
+
+                        <p class="discuss_icon_tips rich_split_tips tr" id="js_cmt_addbtn2" style="display:none">
+                            
+                                                        <a href="#comment">写留言<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                    </p>
+
+                        <p class="rich_split_tips tc tips_global" id="js_cmt_tips" style="display:none;"></p>
+
+
+                        <div class="rich_tips tips_global loading_tips" id="js_cmt_loading">
+                            <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                            <span class="tips">加载中</span>
+                        </div>
+
+                        <div class="rich_tips with_line tips_global" id="js_cmt_statement" style="display:none">
+                            <span class="tips">以上留言由公众号筛选后显示</span>
+                        </div>
+
+                        <p class="rich_split_tips tc" id="js_cmt_qa" style="display:none;">
+                            <a href="http://kf.qq.com/touch/sappfaq/150211YfyMVj150313qmMbyi.html?scene_id=kf264">
+                                了解留言功能详情
+                            </a>
+                        </p>
+
+                    </div>
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script nonce="1845933282">
+    var __DEBUGINFO = {
+        debug_js : "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console2ca724.js",
+        safe_js : "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe2f3e84.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="1845933282">
+(function() {
+	function _addVConsole(uri) {
+		var url = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/' + uri;
+		document.write('<script nonce="1845933282" type="text/javascript" src="' + url + '"><\/script>');
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		_addVConsole('2.4.0/vconsole.min.js');
+		_addVConsole('plugin/vconsole-sources/1.0.1/vconsole-sources.min.js');
+		_addVConsole('plugin/vconsole-resources/1.0.0/vconsole-resources.min.js');
+		_addVConsole('plugin/vconsole-mpopt/1.0.0/vconsole-mpopt.js');
+	}
+})();
+</script>
+        
+<script nonce="1845933282" type="text/javascript">
+    var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm2c9cd6.css";
+    var windowwx_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+    var article_improve_combo_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo311179.css";
+    var tid = "";
+    var aid = "";
+    var clientversion = "0";
+    var appuin = "MzAxNzI4MTMwMw=="||"";
+
+    var source = "";
+    var scene = 75;
+
+    var itemidx = "";
+
+    var _copyright_stat = "1";
+    var _ori_article_type = "互联网";
+
+    var nickname = "学习学习再学习";
+    var appmsg_type = "9";
+    var ct = "1448899349";
+    var publish_time = "2015-12-01" || "";
+    var user_name = "gh_505138431c3c";
+    var user_name_new = "";
+    var fakeid   = "";
+    var version   = "";
+    var is_limit_user   = "0";
+    var round_head_img = "http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicoTTibqLeBicvz1m6AIjKefb7s0a9yC5wl88pqFus30vge9Tiaib8vrKvndEOO0OicqWy1cR9MzOFpmHcw/0?wx_fmt=png";
+    var msg_title = "惊喜的定义与创造惊喜的方法论";
+    var msg_desc = "这一篇还会有很多扩充，现在的样子，就是一个骨架。什么是惊喜？姜文的电影里总是有很多好玩的台词，看到这儿的时候";
+    var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/BDcu2rMySicrBVv87X94mWpPVrvuiaOJWxopjjVVF5hIY30ptmbPvpicZo98dM3RF9FNIgqQ2GTicGZUkh4jx73KPw/0?wx_fmt=gif";
+    var msg_link = "http://mp.weixin.qq.com/s?__biz=MzAxNzI4MTMwMw==&amp;mid=400793862&amp;idx=1&amp;sn=468e4eca4bca8a7cd5e23ca66d1c8d42#rd";
+    var user_uin = "0"*1;
+    var msg_source_url = '';
+    var img_format = 'gif';
+    var srcid = '';
+    var req_id = '1708N9Bo3LBHZMszWigKN1gO';
+    var networkType;
+    var appmsgid = '' || '400793862'|| "";
+    var comment_id = "1030834447" * 1;
+    var comment_enabled = "" * 1;
+    var is_need_reward = "1" * 1;
+    var is_https_res = ("" * 1) && (location.protocol == "https:");
+    var msg_daily_idx = "0" || "";
+
+    var devicetype = "";
+    var source_encode_biz = "";
+    
+    
+    var reprint_ticket = "";
+    var source_mid = "";
+    var source_idx = "";
+
+    var show_comment = "";
+    var __appmsgCgiData = {
+        can_use_page : "0"*1,
+        is_wxg_stuff_uin : "0"*1,
+        card_pos : "",
+        copyright_stat : "1",
+        source_biz : "",
+        hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM758HSF80bmRQw6Hv15FiayybD5KKHaU1hfHchLdU2gDPQ/0"||(window.location.protocol+"//"+window.location.host + "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+    };
+    var _empty_v = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+    var copyright_stat = "1" * 1;
+
+    var pay_fee = "" * 1;
+    var pay_timestamp = "";
+    var need_pay = "" * 1;
+
+    var need_report_cost = "0" * 1;
+    var use_tx_video_player = "0" * 1;
+
+    var friend_read_source = "" || "";
+    var friend_read_version = "" || "";
+    var friend_read_class_id = "" || "";
+
+    var is_only_read = "1" * 1;
+    var read_num = "" * 1;
+    var like_num = "" * 1;
+    var liked = "" == 'true' ? true : false;
+    var is_temp_url = "" ? 1 : 0;
+    var send_time = "";
+      var icon_emotion_switch = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x2f1273.png";
+      var icon_emotion_switch_active = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x2f1273.png";
+      var icon_loading_white = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif";
+      var icon_audio_unread = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png";
+      var icon_qqmusic_default = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png";
+      var icon_qqmusic_source = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263724.png";
+
+    var topic_default_img = 'http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x2e4987.png';
+
+    
+    
+    
+    
+    
+    
+    var ban_scene = "0" * 1;
+
+    var svr_time = "1476662620" * 1;
+
+        window.wxtoken = "";
+        window.__moon_initcallback = function(){
+        if(!!window.__initCatch){
+            window.__initCatch({
+                idkey : 27613,
+                startKey : 0,
+                limit : 128,
+                badjsId: 43,
+                reportOpt : {
+                    uin : uin,
+                    biz : biz,
+                    mid : mid,
+                    idx : idx,
+                    sn  : sn
+                },
+                extInfo : {
+                    network_rate : 0.01    
+                }
+            });
+        }
+    }
+        
+
+</script>
+
+        <script nonce="1845933282">window.__moon_mainjs = 'appmsg/index.js';window.moon_map = {"appmsg/emotion/caret.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","appmsg/a_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_report30a0e1.js","biz_wap/jsapi/cardticket.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","appmsg/emotion/map.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide2a9cd9.js","pages/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report304edd.js","pages/music_player.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player310e30.js","pages/loadscript.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript30203e.js","appmsg/emotion/dom.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom2f3ac3.js","biz_wap/utils/hashrouter.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter2805ea.js","a/sponsor.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor311950.js","a/app_card.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/app_card311179.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios275627.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android2c5484.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile311179.js","a/sponsor_a_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/sponsor_a_tpl.html31133c.js","a/a_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_tpl.html311179.js","a/mpshop.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop311179.js","a/card.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card311179.js","biz_wap/utils/position.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position2f1750.js","a/a_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_report311179.js","biz_common/utils/respTypes.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes2c57d0.js","appmsg/my_comment_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/my_comment_tpl.html2f3f48.js","appmsg/cmt_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html2a2c13.js","sougou/a_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html2c6e7c.js","appmsg/emotion/emotion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion2f3ac3.js","biz_common/utils/wxgspeedsdk.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk30bcdd.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","biz_common/utils/http.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/http30b871.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","appmsg/topic_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/topic_tpl.html2f2e72.js","pages/voice_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html2f2e72.js","pages/voice_component.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component310e30.js","pages/qqmusic_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html2f2e72.js","new_video/ctl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl2d441f.js","biz_common/utils/monitor.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor304edd.js","appmsg/reward_entry.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry3004a4.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment2fb099.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2eb52b.js","pages/version4video.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video3106ea.js","a/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a311950.js","rt/appmsg/getappmsgext.rt.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt2c21f6.js","biz_wap/utils/storage.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage2a74ac.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl2b3578.js","appmsg/img_copyright_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax2f1747.js","biz_wap/utils/log.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log2fcb7c.js","sougou/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index2fd671.js","biz_wap/safe/mutation_observer_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report2fafd1.js","appmsg/fereport.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/fereport30be2c.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report304cae.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source2f1274.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos30c907.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report3097b2.js","appmsg/wxtopic.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic3097b2.js","appmsg/voice.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice310e30.js","appmsg/qqmusic.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic308cbc.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe2ff82f.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image309c11.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2ffa93.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event275627.js","appmsg/copyright_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2ec4b2.js","appmsg/cache.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cache2a74ac.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async311179.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img309c11.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share30b871.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib30b785.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse2fb01a.js","appmsg/test.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/test306a2e.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion2f1d97.js","appmsg/max_age.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/max_age2fdd28.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","appmsg/log.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log300330.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","biz_wap/utils/device.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device2b3aae.js","biz_wap/jsapi/a8key.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index31133c.js"};</script><script nonce="1845933282" type="text/javascript">(function(){function c(a){var b=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(b);b.type="text/javascript";b.async="async";b.onload=function(){a&&(localStorage.setItem("__WXLS__moon",String(__moonf__)),localStorage.setItem("__WXLS__moonarg",JSON.stringify({version:"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon30bcdd.js",method:""})))};b.src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon30bcdd.js"}var a=!!top&&!!top.window&&top.window.user_uin||0,d=0!==a&&1>Math.floor(a/100)%100;if(2876363900==a||1506075==a||942807682==a)d=!0;window.__wxgspeeds={};window.__wxgspeeds.moonloadtime=+new Date;if(d&&localStorage)try{var e=JSON.parse(localStorage.getItem("__WXLS__moonarg"))||{};if(e&&"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon30bcdd.js"==e.version){var f=localStorage.getItem("__WXLS__moon");localStorage.setItem("__WXLS__moonarg",JSON.stringify({version:"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon30bcdd.js",method:"fromls"}));eval(f);__moonf__()}else c(!0)}catch(g){c(!0)}else c(!1)})();</script>
+
+  <script nonce="1845933282" type="text/javascript">
+    
+    if (typeof getComputedStyle == 'undefined') {
+        if (document.body.currentStyle) {
+            window.getComputedStyle = function(el) {
+                return el.currentStyle;
+            }
+        } else {
+            window.getComputedStyle = {};
+        }
+    }
+    var occupyImg = function() {
+        var images = document.getElementsByTagName('img');
+        var length = images.length;
+        var container = document.getElementById('img-content');
+        var max_width = container.offsetWidth;
+        var container_padding = 0;
+        var container_style = getComputedStyle(container);
+        container_padding = parseFloat(container_style.paddingLeft) + parseFloat(container_style.paddingRight);
+        max_width -= container_padding;
+        if (!max_width) {
+            max_width = window.innerWidth - 30;      
+        }
+        for (var i = 0; i < length; ++i) {
+            var src_ = images[i].getAttribute('data-src');
+            if (!src_) continue;
+            var width_ = 1 * images[i].getAttribute('data-w') || max_width;
+            var ratio_ = 1 * images[i].getAttribute('data-ratio');
+            var height = 100;
+            if (ratio_ && ratio_ > 0) {
+                var init_width = images[i].style.width;
+                if (init_width) {
+                    images[i].setAttribute('_width', init_width);
+                    if (init_width != 'auto') width_ = parseFloat(getComputedStyle(images[i]).width);
+                }
+                var parent_width = 0;
+                var parent = images[i].parentNode;
+                var outerWidth = 0;
+                while (true) {
+                    var parent_style = getComputedStyle(parent);
+                    if (!parent || !parent_style) break;
+                    parent_width = parent.clientWidth - parseFloat(parent_style.paddingLeft) - parseFloat(parent_style.paddingRight);
+                    if (parent_width > 0) break;
+                    outerWidth += parseFloat(parent_style.paddingLeft) + parseFloat(parent_style.paddingRight) + parseFloat(parent_style.marginLeft) + parseFloat(parent_style.marginRight) + parseFloat(parent_style.borderLeftWidth) + parseFloat(parent_style.borderRightWidth);
+                    parent = parent.parentNode;
+                }
+                parent_width -= outerWidth;
+                parent_width = parent_width || max_width;
+                var width = width_ > parent_width ? parent_width : width_; 
+                height = width * ratio_;
+                images[i].style.cssText += "width: " + width + "px !important;";
+                images[i].src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJDQzA1MTVGNkE2MjExRTRBRjEzODVCM0Q0NEVFMjFBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJDQzA1MTYwNkE2MjExRTRBRjEzODVCM0Q0NEVFMjFBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkNDMDUxNUQ2QTYyMTFFNEFGMTM4NUIzRDQ0RUUyMUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkNDMDUxNUU2QTYyMTFFNEFGMTM4NUIzRDQ0RUUyMUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6p+a6fAAAAD0lEQVR42mJ89/Y1QIABAAWXAsgVS/hWAAAAAElFTkSuQmCC";
+            } else {
+                images[i].style.cssText += "visibility: hidden !important;";
+            }
+            images[i].style.cssText += "height: " + height + "px !important;";
+        }       
+    }
+    if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', function()  {
+            occupyImg();                                                   
+        });
+    } else {
+        
+        document.onreadystatechange = function() {
+            if (document.readyState === 'complete') {
+                occupyImg();
+            }
+        }
+    }
+  </script>
+  <script nonce="1845933282" type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+    
+  </script>
+
+    </body>
+</html>
+<!--tailTrap<body></body><head></head><html></html>-->
+ 
