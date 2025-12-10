@@ -16,5 +16,13 @@
       "modifiers": [],
       "key": "F10"
     }
+  ],
+  "editing-toolbar:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
   ]
 }
