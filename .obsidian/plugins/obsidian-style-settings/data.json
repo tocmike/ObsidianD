@@ -7,14 +7,15 @@
   "minimal-style@@h1-color@@light": "#E7139F",
   "minimal-style@@h2-color@@light": "#002EFF",
   "minimal-style@@h3-color@@light": "#704AD8",
-  "minimal-style@@h1-size": "1.625em",
+  "minimal-style@@h1-size": "2em",
   "folder-color-border-icon-style@@folder-color-scheme-class": "folder-scheme-neon-jewel",
-  "minimal-style@@h2-size": "1.4em",
+  "minimal-style@@h2-size": "1.6em",
   "minimal-style@@h3-size": "1.2em",
-  "minimal-style@@h2-weight": 900,
+  "minimal-style@@h2-weight": 500,
   "minimal-style@@h1-l": true,
   "minimal-style@@h1-weight": 800,
   "minimal-style@@h3-weight": 400,
   "minimal-style@@h2-l": true,
-  "minimal-style@@blockquote-color@@light": "#BF0863"
+  "minimal-style@@blockquote-color@@light": "#BF0863",
+  "minimal-style@@h2-font": "华文新魏"
 }
