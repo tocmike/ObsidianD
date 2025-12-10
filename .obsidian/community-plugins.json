@@ -3,7 +3,6 @@
   "obsidian-custom-attachment-location",
   "templater-obsidian",
   "obsidian-hover-editor",
-  "dataview",
   "obsidian-excalidraw-plugin",
   "easy-typing-obsidian",
   "keyboard-analyzer",
@@ -12,5 +11,6 @@
   "calendar",
   "settings-search",
   "callout-manager",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "dataview"
 ]
