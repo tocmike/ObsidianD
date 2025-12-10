@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBadgeDollarSign",
       "LiAlignVerticalJustifyStart",
       "LiAward",
       "LiAArrowUp"
@@ -33,8 +34,8 @@
     "useInternalPlugins": false
   },
   "个人/大A": {
-    "iconName": "LiAArrowUp",
-    "iconColor": "#ff004c"
+    "iconName": "LiBadgeDollarSign",
+    "iconColor": "#ff1100"
   },
   "个人": "LiAward",
   "傅佩荣": "LiAlignVerticalJustifyStart"
