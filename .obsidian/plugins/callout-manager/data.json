@@ -1,7 +1,29 @@
 {
   "callouts": {
     "custom": [],
-    "settings": {}
+    "settings": {
+      "info": [
+        {
+          "changes": {
+            "icon": "lucide-bookmark"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "58, 118, 187"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,
