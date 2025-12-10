@@ -4,7 +4,8 @@
   "theme": "moonstone",
   "enabledCssSnippets": [
     "highlight",
-    "metadata"
+    "metadata",
+    "folder-color-version2"
   ],
   "baseFontSize": 17,
   "interfaceFontFamily": "",
