@@ -19,4 +19,10 @@ type: course
 
 > [!info]
 > Contents
+> 咚咚咚的
+> [!example] 呃呃呃
+> 打算
 
+
+> [!success] 22 
+> 呃呃呃
