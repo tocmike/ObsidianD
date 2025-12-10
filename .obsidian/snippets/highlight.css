@@ -1,0 +1,25 @@
+/* highlight.css - Custom styles for highlighted text in Obsidian/Markdown */
+
+/* Main highlight styling for .cm-s-obsidian and markdown-rendered mark */
+.cm-s-obsidian span.cm-highlight,
+.markdown-rendered mark {
+  background: transparent;
+  padding: .125em .125em;
+  background-image: linear-gradient(to bottom, transparent 60%, hsla(var(--color-accent-hsl), 0.25) 40%) !important;
+  font-weight: var(--font-medium);
+  color: var(--text-normal);
+  border-radius: 0;
+}
+
+/* Reset color for specific views to ensure consistency */
+.markdown-reading-view mark:not([style]):not([class*=hltr-]),
+.markdown-source-view mark:not([style]):not([class*=hltr-]),
+.markdown-rendered mark:not([style]):not([class*=hltr-]) {
+  color: var(--text-normal);
+}
+
+/* Remove border-radius for first and last children within .cm-line .cm-highlight */
+.cm-line .cm-highlight:nth-child(1 of .cm-highlight),
+.cm-line .cm-highlight:nth-last-child(1 of .cm-highlight) {
+  border-radius: 0;
+}
