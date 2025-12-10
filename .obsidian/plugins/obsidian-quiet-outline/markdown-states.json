@@ -3,16 +3,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 5
+        "line": 11,
+        "ch": 39
       },
       "to": {
-        "line": 10,
-        "ch": 5
+        "line": 11,
+        "ch": 4
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-1"
     ]
   }
 }
