@@ -1,4 +1,4 @@
-/* highlight.css - Custom styles for highlighted text in Obsidian/Markdown */
+/* highlight.css - Custom styles for highlighted text with rounded corners */
 
 /* Main highlight styling for .cm-s-obsidian and markdown-rendered mark */
 .cm-s-obsidian span.cm-highlight,
@@ -8,7 +8,7 @@
   background-image: linear-gradient(to bottom, transparent 60%, hsla(var(--color-accent-hsl), 0.25) 40%) !important;
   font-weight: var(--font-medium);
   color: var(--text-normal);
-  border-radius: 0;
+  border-radius: 0.3em; /* ← 改为圆角 */
 }
 
 /* Reset color for specific views to ensure consistency */
@@ -18,8 +18,8 @@
   color: var(--text-normal);
 }
 
-/* Remove border-radius for first and last children within .cm-line .cm-highlight */
+/* Apply consistent border-radius to first and last children within .cm-line .cm-highlight */
 .cm-line .cm-highlight:nth-child(1 of .cm-highlight),
 .cm-line .cm-highlight:nth-last-child(1 of .cm-highlight) {
-  border-radius: 0;
+  border-radius: 0.3em; /* ← 同样改为圆角，保持一致 */
 }

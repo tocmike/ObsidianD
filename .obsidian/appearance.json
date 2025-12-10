@@ -1,5 +1,9 @@
 {
   "cssTheme": "Prism",
-  "accentColor": "#d5d3d9",
-  "theme": "moonstone"
+  "accentColor": "#a287d9",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "highlight"
+  ],
+  "baseFontSize": 16
 }
