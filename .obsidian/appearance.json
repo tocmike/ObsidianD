@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Prism",
-  "accentColor": "#a287d9",
+  "cssTheme": "Minimal",
+  "accentColor": "#943bc4",
   "theme": "moonstone",
   "enabledCssSnippets": [
     "highlight"
