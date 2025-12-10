@@ -3,7 +3,8 @@
   "accentColor": "#ff52ae",
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "highlight"
+    "highlight",
+    "metadata"
   ],
   "baseFontSize": 17,
   "interfaceFontFamily": "",
