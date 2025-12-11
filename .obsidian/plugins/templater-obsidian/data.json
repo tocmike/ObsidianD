@@ -16,11 +16,11 @@
   "folder_templates": [
     {
       "folder": "个人",
-      "template": "template/a/daily/Daily Note.md"
+      "template": "template/00-MOC/A.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "大A",
+      "template": "template/00-MOC/本周事务.md"
     }
   ],
   "enable_file_templates": false,
