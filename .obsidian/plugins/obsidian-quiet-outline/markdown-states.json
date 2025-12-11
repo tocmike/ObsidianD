@@ -104,12 +104,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 7
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 7
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "个人/测试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 6
+      },
+      "to": {
+        "line": 4,
+        "ch": 6
       }
     },
     "expandedKeys": []
