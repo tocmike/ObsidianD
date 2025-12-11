@@ -12,11 +12,6 @@ updated_date: <% tp.file.last_modified_date() %>
 type: 股票
 tags:#<% tp.file.creation_date("YYYY-MM") %> #股票 
 
-rating: <%*
-const opts  = ["A 优秀", "B 良好", "C 一般", "D 需改进"];
-const vals  = ["A", "B", "C", "D"];
-const grade = await tp.system.suggester(opts, vals);
-tR = grade;
-%>
+rating:<% tp.system.suggester(["A", "B", "C"], ["A", "B","C"], true,rating)\>
+"status')
 
----
