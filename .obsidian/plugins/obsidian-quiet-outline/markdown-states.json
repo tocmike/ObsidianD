@@ -15,5 +15,47 @@
       "item-1-0",
       "item-2-1"
     ]
+  },
+  "大A/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "个人/大A/Untitled 3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "个人/大A/U得到3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 20
+      },
+      "to": {
+        "line": 8,
+        "ch": 20
+      }
+    },
+    "expandedKeys": []
   }
 }
