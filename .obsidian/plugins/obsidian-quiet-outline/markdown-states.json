@@ -295,5 +295,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "个人/大A/未命名 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
