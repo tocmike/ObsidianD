@@ -12,6 +12,6 @@ updated_date: <% tp.file.last_modified_date() %>
 type: 股票
 tags:#<% tp.file.creation_date("YYYY-MM") %> #股票 
 
-rating:<% tp.system.suggester(["A", "B", "C"], ["A", "B","C"], true,rating)\>
-"status')
+rating:<% tp.system.suggester(["A", "B", "C"], ["A", "B","C"], true,'rating')\>
+
 
