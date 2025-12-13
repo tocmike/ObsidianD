@@ -309,5 +309,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "template/00-MOC/A.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
