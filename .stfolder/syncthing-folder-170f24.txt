@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: lhtfz-qshrh
+created: 2025-12-13T19:54:47+08:00
