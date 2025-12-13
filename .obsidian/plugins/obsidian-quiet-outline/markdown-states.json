@@ -324,5 +324,47 @@
       }
     },
     "expandedKeys": []
+  },
+  "template/notes/monthly/2021-08.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 17
+      },
+      "to": {
+        "line": 8,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "template/notes/monthly/2021-09.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 17
+      },
+      "to": {
+        "line": 8,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "template/notes/books/20210829094933 - (Book) The war of art.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 19
+      },
+      "to": {
+        "line": 14,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
   }
 }
