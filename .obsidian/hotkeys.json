@@ -17,14 +17,6 @@
       "key": "F10"
     }
   ],
-  "editing-toolbar:toggle-highlight": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
   "highlightr-plugin:Green": [
     {
       "modifiers": [
