@@ -7,7 +7,6 @@
   "keyboard-analyzer",
   "editing-toolbar",
   "obsidian-emoji-toolbar",
-  "calendar",
   "settings-search",
   "obsidian-style-settings",
   "dataview",
@@ -16,5 +15,6 @@
   "recent-files-obsidian",
   "obsidian-icon-folder",
   "obsidian-quiet-outline",
-  "obsidian-git"
+  "obsidian-git",
+  "chinese-calendar"
 ]

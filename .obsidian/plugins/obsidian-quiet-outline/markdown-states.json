@@ -417,14 +417,28 @@
     ]
   },
   "大A/测试 手机同步.md": {
-    "scroll": 0,
+    "scroll": 1.3915441176470589,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "2025-12-13.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
