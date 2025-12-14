@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "A",
+      "path": "template/00-MOC/A.md"
+    },
+    {
+      "basename": "试剂管理",
+      "path": "template/00-MOC/试剂管理.md"
+    },
+    {
+      "basename": "阅读清单",
+      "path": "template/00-MOC/阅读清单.md"
+    },
+    {
+      "basename": "A - 副本",
+      "path": "template/00-MOC/A - 副本.md"
+    },
+    {
       "basename": "情绪周期控制_Obsidian每日填写模板",
       "path": "template/00-MOC/情绪周期控制_Obsidian每日填写模板.md"
     },
@@ -55,10 +71,6 @@
     {
       "basename": "2021-09",
       "path": "template/notes/monthly/2021-09.md"
-    },
-    {
-      "basename": "A",
-      "path": "template/00-MOC/A.md"
     },
     {
       "basename": "2025中国药企维度",
