@@ -52,7 +52,7 @@
     },
     {
       "name": "blue Highlight",
-      "css": "background-color: #2EFF00; color: yellow",
+      "css": "background-color: #3ACADD; color: yellow",
       "contextMenu": true
     }
   ]
