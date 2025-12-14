@@ -852,11 +852,36 @@
         "ch": 0
       }
     },
+    "expandedKeys": []
+  },
+  "02 个人/大A/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "02 个人/大A/2025年12月14日 一切都在酝酿之中.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 1
+      },
+      "to": {
+        "line": 24,
+        "ch": 1
+      }
+    },
     "expandedKeys": [
-      "item-1-12",
-      "item-1-6",
-      "item-1-0",
-      "item-2-1"
+      "item-2-0"
     ]
   }
 }
