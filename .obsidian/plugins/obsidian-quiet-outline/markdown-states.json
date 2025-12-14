@@ -501,19 +501,34 @@
     "expandedKeys": []
   },
   "template/00-MOC/情绪周期控制_Obsidian每日填写模板.md": {
-    "scroll": 3.319502074688797,
+    "scroll": 27.22533566841798,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 70,
+        "ch": 45
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 70,
+        "ch": 45
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-1"
     ]
+  },
+  "template/00-MOC/情绪周期控制_Obsidian每日填写模板_中文属性_亏损等级列表版.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 13
+      },
+      "to": {
+        "line": 18,
+        "ch": 38
+      }
+    },
+    "expandedKeys": []
   }
 }
