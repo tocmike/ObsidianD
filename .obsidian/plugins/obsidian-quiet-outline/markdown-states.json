@@ -636,15 +636,15 @@
     ]
   },
   "template/00-MOC/情绪周期控制_Obsidian每日填写模板_取消折叠版.md": {
-    "scroll": 0,
+    "scroll": 3.0497925311203318,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 34
+        "line": 21,
+        "ch": 23
       },
       "to": {
-        "line": 29,
-        "ch": 34
+        "line": 13,
+        "ch": 0
       }
     },
     "expandedKeys": [
