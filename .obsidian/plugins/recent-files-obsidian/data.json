@@ -5,6 +5,14 @@
       "path": "template/00-MOC/情绪周期控制_每日记录模板_升级版.md"
     },
     {
+      "basename": "情绪周期控制_Obsidian每日填写模板",
+      "path": "template/00-MOC/情绪周期控制_Obsidian每日填写模板.md"
+    },
+    {
+      "basename": "情绪等级参考库",
+      "path": "template/00-MOC/情绪等级参考库.md"
+    },
+    {
       "basename": "情绪周期控制_每日记录模板_极简版",
       "path": "template/00-MOC/情绪周期控制_每日记录模板_极简版.md"
     },
@@ -27,14 +35,6 @@
     {
       "basename": "A - 副本",
       "path": "template/00-MOC/A - 副本.md"
-    },
-    {
-      "basename": "情绪周期控制_Obsidian每日填写模板",
-      "path": "template/00-MOC/情绪周期控制_Obsidian每日填写模板.md"
-    },
-    {
-      "basename": "情绪等级参考库",
-      "path": "template/00-MOC/情绪等级参考库.md"
     },
     {
       "basename": "日记",
