@@ -535,7 +535,7 @@
     ]
   },
   "template/00-MOC/情绪周期控制_Obsidian每日填写模板_正文引用双链.md": {
-    "scroll": 36.020624303233,
+    "scroll": 47.66169662309368,
     "cursor": {
       "from": {
         "line": 47,
@@ -566,6 +566,40 @@
     "expandedKeys": [
       "item-1-0",
       "item-2-1"
+    ]
+  },
+  "template/00-MOC/情绪周期控制_Obsidian每日填写模板_正文引用双链_情绪等级库版.md": {
+    "scroll": 34.57794084945519,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "template/00-MOC/情绪等级参考库.md": {
+    "scroll": 0.9104938271604939,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 3
+      },
+      "to": {
+        "line": 10,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
     ]
   }
 }
