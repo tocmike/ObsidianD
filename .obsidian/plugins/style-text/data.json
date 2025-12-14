@@ -51,8 +51,8 @@
       "contextMenu": true
     },
     {
-      "name": "Large Yellow",
-      "css": "font-size: 20px; color: yellow",
+      "name": "blue Highlight",
+      "css": "background-color: #3EFF00; color: yellow",
       "contextMenu": false
     }
   ]
