@@ -601,5 +601,21 @@
       "item-2-1",
       "item-1-0"
     ]
+  },
+  "template/00-MOC/情绪周期控制_Obsidian每日填写模板_默认折叠双链版.md": {
+    "scroll": 24.198996655518396,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 0
+      },
+      "to": {
+        "line": 41,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
