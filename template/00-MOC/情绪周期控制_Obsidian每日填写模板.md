@@ -1,6 +1,7 @@
 ---
-created_date:
-今日净盈亏:
+created: <% tp.file.creation_date() %>
+今日净盈亏A:
+今日净盈亏B:
 亏损情绪等级:
 盈利情绪等级:
 趋势判断:

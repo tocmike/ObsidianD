@@ -3,6 +3,10 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "created_date": "datetime"
+    "created_date": "datetime",
+    "今日净盈亏A": "number",
+    "今日净盈亏B": "number",
+    "亏损情绪等级": "multitext",
+    "盈利情绪等级": "multitext"
   }
 }
