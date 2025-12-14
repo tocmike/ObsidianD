@@ -42,7 +42,7 @@
     },
     {
       "name": "Green Highlight",
-      "css": "background-color: #1EFF00; color: black",
+      "css": "background-color: #1EFF00; color: red",
       "contextMenu": true
     },
     {
