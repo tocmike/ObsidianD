@@ -872,12 +872,12 @@
     "scroll": 194.19485294117646,
     "cursor": {
       "from": {
-        "line": 221,
-        "ch": 0
+        "line": 216,
+        "ch": 7
       },
       "to": {
-        "line": 221,
-        "ch": 0
+        "line": 216,
+        "ch": 7
       }
     },
     "expandedKeys": [
