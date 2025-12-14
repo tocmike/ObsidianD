@@ -719,15 +719,32 @@
     ]
   },
   "template/00-MOC/情绪周期控制_每日记录模板_升级版.md": {
-    "scroll": 75.62254901960785,
+    "scroll": 87.5220588235294,
     "cursor": {
       "from": {
-        "line": 98,
+        "line": 110,
         "ch": 0
       },
       "to": {
-        "line": 98,
+        "line": 110,
         "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3"
+    ]
+  },
+  "template/00-MOC/情绪周期控制_每日记录模板_极简版.md": {
+    "scroll": 63.10449503794513,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 15
+      },
+      "to": {
+        "line": 41,
+        "ch": 15
       }
     },
     "expandedKeys": [
