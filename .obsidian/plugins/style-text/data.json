@@ -46,8 +46,8 @@
       "contextMenu": true
     },
     {
-      "name": "Yellow Highlight",
-      "css": "background-color: #fff88f; color: black",
+      "name": "red Highlight",
+      "css": "background-color: #ff188f; color: yellow",
       "contextMenu": true
     },
     {
