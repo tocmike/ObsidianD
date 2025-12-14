@@ -501,17 +501,19 @@
     "expandedKeys": []
   },
   "template/00-MOC/情绪周期控制_Obsidian每日填写模板.md": {
-    "scroll": 0,
+    "scroll": 3.319502074688797,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 10,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 10,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
