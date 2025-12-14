@@ -719,19 +719,20 @@
     ]
   },
   "template/00-MOC/情绪周期控制_每日记录模板_升级版.md": {
-    "scroll": 18.75,
+    "scroll": 74.05128205128206,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 24
+        "line": 102,
+        "ch": 12
       },
       "to": {
-        "line": 39,
-        "ch": 24
+        "line": 95,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-3"
     ]
   }
 }
