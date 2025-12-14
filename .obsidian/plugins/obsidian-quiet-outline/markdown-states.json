@@ -869,19 +869,20 @@
     "expandedKeys": []
   },
   "02 个人/大A/2025年12月14日 一切都在酝酿之中.md": {
-    "scroll": 0,
+    "scroll": 12.91299019607843,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 1
+        "line": 41,
+        "ch": 20
       },
       "to": {
-        "line": 24,
-        "ch": 1
+        "line": 41,
+        "ch": 20
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-0",
+      "item-3-1"
     ]
   }
 }
