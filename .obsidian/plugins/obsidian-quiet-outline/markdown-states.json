@@ -751,5 +751,21 @@
       "item-1-0",
       "item-2-3"
     ]
+  },
+  "template/00-MOC/情绪周期控制_周复盘模板_极简版.md": {
+    "scroll": 66.28428093645485,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
