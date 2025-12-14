@@ -518,17 +518,54 @@
     ]
   },
   "template/00-MOC/情绪周期控制_Obsidian每日填写模板_中文属性_亏损等级列表版.md": {
+    "scroll": 28.625772860397007,
+    "cursor": {
+      "from": {
+        "line": 126,
+        "ch": 20
+      },
+      "to": {
+        "line": 126,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "template/00-MOC/情绪周期控制_Obsidian每日填写模板_正文引用双链.md": {
+    "scroll": 36.020624303233,
+    "cursor": {
+      "from": {
+        "line": 47,
+        "ch": 3
+      },
+      "to": {
+        "line": 47,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "template/00-MOC/亏损情绪等级参考（0-9）.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 13
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 18,
-        "ch": 38
+        "line": 5,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
   }
 }
