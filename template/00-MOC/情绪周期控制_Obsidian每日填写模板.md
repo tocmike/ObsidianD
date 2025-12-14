@@ -5,11 +5,7 @@ created: <% tp.file.creation_date() %>
 亏损情绪等级:
 盈利情绪等级:
 趋势判断:
-日期: <% tp.date.now("YYYY-MM-DD") %>
-情绪趋势判断: "<%* tR = await tp.system.suggester(
-  ['🟢 上升（更稳/恢复）', '🟡 震荡（敏感/反复）', '🔴 下降（更冲/失控）', '⚪ 不确定/观望'],
-  ['上升', '震荡', '下降', '不确定/观望']
-); %>"
+
 标签:
   - trading
   - emotion
