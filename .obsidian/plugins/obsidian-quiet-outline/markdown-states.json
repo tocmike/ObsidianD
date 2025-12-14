@@ -772,12 +772,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 50,
-        "ch": 26
+        "line": 24,
+        "ch": 0
       },
       "to": {
-        "line": 50,
-        "ch": 26
+        "line": 24,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -787,5 +787,19 @@
       "item-2-10",
       "item-2-7"
     ]
+  },
+  "template/00-MOC/情绪周期控制_每日记录模板_2512.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 20
+      },
+      "to": {
+        "line": 16,
+        "ch": 20
+      }
+    },
+    "expandedKeys": []
   }
 }
