@@ -891,12 +891,12 @@
     "scroll": 87.39550496205487,
     "cursor": {
       "from": {
-        "line": 65,
-        "ch": 0
+        "line": 102,
+        "ch": 40
       },
       "to": {
-        "line": 65,
-        "ch": 0
+        "line": 102,
+        "ch": 40
       }
     },
     "expandedKeys": [
