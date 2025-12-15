@@ -703,19 +703,20 @@
     "scroll": 13.415721098503536,
     "cursor": {
       "from": {
-        "line": 34,
+        "line": 15,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 15,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-1-24",
+      "item-1-18",
       "item-1-12",
-      "item-1-6",
-      "item-1-0",
-      "item-2-1"
+      "item-2-13",
+      "item-1-0"
     ]
   },
   "template/00-MOC/情绪周期控制_每日记录模板_升级版.md": {
@@ -869,21 +870,42 @@
     "expandedKeys": []
   },
   "02 个人/大A/2025年12月14日 一切都在酝酿之中.md": {
-    "scroll": 212.71323529411765,
+    "scroll": 191.9485294117647,
     "cursor": {
       "from": {
-        "line": 227,
-        "ch": 6
+        "line": 204,
+        "ch": 4
       },
       "to": {
-        "line": 227,
-        "ch": 6
+        "line": 204,
+        "ch": 4
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-3-1",
       "item-2-11"
+    ]
+  },
+  "01 周期记录/日记/2025年12月15日.md": {
+    "scroll": 87.39550496205487,
+    "cursor": {
+      "from": {
+        "line": 65,
+        "ch": 0
+      },
+      "to": {
+        "line": 65,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-24",
+      "item-1-18",
+      "item-1-12",
+      "item-2-13",
+      "item-1-0",
+      "item-2-3"
     ]
   }
 }

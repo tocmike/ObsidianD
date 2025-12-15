@@ -20,6 +20,6 @@
     "quickAddChoice": ""
   },
   "appearance": {
-    "useScale": true
+    "useScale": false
   }
 }
