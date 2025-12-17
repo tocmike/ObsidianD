@@ -935,12 +935,12 @@
     "scroll": 53.03921568627451,
     "cursor": {
       "from": {
-        "line": 75,
-        "ch": 5
+        "line": 72,
+        "ch": 16
       },
       "to": {
-        "line": 75,
-        "ch": 5
+        "line": 72,
+        "ch": 16
       }
     },
     "expandedKeys": [
