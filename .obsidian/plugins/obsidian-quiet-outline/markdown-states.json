@@ -913,12 +913,12 @@
     "scroll": 1.0365853658536586,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 77
+        "line": 21,
+        "ch": 0
       },
       "to": {
-        "line": 33,
-        "ch": 77
+        "line": 21,
+        "ch": 0
       }
     },
     "expandedKeys": [
