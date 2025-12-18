@@ -951,12 +951,12 @@
     "scroll": 16.868278243709916,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 28
+        "line": 39,
+        "ch": 5
       },
       "to": {
-        "line": 36,
-        "ch": 28
+        "line": 39,
+        "ch": 5
       }
     },
     "expandedKeys": []
