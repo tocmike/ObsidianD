@@ -960,5 +960,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "01 周期记录/日记/2025年12月19日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 5
+      },
+      "to": {
+        "line": 34,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
   }
 }
