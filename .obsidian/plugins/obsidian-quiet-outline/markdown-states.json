@@ -965,12 +965,12 @@
     "scroll": 9.146341463414634,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 17
+        "line": 38,
+        "ch": 7
       },
       "to": {
-        "line": 36,
-        "ch": 17
+        "line": 38,
+        "ch": 7
       }
     },
     "expandedKeys": []
