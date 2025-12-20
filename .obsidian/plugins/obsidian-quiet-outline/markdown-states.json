@@ -1051,18 +1051,21 @@
     "expandedKeys": []
   },
   "template/00-MOC/每日记录模板_2512.md": {
-    "scroll": 16.015786877158362,
+    "scroll": 15.313725490196079,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 6
+        "line": 38,
+        "ch": 0
       },
       "to": {
-        "line": 36,
-        "ch": 6
+        "line": 38,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2"
+    ]
   },
   "01 周期记录/12月 思考汇总.md": {
     "scroll": 2.1162977261901776,
@@ -1157,7 +1160,7 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/2025年12月19日.md": {
-    "scroll": 22.22686733556299,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 47,
@@ -1169,6 +1172,7 @@
       }
     },
     "expandedKeys": [
+      "item-1-0",
       "item-1-2"
     ]
   },
@@ -1220,5 +1224,22 @@
       }
     },
     "expandedKeys": []
+  },
+  "01 周期记录/02 日记/未命名.md": {
+    "scroll": 22.22686733556299,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 8
+      },
+      "to": {
+        "line": 40,
+        "ch": 8
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2"
+    ]
   }
 }
