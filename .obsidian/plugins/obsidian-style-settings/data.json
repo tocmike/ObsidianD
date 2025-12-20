@@ -21,5 +21,8 @@
   "minimal-style@@h4-color@@light": "#4FD92E",
   "minimal-style@@h4-size": "1.2em",
   "minimal-style@@h5-color@@light": "#928F05",
-  "minimal-style@@h5-size": "1.1em"
+  "minimal-style@@h5-size": "1.1em",
+  "minimal-style@@checkbox-color@@light": "#38C193",
+  "minimal-style@@line-number-color@@light": "#1908FF",
+  "minimal-style@@active-line-on": false
 }
