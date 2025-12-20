@@ -19,5 +19,7 @@
   "minimal-style@@blockquote-color@@light": "#BF0863",
   "minimal-style@@h2-font": "华文新魏",
   "minimal-style@@h4-color@@light": "#4FD92E",
-  "minimal-style@@h4-size": "1.2em"
+  "minimal-style@@h4-size": "1.2em",
+  "minimal-style@@h5-color@@light": "#928F05",
+  "minimal-style@@h5-size": "1.1em"
 }
