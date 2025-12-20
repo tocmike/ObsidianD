@@ -951,15 +951,17 @@
     "scroll": 30.932552954292085,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 2
+        "line": 58,
+        "ch": 0
       },
       "to": {
-        "line": 52,
-        "ch": 28
+        "line": 58,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "01 周期记录/日记/2025年12月19日.md": {
     "scroll": 23.047380156075807,
@@ -1008,15 +1010,15 @@
     "expandedKeys": []
   },
   "01 周期记录/思考汇总.md": {
-    "scroll": 1.2667187839063447,
+    "scroll": 0.9900224301956841,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 6
+        "line": 1,
+        "ch": 13
       },
       "to": {
-        "line": 0,
-        "ch": 6
+        "line": 1,
+        "ch": 13
       }
     },
     "expandedKeys": []
