@@ -1180,12 +1180,12 @@
     "scroll": 118.73315977871786,
     "cursor": {
       "from": {
-        "line": 136,
-        "ch": 7
+        "line": 148,
+        "ch": 11
       },
       "to": {
-        "line": 136,
-        "ch": 7
+        "line": 148,
+        "ch": 11
       }
     },
     "expandedKeys": [
