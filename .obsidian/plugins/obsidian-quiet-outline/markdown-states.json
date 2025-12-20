@@ -948,15 +948,15 @@
     ]
   },
   "01 周期记录/日记/2025年12月18日.md": {
-    "scroll": 146.9246323529412,
+    "scroll": 37.40969899665552,
     "cursor": {
       "from": {
-        "line": 165,
-        "ch": 21
+        "line": 64,
+        "ch": 0
       },
       "to": {
-        "line": 165,
-        "ch": 21
+        "line": 64,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -965,12 +965,12 @@
     "scroll": 132.19955406911927,
     "cursor": {
       "from": {
-        "line": 151,
-        "ch": 11
+        "line": 152,
+        "ch": 32
       },
       "to": {
-        "line": 151,
-        "ch": 11
+        "line": 152,
+        "ch": 46
       }
     },
     "expandedKeys": []
@@ -1004,15 +1004,29 @@
     "expandedKeys": []
   },
   "01 周期记录/思考汇总.md": {
-    "scroll": 0,
+    "scroll": 1.2667187839063447,
     "cursor": {
       "from": {
         "line": 1,
-        "ch": 33
+        "ch": 38
       },
       "to": {
         "line": 1,
-        "ch": 33
+        "ch": 38
+      }
+    },
+    "expandedKeys": []
+  },
+  "template/00-MOC/周复盘模板_极简版.md": {
+    "scroll": 79.99199466310874,
+    "cursor": {
+      "from": {
+        "line": 110,
+        "ch": 0
+      },
+      "to": {
+        "line": 110,
+        "ch": 0
       }
     },
     "expandedKeys": []
