@@ -951,11 +951,11 @@
     "scroll": 17.56801470588235,
     "cursor": {
       "from": {
-        "line": 56,
+        "line": 39,
         "ch": 0
       },
       "to": {
-        "line": 56,
+        "line": 39,
         "ch": 0
       }
     },
@@ -999,6 +999,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/思考汇总.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 2
+      },
+      "to": {
+        "line": 0,
+        "ch": 2
       }
     },
     "expandedKeys": []
