@@ -1112,17 +1112,20 @@
     "expandedKeys": []
   },
   "01 周期记录/04 记录/如何用道家思维和佛家思维去理解什么是机会.md": {
-    "scroll": 0,
+    "scroll": 27.44045534150613,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 0
+        "line": 36,
+        "ch": 3
       },
       "to": {
-        "line": 12,
+        "line": 36,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-2"
+    ]
   }
 }
