@@ -948,21 +948,21 @@
     ]
   },
   "01 周期记录/日记/2025年12月18日.md": {
-    "scroll": 37.40969899665552,
+    "scroll": 31.003901895206244,
     "cursor": {
       "from": {
-        "line": 64,
-        "ch": 0
+        "line": 44,
+        "ch": 32
       },
       "to": {
-        "line": 64,
-        "ch": 0
+        "line": 44,
+        "ch": 32
       }
     },
     "expandedKeys": []
   },
   "01 周期记录/日记/2025年12月19日.md": {
-    "scroll": 132.19955406911927,
+    "scroll": 126.33723522853958,
     "cursor": {
       "from": {
         "line": 152,
@@ -1027,6 +1027,34 @@
       "to": {
         "line": 110,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "template/00-MOC/周复盘模板.md": {
+    "scroll": 35.66890711117085,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "template/00-MOC/每日记录模板_2512.md": {
+    "scroll": 16.015786877158362,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 6
+      },
+      "to": {
+        "line": 36,
+        "ch": 6
       }
     },
     "expandedKeys": []

@@ -20,11 +20,11 @@
     },
     {
       "folder": "01 周期记录/日记",
-      "template": "template/00-MOC/情绪周期控制_每日记录模板_2512.md"
+      "template": "template/00-MOC/每日记录模板_2512.md"
     },
     {
       "folder": "01 周期记录/周记",
-      "template": "template/00-MOC/情绪周期控制_周复盘模板_极简版.md"
+      "template": "template/00-MOC/周复盘模板_极简版.md"
     }
   ],
   "enable_file_templates": false,
