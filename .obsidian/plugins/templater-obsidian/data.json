@@ -19,8 +19,8 @@
       "template": "template/00-MOC/A.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "01 周期记录/02 日记",
+      "template": "template/00-MOC/每日记录模板_2512.md"
     }
   ],
   "enable_file_templates": false,
