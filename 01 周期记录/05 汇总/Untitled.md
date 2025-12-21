@@ -45,3 +45,5 @@ aliases:
 ![400](assets/Untitled/file-20251221164836263.png)
 再就是看 MACD 底部极值，短线的下方极值为，接近，上一周期，长线的上部极值位，并金叉
 ![](assets/Untitled/file-20251221165854027.png)
+
+>  活跃破 CYC13 是非常关键的指标
