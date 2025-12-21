@@ -47,3 +47,4 @@ aliases:
 ![](assets/Untitled/file-20251221165854027.png)
 
 >  活跃破 CYC13 是非常关键的指标
+>  一但 CYC13 与 CYC5 死叉，就会被 cyc5 压制
