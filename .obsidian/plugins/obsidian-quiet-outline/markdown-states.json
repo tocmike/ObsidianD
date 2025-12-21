@@ -1157,20 +1157,21 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/2025年12月19日.md": {
-    "scroll": 46.96387572886297,
+    "scroll": 50.85760702274411,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 0
+        "line": 77,
+        "ch": 17
       },
       "to": {
-        "line": 54,
+        "line": 69,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-1-2"
+      "item-1-2",
+      "item-1-4"
     ]
   },
   "01 周期记录/01 大A/2025年12月17日 为什么说散户输在没有交易节奏.md": {
@@ -1226,7 +1227,7 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/未命名.md": {
-    "scroll": 40.792111716055025,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 44,
@@ -1395,12 +1396,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 6
+        "line": 15,
+        "ch": 21
       },
       "to": {
-        "line": 11,
-        "ch": 6
+        "line": 15,
+        "ch": 21
       }
     },
     "expandedKeys": []
