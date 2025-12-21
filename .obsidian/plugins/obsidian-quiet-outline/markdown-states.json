@@ -1288,12 +1288,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 23
+        "line": 25,
+        "ch": 21
       },
       "to": {
-        "line": 23,
-        "ch": 23
+        "line": 25,
+        "ch": 21
       }
     },
     "expandedKeys": [
