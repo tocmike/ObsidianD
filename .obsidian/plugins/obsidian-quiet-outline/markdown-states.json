@@ -1348,11 +1348,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 13,
         "ch": 8
       },
       "to": {
-        "line": 10,
+        "line": 13,
         "ch": 8
       }
     },
