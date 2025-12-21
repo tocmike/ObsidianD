@@ -22,3 +22,4 @@ aliases:
 
 - MACD 柱状相对低点 (柱状图的波谷最低低值) 到下一个波峰，定义为一个<mark style="background-color: #fff88f; color: black">左侧上升期</mark>
 	- 波峰，往后半个左侧上升周期，为变盘节点。
+		- 观察 7 月 1-7 月 4
