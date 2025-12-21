@@ -11,7 +11,7 @@ aliases:
 ## 看图的观察
 - MFI 判断见顶效果，观察还不错
 - MFI 的底背离意义还可以
-- 底部 MFI
+- <mark style="background-color: #fff88f; color: black">底部 MFI 向上，kdj 向下</mark>
 
 
 # MFI@GPT
