@@ -1126,13 +1126,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-0",
-      "item-3-2"
-    ]
+    "expandedKeys": []
   },
   "01 周期记录/05 汇总/12月 思考汇总.md": {
-    "scroll": 5.104170699705319,
+    "scroll": 6.033088235294118,
     "cursor": {
       "from": {
         "line": 15,
@@ -1291,15 +1288,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 13,
+        "ch": 12
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 13,
+        "ch": 12
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "01 周期记录/05 汇总/活跃市值.md": {
     "scroll": 0,
@@ -1319,12 +1318,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 6
+        "line": 24,
+        "ch": 14
       },
       "to": {
-        "line": 13,
-        "ch": 6
+        "line": 24,
+        "ch": 14
       }
     },
     "expandedKeys": []
