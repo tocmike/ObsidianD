@@ -1393,22 +1393,23 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2025年12月21日 准备起床了～.md": {
-    "scroll": 98.57803790412486,
+    "scroll": 106.28002450980392,
     "cursor": {
       "from": {
-        "line": 135,
-        "ch": 3
+        "line": 137,
+        "ch": 7
       },
       "to": {
-        "line": 135,
-        "ch": 3
+        "line": 137,
+        "ch": 7
       }
     },
     "expandedKeys": [
       "item-2-1",
       "item-3-2",
       "item-3-8",
-      "item-3-10"
+      "item-3-10",
+      "item-2-13"
     ]
   }
 }
