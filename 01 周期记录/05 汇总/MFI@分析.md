@@ -13,7 +13,8 @@ aliases:
 - MFI 的底背离意义还可以
 	- 建仓波 b1 会有点高，难也能呈现背离
 - <mark style="background-color: #fff88f; color: black">底部 MFI 向上，kdj 向下</mark>
-
+- ![300](assets/MFI@分析/file-20251221213228487.png)
+- 三头向下也是个指标
 
 # MFI@GPT
 在 **A股** 技术分析里，**MFI 指数**一般指的是 **资金流量指标（Money Flow Index）**，它是一个结合了**价格和成交量**的技术指标，用来判断**资金流入/流出情况**以及**超买超卖**状态。
