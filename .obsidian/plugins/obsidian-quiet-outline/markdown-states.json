@@ -1536,26 +1536,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 9,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "03 AI人工智能/Nano Banana/提示词.md": {
-    "scroll": 846.6495098039215,
+    "scroll": 124.96713309469574,
     "cursor": {
       "from": {
-        "line": 938,
-        "ch": 0
+        "line": 162,
+        "ch": 20
       },
       "to": {
-        "line": 938,
-        "ch": 0
+        "line": 162,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -1594,5 +1594,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "03 AI人工智能/Nano Banana/漫画脚本 2025年12月28日.md": {
+    "scroll": 67.53948138038604,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 0
+      },
+      "to": {
+        "line": 62,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-4"
+    ]
   }
 }
