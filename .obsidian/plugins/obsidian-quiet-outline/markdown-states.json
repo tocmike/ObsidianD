@@ -1610,5 +1610,33 @@
     "expandedKeys": [
       "item-1-4"
     ]
+  },
+  "01 周期记录/01 大A/assets/2025年12月28日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 3
+      },
+      "to": {
+        "line": 8,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2025年12月28日 市场总是会奖励信仰坚定的人.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 5
+      },
+      "to": {
+        "line": 9,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
   }
 }
