@@ -1547,14 +1547,14 @@
     "expandedKeys": []
   },
   "03 AI人工智能/Nano Banana/提示词.md": {
-    "scroll": 1434.4554069119285,
+    "scroll": 1458.5618872549019,
     "cursor": {
       "from": {
-        "line": 1489,
-        "ch": 47
+        "line": 1488,
+        "ch": 0
       },
       "to": {
-        "line": 1452,
+        "line": 1488,
         "ch": 0
       }
     },
@@ -1628,12 +1628,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 19
+        "line": 25,
+        "ch": 3
       },
       "to": {
-        "line": 23,
-        "ch": 19
+        "line": 25,
+        "ch": 3
       }
     },
     "expandedKeys": []
