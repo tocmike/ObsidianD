@@ -1393,15 +1393,15 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2025年12月21日 准备起床了～.md": {
-    "scroll": 242.1219362745098,
+    "scroll": 259.0680044593088,
     "cursor": {
       "from": {
-        "line": 280,
-        "ch": 3
+        "line": 281,
+        "ch": 0
       },
       "to": {
-        "line": 280,
-        "ch": 3
+        "line": 281,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -1519,15 +1519,17 @@
     "scroll": 18.979568009340337,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 41
+        "line": 43,
+        "ch": 5
       },
       "to": {
-        "line": 44,
-        "ch": 41
+        "line": 43,
+        "ch": 5
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-2"
+    ]
   },
   "03 AI人工智能/Nano Banana/未命名.md": {
     "scroll": 0,
@@ -1562,5 +1564,33 @@
       "item-1-14",
       "item-1-0"
     ]
+  },
+  "01 周期记录/01 大A/屏幕剪辑.2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2025年11月16日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 7
+      },
+      "to": {
+        "line": 22,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
   }
 }
