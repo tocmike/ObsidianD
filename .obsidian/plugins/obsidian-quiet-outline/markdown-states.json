@@ -1227,18 +1227,20 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/未命名.md": {
-    "scroll": 9.316770186335404,
+    "scroll": 22.5479375696767,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 0
+        "line": 39,
+        "ch": 3
       },
       "to": {
-        "line": 38,
+        "line": 39,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-1-15",
+      "item-1-17",
       "item-1-0",
       "item-1-2"
     ]
@@ -1641,6 +1643,25 @@
       "item-3-5",
       "item-2-8",
       "item-3-9"
+    ]
+  },
+  "01 周期记录/02 日记/2025年12月29日.md": {
+    "scroll": 22.5479375696767,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 14
+      },
+      "to": {
+        "line": 41,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-1-15",
+      "item-1-17",
+      "item-1-0",
+      "item-1-2"
     ]
   }
 }
