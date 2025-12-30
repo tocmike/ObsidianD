@@ -1550,27 +1550,21 @@
     "expandedKeys": []
   },
   "03 AI人工智能/Nano Banana/提示词.md": {
-    "scroll": 0,
+    "scroll": 933.498599439776,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 0
+        "line": 950,
+        "ch": 87
       },
       "to": {
-        "line": 18,
-        "ch": 0
+        "line": 950,
+        "ch": 103
       }
     },
     "expandedKeys": [
-      "item-1-48",
-      "item-1-65",
-      "item-1-0",
+      "item-1-115",
       "item-1-57",
-      "item-1-53",
-      "item-1-75",
-      "item-1-114",
-      "item-3-86",
-      "item-3-6"
+      "item-1-53"
     ]
   },
   "01 周期记录/01 大A/屏幕剪辑.2.md": {
@@ -1689,4 +1683,3 @@
       "item-1-0"
     ]
   }
-}
