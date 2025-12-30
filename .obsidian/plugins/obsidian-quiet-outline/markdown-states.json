@@ -1230,19 +1230,20 @@
     "scroll": 22.5479375696767,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 3
+        "line": 15,
+        "ch": 0
       },
       "to": {
-        "line": 39,
+        "line": 15,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-1-30",
+      "item-1-32",
       "item-1-15",
       "item-1-17",
-      "item-1-0",
-      "item-1-2"
+      "item-1-0"
     ]
   },
   "01 周期记录/01 大A/2025年10月4日 双线战法.md": {
@@ -1549,7 +1550,7 @@
     "expandedKeys": []
   },
   "03 AI人工智能/Nano Banana/提示词.md": {
-    "scroll": 2130.4901960784314,
+    "scroll": 2128.0266106442577,
     "cursor": {
       "from": {
         "line": 2170,
