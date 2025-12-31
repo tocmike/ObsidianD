@@ -1721,16 +1721,17 @@
     "scroll": 36.062983061996384,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 2
+        "line": 57,
+        "ch": 6
       },
       "to": {
-        "line": 54,
-        "ch": 2
+        "line": 57,
+        "ch": 6
       }
     },
     "expandedKeys": [
-      "item-1-1"
+      "item-1-1",
+      "item-1-3"
     ]
   }
 }
