@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025十佳电影",
+      "path": "01 周期记录/06 娱乐/2025十佳电影.md"
+    },
+    {
       "basename": "2026年1月1日  段永平采访",
       "path": "01 周期记录/04 记录/2026年1月1日  段永平采访.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "阅读清单",
       "path": "template/00-MOC/阅读清单.md"
-    },
-    {
-      "basename": "A - 副本",
-      "path": "template/00-MOC/A - 副本.md"
     }
   ],
   "omittedPaths": [],

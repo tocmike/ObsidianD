@@ -1846,5 +1846,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "01 周期记录/06 娱乐/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/06 娱乐/2025十佳电影.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 3
+      },
+      "to": {
+        "line": 20,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
   }
 }
