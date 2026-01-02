@@ -1721,12 +1721,12 @@
     "scroll": 157.63823857302117,
     "cursor": {
       "from": {
-        "line": 171,
-        "ch": 16
+        "line": 195,
+        "ch": 8
       },
       "to": {
-        "line": 171,
-        "ch": 16
+        "line": 195,
+        "ch": 8
       }
     },
     "expandedKeys": [
