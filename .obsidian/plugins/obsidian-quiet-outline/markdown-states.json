@@ -1908,11 +1908,11 @@
     "cursor": {
       "from": {
         "line": 77,
-        "ch": 23
+        "ch": 35
       },
       "to": {
         "line": 77,
-        "ch": 23
+        "ch": 35
       }
     },
     "expandedKeys": []
