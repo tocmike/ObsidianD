@@ -1909,11 +1909,11 @@
     "cursor": {
       "from": {
         "line": 142,
-        "ch": 69
+        "ch": 73
       },
       "to": {
         "line": 142,
-        "ch": 0
+        "ch": 73
       }
     },
     "expandedKeys": [
