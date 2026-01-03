@@ -1051,7 +1051,7 @@
     "expandedKeys": []
   },
   "template/00-MOC/每日记录模板_2512.md": {
-    "scroll": 15.313725490196079,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 38,
@@ -1871,6 +1871,48 @@
       "to": {
         "line": 20,
         "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "Clippings/如何理解股票里面，的交易价值。.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/04 记录/如何理解股票里面，的交易价值。.md": {
+    "scroll": 27.73076923076923,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2025年12月24日  底部暴力K线擒大牛～.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
       }
     },
     "expandedKeys": []
