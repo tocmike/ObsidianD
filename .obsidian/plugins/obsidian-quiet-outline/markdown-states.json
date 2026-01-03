@@ -1907,12 +1907,12 @@
     "scroll": 53.818283166109254,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 35
+        "line": 80,
+        "ch": 16
       },
       "to": {
-        "line": 77,
-        "ch": 35
+        "line": 80,
+        "ch": 16
       }
     },
     "expandedKeys": []
