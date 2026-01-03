@@ -1625,7 +1625,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2025年12月28日 市场总是会奖励信仰坚定的人.md": {
-    "scroll": 295.6145833333333,
+    "scroll": 171.28149386845038,
     "cursor": {
       "from": {
         "line": 318,
@@ -1907,12 +1907,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 12,
+        "ch": 28
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 12,
+        "ch": 28
       }
     },
     "expandedKeys": []
