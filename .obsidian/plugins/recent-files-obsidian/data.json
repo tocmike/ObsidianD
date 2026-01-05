@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "01 周期记录/05 汇总/未命名.md"
+    },
+    {
       "basename": "2026年1月5日",
       "path": "01 周期记录/02 日记/2026年1月5日.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "周复盘模板",
       "path": "template/00-MOC/周复盘模板.md"
-    },
-    {
-      "basename": "周复盘模板_极简版",
-      "path": "template/00-MOC/周复盘模板_极简版.md"
     }
   ],
   "omittedPaths": [],
