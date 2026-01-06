@@ -1227,15 +1227,15 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/未命名.md": {
-    "scroll": 16.96299950666009,
+    "scroll": 15.666666666666666,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 0
+        "line": 39,
+        "ch": 3
       },
       "to": {
-        "line": 15,
-        "ch": 0
+        "line": 39,
+        "ch": 3
       }
     },
     "expandedKeys": [
@@ -2063,5 +2063,27 @@
       }
     },
     "expandedKeys": []
+  },
+  "01 周期记录/02 日记/2026年1月6日.md": {
+    "scroll": 15.666666666666666,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 27
+      },
+      "to": {
+        "line": 39,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-1-60",
+      "item-1-62",
+      "item-1-45",
+      "item-1-47",
+      "item-1-30",
+      "item-1-15",
+      "item-1-0"
+    ]
   }
 }
