@@ -2163,11 +2163,11 @@
     "cursor": {
       "from": {
         "line": 19,
-        "ch": 2
+        "ch": 6
       },
       "to": {
         "line": 19,
-        "ch": 2
+        "ch": 6
       }
     },
     "expandedKeys": []
