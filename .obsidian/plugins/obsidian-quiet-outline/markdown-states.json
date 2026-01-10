@@ -2159,29 +2159,43 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月7日 B2买点案例精讲.md": {
-    "scroll": 43.13070090996604,
+    "scroll": 52.63419117647059,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 71
+        "line": 75,
+        "ch": 7
       },
       "to": {
-        "line": 42,
-        "ch": 71
+        "line": 75,
+        "ch": 7
       }
     },
     "expandedKeys": []
   },
   "01 周期记录/02 日记/2026年1月8日.md": {
-    "scroll": 16.941950337115607,
+    "scroll": 48.70444390886001,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 56
+        "line": 53,
+        "ch": 2
       },
       "to": {
-        "line": 48,
-        "ch": 56
+        "line": 53,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "Clippings/费马原理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
       }
     },
     "expandedKeys": []
