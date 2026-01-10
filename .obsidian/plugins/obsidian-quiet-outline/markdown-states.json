@@ -2218,12 +2218,12 @@
     "scroll": 54.513377926421406,
     "cursor": {
       "from": {
-        "line": 69,
-        "ch": 12
+        "line": 72,
+        "ch": 30
       },
       "to": {
-        "line": 69,
-        "ch": 12
+        "line": 72,
+        "ch": 30
       }
     },
     "expandedKeys": []
