@@ -2260,12 +2260,12 @@
     "scroll": 31.087009803921568,
     "cursor": {
       "from": {
-        "line": 51,
-        "ch": 13
+        "line": 55,
+        "ch": 11
       },
       "to": {
-        "line": 51,
-        "ch": 13
+        "line": 55,
+        "ch": 11
       }
     },
     "expandedKeys": []
