@@ -1227,15 +1227,15 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/未命名.md": {
-    "scroll": 29.682831661092532,
+    "scroll": 15.666666666666666,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 0
+        "line": 39,
+        "ch": 3
       },
       "to": {
-        "line": 38,
-        "ch": 0
+        "line": 39,
+        "ch": 3
       }
     },
     "expandedKeys": [
@@ -1556,7 +1556,7 @@
     "expandedKeys": []
   },
   "03 AI人工智能/Nano Banana/提示词.md": {
-    "scroll": 48.95404411764706,
+    "scroll": 50.619485294117645,
     "cursor": {
       "from": {
         "line": 57,
@@ -2266,6 +2266,20 @@
       "to": {
         "line": 82,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/02 日记/2026年1月13日.md": {
+    "scroll": 15.666666666666666,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 15
+      },
+      "to": {
+        "line": 26,
+        "ch": 15
       }
     },
     "expandedKeys": []
