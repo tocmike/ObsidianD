@@ -2636,11 +2636,11 @@
     "cursor": {
       "from": {
         "line": 52,
-        "ch": 0
+        "ch": 23
       },
       "to": {
         "line": 52,
-        "ch": 0
+        "ch": 23
       }
     },
     "expandedKeys": []
