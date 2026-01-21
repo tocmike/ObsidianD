@@ -1051,15 +1051,15 @@
     "expandedKeys": []
   },
   "template/00-MOC/每日记录模板_2512.md": {
-    "scroll": 0,
+    "scroll": 17.248832555036692,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 0
+        "line": 39,
+        "ch": 3
       },
       "to": {
-        "line": 38,
-        "ch": 0
+        "line": 39,
+        "ch": 3
       }
     },
     "expandedKeys": [
@@ -1227,15 +1227,15 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/未命名.md": {
-    "scroll": 18.830122591943958,
+    "scroll": 9.240246406570842,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 0
+        "line": 39,
+        "ch": 47
       },
       "to": {
-        "line": 15,
-        "ch": 0
+        "line": 39,
+        "ch": 47
       }
     },
     "expandedKeys": [
@@ -2669,6 +2669,20 @@
       "to": {
         "line": 39,
         "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/02 日记/2026年1月21日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 0
+      },
+      "to": {
+        "line": 15,
+        "ch": 0
       }
     },
     "expandedKeys": []
