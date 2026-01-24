@@ -2691,12 +2691,12 @@
     "scroll": 94.86108107045244,
     "cursor": {
       "from": {
-        "line": 109,
-        "ch": 9
+        "line": 106,
+        "ch": 21
       },
       "to": {
-        "line": 109,
-        "ch": 9
+        "line": 106,
+        "ch": 21
       }
     },
     "expandedKeys": []
