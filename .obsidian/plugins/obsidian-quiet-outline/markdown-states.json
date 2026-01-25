@@ -2803,12 +2803,12 @@
     "scroll": 25.354166666666668,
     "cursor": {
       "from": {
-        "line": 61,
-        "ch": 0
+        "line": 62,
+        "ch": 4
       },
       "to": {
-        "line": 61,
-        "ch": 0
+        "line": 62,
+        "ch": 4
       }
     },
     "expandedKeys": []
