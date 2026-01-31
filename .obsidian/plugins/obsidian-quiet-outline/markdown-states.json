@@ -1132,26 +1132,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 3,
+        "ch": 46
       },
       "to": {
-        "line": 38,
+        "line": 3,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "01 周期记录/02 日记/2025年12月18日.md": {
-    "scroll": 31.003901895206244,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 58,
-        "ch": 14
+        "line": 39,
+        "ch": 0
       },
       "to": {
-        "line": 50,
-        "ch": 1
+        "line": 39,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1227,15 +1227,15 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/未命名.md": {
-    "scroll": 41.99595435855942,
+    "scroll": 44.82746358476373,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 28
+        "line": 44,
+        "ch": 48
       },
       "to": {
-        "line": 42,
-        "ch": 28
+        "line": 44,
+        "ch": 3
       }
     },
     "expandedKeys": [
@@ -1376,12 +1376,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 11,
+        "ch": 7
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 11,
+        "ch": 7
       }
     },
     "expandedKeys": []
@@ -1401,14 +1401,14 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2025年12月21日 准备起床了～.md": {
-    "scroll": 25.69118505545826,
+    "scroll": 30.39336804604001,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 0
+        "line": 38,
+        "ch": 137
       },
       "to": {
-        "line": 54,
+        "line": 38,
         "ch": 0
       }
     },
@@ -1555,15 +1555,15 @@
     "expandedKeys": []
   },
   "03 AI人工智能/Nano Banana/提示词.md": {
-    "scroll": 1731.8606442577031,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1762,
-        "ch": 17
+        "line": 23,
+        "ch": 15
       },
       "to": {
-        "line": 1762,
-        "ch": 17
+        "line": 23,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -1765,12 +1765,12 @@
     "scroll": 71.58085230589609,
     "cursor": {
       "from": {
-        "line": 96,
-        "ch": 114
+        "line": 9,
+        "ch": 0
       },
       "to": {
-        "line": 96,
-        "ch": 114
+        "line": 9,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -2054,14 +2054,14 @@
     "expandedKeys": []
   },
   "01 周期记录/02 日记/2026年1月5日.md": {
-    "scroll": 16.96299950666009,
+    "scroll": 18.19497956800934,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 15,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 15,
         "ch": 0
       }
     },
@@ -2256,7 +2256,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月11日 前行情下5种散户常犯错误.md": {
-    "scroll": 57.395833333333336,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 82,
@@ -2267,7 +2267,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "01 周期记录/02 日记/2026年1月13日.md": {
     "scroll": 15.666666666666666,
@@ -2312,15 +2314,15 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月14日 打窝结束！如何变阵？.md": {
-    "scroll": 51.28428093645485,
+    "scroll": 8.405286343612335,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 14
+        "line": 37,
+        "ch": 2
       },
       "to": {
-        "line": 73,
-        "ch": 18
+        "line": 37,
+        "ch": 2
       }
     },
     "expandedKeys": [
@@ -2632,7 +2634,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月18日 慢就是快.md": {
-    "scroll": 62.63235294117647,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 72,
@@ -2643,7 +2645,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-1"
+    ]
   },
   "01 周期记录/02 日记/2026年1月19日.md": {
     "scroll": 22.369565217391305,
@@ -2688,7 +2693,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月21日 开枝散叶，踏准节奏～.md": {
-    "scroll": 120.73161764705883,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 104,
@@ -2699,18 +2704,23 @@
         "ch": 28
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-6",
+      "item-1-1",
+      "item-2-11",
+      "item-2-3"
+    ]
   },
   "01 周期记录/02 日记/2026年1月23日.md": {
-    "scroll": 34.06298773690078,
+    "scroll": 39.74586249290713,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 21
+        "line": 45,
+        "ch": 5
       },
       "to": {
-        "line": 40,
-        "ch": 21
+        "line": 45,
+        "ch": 5
       }
     },
     "expandedKeys": []
@@ -2800,15 +2810,267 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月25日 2026慢牛密码破译.md": {
-    "scroll": 116.04570791527313,
+    "scroll": 150.73745819397993,
+    "cursor": {
+      "from": {
+        "line": 156,
+        "ch": 14
+      },
+      "to": {
+        "line": 156,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "Clippings/A股里面庄家为什么要自己对倒拉升.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-6",
+      "item-1-7",
+      "item-4-10"
+    ]
+  },
+  "01 周期记录/04 记录/A股里面庄家为什么要自己对倒拉升.md": {
+    "scroll": 22.789781972014318,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-6",
+      "item-1-7",
+      "item-4-10"
+    ]
+  },
+  "01 周期记录/01 大A/2024年10月 W4.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 2
+      },
+      "to": {
+        "line": 7,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/十五五 2025年10月18日.md": {
+    "scroll": 91.80653769179453,
+    "cursor": {
+      "from": {
+        "line": 112,
+        "ch": 25
+      },
+      "to": {
+        "line": 112,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/内部直播 交易的执行 2025年7月16日.md": {
+    "scroll": 0.5238095238095238,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/K线学习.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 8
+      },
+      "to": {
+        "line": 41,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/内部直播 2025年9月24日 散户都删掉的五种思维.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 23
+      },
+      "to": {
+        "line": 12,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/是.md": {
+    "scroll": 120.84503901895206,
     "cursor": {
       "from": {
         "line": 144,
-        "ch": 10
+        "ch": 8
       },
       "to": {
         "line": 144,
-        "ch": 10
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/内部直播 8月6日 选股1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 65,
+        "ch": 0
+      },
+      "to": {
+        "line": 65,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/内部直播 6.1 单针下20.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 5
+      },
+      "to": {
+        "line": 17,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2025年7月1W.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 4
+      },
+      "to": {
+        "line": 4,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年1月28日 常石磊.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年1月28日 煤飞色舞之后.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 26
+      },
+      "to": {
+        "line": 21,
+        "ch": 26
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "01 周期记录/04 记录/伟大的公司.md": {
+    "scroll": 73.21875,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 350,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年1月30日 常.md": {
+    "scroll": 9.313725490196079,
+    "cursor": {
+      "from": {
+        "line": 47,
+        "ch": 15
+      },
+      "to": {
+        "line": 47,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/05 汇总/1月汇总.md": {
+    "scroll": 7.588457027023949,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 27
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/05 汇总/未命名 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 27
+      },
+      "to": {
+        "line": 27,
+        "ch": 27
       }
     },
     "expandedKeys": []
