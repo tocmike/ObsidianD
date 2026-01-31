@@ -3004,15 +3004,15 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月28日 煤飞色舞之后.md": {
-    "scroll": 0,
+    "scroll": 5.947136563876652,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 26
+        "line": 25,
+        "ch": 5
       },
       "to": {
-        "line": 21,
-        "ch": 26
+        "line": 25,
+        "ch": 19
       }
     },
     "expandedKeys": [
@@ -3075,4 +3075,3 @@
     },
     "expandedKeys": []
   }
-}
