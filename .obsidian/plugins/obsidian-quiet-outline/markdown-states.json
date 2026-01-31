@@ -3094,12 +3094,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 11
+        "line": 17,
+        "ch": 4
       },
       "to": {
-        "line": 13,
-        "ch": 11
+        "line": 17,
+        "ch": 4
       }
     },
     "expandedKeys": []
