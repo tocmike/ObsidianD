@@ -1376,12 +1376,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 7
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 7
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -3072,6 +3072,34 @@
       "to": {
         "line": 27,
         "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年1月31日  常.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年1月31日  常 想赚这种空气股需要勇气与亏光的胆量！.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
       }
     },
     "expandedKeys": []
