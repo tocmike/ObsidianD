@@ -3136,18 +3136,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 1
+        "line": 14,
+        "ch": 11
       },
       "to": {
-        "line": 13,
-        "ch": 1
+        "line": 14,
+        "ch": 11
       }
     },
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年2月1日 十五五 gemini研究.md": {
-    "scroll": 291.37179487179486,
+    "scroll": 291.3004459308807,
     "cursor": {
       "from": {
         "line": 137,
