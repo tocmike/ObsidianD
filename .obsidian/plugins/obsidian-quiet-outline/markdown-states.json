@@ -1376,11 +1376,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 9,
+        "line": 0,
         "ch": 0
       }
     },
@@ -3119,15 +3119,29 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年2月1日十五五规划.md": {
-    "scroll": 11.488159609831547,
+    "scroll": 11.089010296804934,
     "cursor": {
       "from": {
         "line": 11,
-        "ch": 6
+        "ch": 57
       },
       "to": {
         "line": 11,
-        "ch": 6
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年2月1日.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 1
+      },
+      "to": {
+        "line": 13,
+        "ch": 1
       }
     },
     "expandedKeys": []
