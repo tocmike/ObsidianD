@@ -1376,11 +1376,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 9,
         "ch": 0
       }
     },
@@ -3156,6 +3156,20 @@
       "to": {
         "line": 137,
         "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年2月2日 常.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 0
+      },
+      "to": {
+        "line": 16,
+        "ch": 0
       }
     },
     "expandedKeys": []
