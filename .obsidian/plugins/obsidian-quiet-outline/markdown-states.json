@@ -1424,15 +1424,15 @@
     ]
   },
   "01 周期记录/02 日记/未命名 1.md": {
-    "scroll": 0,
+    "scroll": 12.320328542094456,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 0
+        "line": 38,
+        "ch": 2
       },
       "to": {
-        "line": 15,
-        "ch": 0
+        "line": 38,
+        "ch": 2
       }
     },
     "expandedKeys": []
@@ -3231,7 +3231,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年2月1日 海南大直播.md": {
-    "scroll": 187.49218510573093,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 201,
@@ -3296,6 +3296,34 @@
       "to": {
         "line": 123,
         "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/02 日记/2026年2月12日.md": {
+    "scroll": 12.320328542094456,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 48
+      },
+      "to": {
+        "line": 39,
+        "ch": 48
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/05 汇总/2月汇总.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 26
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
