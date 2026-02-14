@@ -4,6 +4,12 @@
   "positionStyle": "top",
   "menuCommands": [
     {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "hotkeys": [],
+      "icon": "obsidian-new"
+    },
+    {
       "id": "editing-toolbar:editor-undo",
       "name": "Undo editor",
       "icon": "undo-glyph"
