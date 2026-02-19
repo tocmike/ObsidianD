@@ -3402,6 +3402,20 @@
     "scroll": 0,
     "cursor": {
       "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Clippings/玻尔兹曼公式：宇宙的“道”.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
         "line": 11,
         "ch": 0
       },
