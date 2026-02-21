@@ -3473,11 +3473,11 @@
     "cursor": {
       "from": {
         "line": 126,
-        "ch": 16
+        "ch": 6
       },
       "to": {
         "line": 126,
-        "ch": 16
+        "ch": 6
       }
     },
     "expandedKeys": []
