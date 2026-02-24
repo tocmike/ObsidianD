@@ -3501,11 +3501,11 @@
     "cursor": {
       "from": {
         "line": 87,
-        "ch": 26
+        "ch": 30
       },
       "to": {
         "line": 87,
-        "ch": 26
+        "ch": 30
       }
     },
     "expandedKeys": []
