@@ -3627,11 +3627,11 @@
     "cursor": {
       "from": {
         "line": 88,
-        "ch": 17
+        "ch": 32
       },
       "to": {
         "line": 88,
-        "ch": 17
+        "ch": 32
       }
     },
     "expandedKeys": []
