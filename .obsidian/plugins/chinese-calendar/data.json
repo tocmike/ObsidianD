@@ -20,6 +20,8 @@
     "quickAddChoice": ""
   },
   "appearance": {
-    "useScale": false
+    "useScale": false,
+    "layout": "Normal",
+    "pastTimeTransparent": false
   }
 }

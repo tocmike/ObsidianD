@@ -34390,7 +34390,9 @@ var initialState = {
     quickAddChoice: ""
   },
   appearance: {
-    useScale: false
+    useScale: false,
+    layout: "Normal" /* Normal */,
+    pastTimeTransparent: false
   }
 };
 var settingSlice = createSlice({
@@ -34403,7 +34405,7 @@ var settingSlice = createSlice({
   }
 });
 var getSettings = (type5) => {
-  return store_default.getState().setting[type5];
+  return get_default(store_default.getState().setting, type5);
 };
 var { saveSetting } = settingSlice.actions;
 var setting_default = settingSlice.reducer;
@@ -45787,17 +45789,8 @@ var MainSettingTable = class extends import_obsidian2.PluginSettingTab {
     super(app, plugin);
     this.plugin = plugin;
   }
-  display() {
+  displayUISetting() {
     const { containerEl } = this;
-    containerEl.empty();
-    containerEl.createEl("h3", {
-      text: "\u4F7F\u7528Periodic Notes\u63D2\u4EF6\u914D\u7F6E\u7B14\u8BB0\u6587\u4EF6\u8DEF\u5F84\uFF0C\u6A21\u677F\u548C\u5B58\u50A8\u6587\u4EF6\u5939"
-    });
-    containerEl.createEl("a", {
-      href: "obsidian://show-plugin?id=periodic-notes",
-      text: "Periodic Notes\u63D2\u4EF6\u5730\u5740"
-    });
-    containerEl.createEl("hr");
     containerEl.createEl("h3", {
       text: "\u5916\u89C2\u914D\u7F6E"
     });
@@ -45812,7 +45805,76 @@ var MainSettingTable = class extends import_obsidian2.PluginSettingTab {
         this.display();
       });
     });
-    containerEl.createEl("hr");
+    new import_obsidian2.Setting(containerEl).setName(`\u5E03\u5C40\u6A21\u5F0F`).setDesc("\u76EE\u524D\u4EC5\u652F\u6301\u6B63\u5E38\u6A21\u5F0F\u548C\u7D27\u51D1\u6A21\u5F0F").addDropdown((dropdown) => {
+      dropdown.addOptions({
+        ["Normal" /* Normal */]: "\u6B63\u5E38",
+        ["Small" /* Small */]: "\u7D27\u51D1"
+      });
+      dropdown.setValue(this.getSetting(`appearance.layout`));
+      dropdown.onChange(async (value) => {
+        console.log("dropdown", value);
+        this.plugin.writeOptions(() => ({
+          appearance: {
+            layout: value
+          }
+        }));
+        this.display();
+      });
+    });
+    new import_obsidian2.Setting(containerEl).setName(`\u5DF2\u8FC7\u53BB\u65F6\u95F4\u900F\u660E`).setDesc("\u5F00\u542F\u540E\uFF0C\u4ECA\u5929\u4E4B\u524D\u7684\u65F6\u95F4\u5C06\u7565\u5FAE\u900F\u660E\u4E00\u4E9B").addToggle((toggle) => {
+      toggle.setValue(this.getSetting(`appearance.pastTimeTransparent`));
+      toggle.onChange(async (value) => {
+        this.plugin.writeOptions(() => ({
+          appearance: {
+            pastTimeTransparent: value
+          }
+        }));
+        this.display();
+      });
+    });
+  }
+  displayNoteSetting() {
+    const { containerEl } = this;
+    const displayNoteSettingItem = (noteConfigItem) => {
+      new import_obsidian2.Setting(containerEl).setName(noteConfigItem.title).setHeading();
+      new import_obsidian2.Setting(containerEl).setName(`\u662F\u5426\u4F7F\u7528 QuickAdd \u6A21\u677F\u529F\u80FD`).setDesc("\u9700\u8981\u63D0\u524D\u5B89\u88C5QuickAdd\u63D2\u4EF6 \u4F7F\u7528 QuickAdd \u6A21\u677F\u547D\u4EE4\u521B\u5EFA\u7B14\u8BB0").addToggle((toggle) => {
+        toggle.setValue(this.getSetting(`${noteConfigItem.key}.useQuickAdd`));
+        toggle.onChange(async (value) => {
+          this.plugin.writeOptions(() => ({
+            [noteConfigItem.key]: {
+              useQuickAdd: value
+            }
+          }));
+          this.display();
+        });
+      });
+      if (this.getSetting(`${noteConfigItem.key}.useQuickAdd`)) {
+        let folderDom = new import_obsidian2.Setting(containerEl);
+        folderDom.settingEl.empty();
+        const folder = this.getSetting(`${noteConfigItem.key}.quickAddChoice`);
+        (0, import_client.createRoot)(folderDom.settingEl).render(
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+            DailyNotePattern,
+            {
+              title: "QuickAdd \u6A21\u677F\u547D\u4EE4",
+              subTitle: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { children: [
+                "\u914D\u7F6E\u8981\u6267\u884C\u7684QuickAdd\u6A21\u677F\u547D\u4EE4\uFF0C\u5E76\u4E14\u53EF\u4EE5\u4F20\u9012\u53C2\u6570\u7ED9QuickAdd\u6A21\u677F\u547D\u4EE4\u3002",
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { href: "https://github.com/DevilRoshan/obsidian-lunar-calendar", children: "\u8BE6\u89C1\u6587\u6863" })
+              ] }) }),
+              value: folder,
+              onChange: (value) => {
+                this.plugin.writeOptions(() => ({
+                  [noteConfigItem.key]: {
+                    quickAddChoice: value
+                  }
+                }));
+              },
+              onBulr: () => this.display()
+            }
+          )
+        );
+      }
+    };
     containerEl.createEl("h3", {
       text: "\u7B14\u8BB0\u914D\u7F6E"
     });
@@ -45822,51 +45884,25 @@ var MainSettingTable = class extends import_obsidian2.PluginSettingTab {
       noteConfigMap["monthly" /* MONTHLY */],
       noteConfigMap["quarterly" /* QUARTERLY */],
       noteConfigMap["yearly" /* YEARLY */]
-    ].map((v) => this.displayNoteSetting(v));
+    ].map((v) => displayNoteSettingItem(v));
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h3", {
+      text: "\u4F7F\u7528Periodic Notes\u63D2\u4EF6\u914D\u7F6E\u7B14\u8BB0\u6587\u4EF6\u8DEF\u5F84\uFF0C\u6A21\u677F\u548C\u5B58\u50A8\u6587\u4EF6\u5939"
+    });
+    containerEl.createEl("a", {
+      href: "obsidian://show-plugin?id=periodic-notes",
+      text: "Periodic Notes\u63D2\u4EF6\u5730\u5740"
+    });
+    containerEl.createEl("hr");
+    this.displayUISetting();
+    containerEl.createEl("hr");
+    this.displayNoteSetting();
   }
   getSetting(path) {
     return get_default(this.plugin.options, path);
-  }
-  displayNoteSetting(noteConfigItem) {
-    const { containerEl } = this;
-    new import_obsidian2.Setting(containerEl).setName(noteConfigItem.title).setHeading();
-    new import_obsidian2.Setting(containerEl).setName(`\u662F\u5426\u4F7F\u7528 QuickAdd \u6A21\u677F\u529F\u80FD`).setDesc("\u9700\u8981\u63D0\u524D\u5B89\u88C5QuickAdd\u63D2\u4EF6 \u4F7F\u7528 QuickAdd \u6A21\u677F\u547D\u4EE4\u521B\u5EFA\u7B14\u8BB0").addToggle((toggle) => {
-      toggle.setValue(this.getSetting(`${noteConfigItem.key}.useQuickAdd`));
-      toggle.onChange(async (value) => {
-        this.plugin.writeOptions(() => ({
-          [noteConfigItem.key]: {
-            useQuickAdd: value
-          }
-        }));
-        this.display();
-      });
-    });
-    if (this.getSetting(`${noteConfigItem.key}.useQuickAdd`)) {
-      let folderDom = new import_obsidian2.Setting(containerEl);
-      folderDom.settingEl.empty();
-      const folder = this.getSetting(`${noteConfigItem.key}.quickAddChoice`);
-      (0, import_client.createRoot)(folderDom.settingEl).render(
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
-          DailyNotePattern,
-          {
-            title: "QuickAdd \u6A21\u677F\u547D\u4EE4",
-            subTitle: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { children: [
-              "\u914D\u7F6E\u8981\u6267\u884C\u7684QuickAdd\u6A21\u677F\u547D\u4EE4\uFF0C\u5E76\u4E14\u53EF\u4EE5\u4F20\u9012\u53C2\u6570\u7ED9QuickAdd\u6A21\u677F\u547D\u4EE4\u3002",
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { href: "https://github.com/DevilRoshan/obsidian-lunar-calendar", children: "\u8BE6\u89C1\u6587\u6863" })
-            ] }) }),
-            value: folder,
-            onChange: (value) => {
-              this.plugin.writeOptions(() => ({
-                [noteConfigItem.key]: {
-                  quickAddChoice: value
-                }
-              }));
-            },
-            onBulr: () => this.display()
-          }
-        )
-      );
-    }
   }
   hide() {
     this.plugin.saveOptions();
@@ -79691,6 +79727,10 @@ var import_classnames62 = __toESM(require_classnames());
 var import_obsidian3 = require("obsidian");
 var import_zh_cn = __toESM(require_zh_cn());
 
+// src/redux/hook.ts
+var useAppDispatch = useDispatch.withTypes();
+var useAppSelector = useSelector.withTypes();
+
 // node_modules/@emotion/sheet/dist/emotion-sheet.browser.esm.js
 function sheetForTag(tag) {
   if (tag.sheet) {
@@ -82461,9 +82501,324 @@ var ThemeProvider3 = styleInstance.ThemeProvider;
 var StyleProvider3 = styleInstance.StyleProvider;
 var useTheme3 = styleInstance.useTheme;
 
-// src/redux/hook.ts
-var useAppDispatch = useDispatch.withTypes();
-var useAppSelector = useSelector.withTypes();
+// src/component/CalendarStyle.tsx
+var useStyle = createStyles(({ token: token3, css: css3, cx: cx3 }) => {
+  const lunar = css3`
+    color: var(--text-normal);
+    font-size: ${token3.fontSizeSM}px;
+  `;
+  const exist = css3`
+    position: relative;
+    &:after {
+      position: absolute;
+      z-index: 1;
+      content: "";
+      border-radius: 50%;
+      background-color: var(--text-accent);
+      transform: translateX(-50%);
+      left: 50%;
+      top: 42px;
+      width: 4px;
+      height: 4px;
+    }
+  `;
+  const badge = css3`
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    font-size: 12px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0px 3px;
+  `;
+  const dateCell = css3`
+    width: 42px;
+    height: 42px;
+    border-radius: ${token3.borderRadiusOuter}px;
+    box-sizing: border-box;
+    transition: background 300ms;
+    background: transparent;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: var(--text-normal);
+    &:hover {
+      background: var(--nav-item-background-hover);
+    }
+  `;
+  const headerDate = css3`
+    display: flex;
+    font-size: 20px;
+    div {
+      margin: 0 2px;
+      padding: 2px 4px;
+      cursor: pointer;
+      border-radius: ${token3.borderRadiusOuter}px;
+      &:hover {
+        background: var(--nav-item-background-hover);
+      }
+      &.${cx3(exist)} {
+        &:after {
+          top: 26px;
+        }
+      }
+    }
+  `;
+  const headerLunarDate = css3`
+    font-size: 14px;
+  `;
+  const radio = css3`
+    & .ant-radio-button-wrapper {
+      color: var(--text-normal);
+      background: transparent;
+      border-color: var(--divider-color);
+    }
+    & .ant-radio-button-wrapper-checked {
+      border-color: var(--text-accent);
+    }
+    & .ant-radio-button-wrapper:not(:first-child)::before {
+      background-color: var(--divider-color);
+    }
+    & .ant-radio-button-wrapper-checked:not(:first-child)::before {
+      background-color: var(--text-accent);
+    }
+  `;
+  const wrapper = css3`
+    min-width: 368px;
+    border-radius: ${token3.borderRadiusOuter}px;
+    padding: 5px;
+    .ant-picker-calendar {
+      .ant-picker-panel {
+        border: none;
+        .ant-picker-cell {
+          opacity: 0.3;
+        }
+        .ant-picker-cell-in-view {
+          opacity: 1;
+        }
+        .ant-picker-cell-disabled {
+          opacity: 0.8;
+          pointer-events: auto;
+          &:before {
+            background-color: transparent;
+            pointer-events: auto;
+          }
+        }
+      }
+    }
+  `;
+  const arrowIcon = css3`
+    cursor: pointer;
+  `;
+  const extraW = css3`
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4px;
+    border-right: var(--divider-width) solid var(--divider-color);
+  `;
+  const extraWTh = css3`
+    line-height: 18px;
+    width: 40px;
+    font-size: 14px;
+  `;
+  const extraWTd = css3`
+    font-weight: normal;
+    margin: 6px !important;
+    margin-left: 0 !important;
+    &.${cx3(exist)} {
+      &:after {
+        top: 36px;
+        left: 50%;
+      }
+    }
+  `;
+  const small = css3`
+    min-width: 300px;
+    padding: 0;
+
+    & .ant-picker-cell,
+    .ant-picker-cell-in-view {
+      padding: 1px;
+    }
+
+    & .ant-picker-content {
+      font-size: 12px;
+    }
+
+    & .ant-picker-calendar .ant-picker-body {
+      padding: 2px 0;
+    }
+
+    & .${cx3(dateCell)} {
+      width: 36px;
+      height: 40px;
+      &.${cx3(exist)} {
+        &:after {
+          top: 36px;
+          left: 50%;
+        }
+      }
+    }
+
+    & .${cx3(headerDate)} {
+      font-size: 16px;
+      div {
+        &.${cx3(exist)} {
+          &:after {
+            top: 20px;
+          }
+        }
+      }
+    }
+
+    & .${cx3(headerLunarDate)} {
+      font-size: 12px;
+    }
+
+    & .${cx3(radio)} .ant-radio-button-wrapper {
+      font-size: 12px;
+      height: 18px;
+      line-height: 16px;
+    }
+
+    & .${cx3(extraW)} {
+      padding: 2px 0;
+      margin-right: 1px;
+      font-size: 12px;
+    }
+
+    & .${cx3(extraWTh)} {
+      width: 36px;
+      font-size: 12px;
+    }
+
+    & .${cx3(extraWTd)} {
+      margin: 1px !important;
+      &.${cx3(exist)} {
+        &:after {
+          top: 30px;
+          left: 50%;
+        }
+      }
+    }
+
+    & .${cx3(arrowIcon)} {
+      padding: 0;
+    }
+  `;
+  return {
+    wrapper,
+    small,
+    header: css3`
+      border-bottom: var(--divider-width) solid var(--divider-color);
+    `,
+    arrowIcon,
+    flexCenter: css3`
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    `,
+    headerDate,
+    headerLunarDate,
+    content: css3`
+      display: flex;
+      & .ant-picker-calendar .ant-picker-content th {
+        color: var(--text-normal);
+      }
+    `,
+    extraW,
+    extraWTh,
+    extraWTd,
+    extraQ: css3`
+      padding: 8px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border-right: var(--divider-width) solid var(--divider-color);
+    `,
+    extraQTd: css3`
+      font-weight: normal;
+      margin: 6px !important;
+      margin-left: 0 !important;
+      flex-direction: column;
+      &.${cx3(exist)} {
+        &:after {
+          top: 42px;
+          left: 50%;
+        }
+      }
+    `,
+    dateCell,
+    exist,
+    lunar,
+    text: css3`
+      position: relative;
+      z-index: 1;
+    `,
+    today: css3`
+      border: 1px solid var(--text-accent);
+      color: var(--text-accent);
+      &:hover {
+        color: var(--text-accent);
+        background: var(--nav-item-background-hover);
+        .${cx3(lunar)} {
+          color: var(--text-accent);
+        }
+      }
+      .${cx3(lunar)} {
+        color: var(--text-accent);
+      }
+      & .${cx3(badge)} {
+        background: var(--text-accent);
+      }
+    `,
+    week: css3`
+      color: var(--color-red);
+      .${cx3(lunar)} {
+        color: var(--color-red);
+      }
+    `,
+    holiday: css3`
+      color: var(--color-red);
+      border: 1px solid var(--color-red);
+      .${cx3(lunar)} {
+        color: var(--color-red);
+      }
+      & .${cx3(badge)} {
+        background: var(--color-red);
+      }
+    `,
+    work: css3`
+      border: 1px solid var(--text-normal);
+      & .${cx3(badge)} {
+        background: var(--text-normal);
+        color: var(--background-primary);
+      }
+    `,
+    badge,
+    monthCell: css3`
+      width: 120px;
+      color: var(--text-normal);
+      border-radius: ${token3.borderRadiusOuter}px;
+      padding: 5px 0;
+      &:hover {
+        background: var(--nav-item-background-hover);
+      }
+      &.${cx3(exist)} {
+        &:after {
+          top: 30px;
+          left: 50%;
+        }
+      }
+    `,
+    monthCellCurrent: css3`
+      color: var(--text-accent) !important;
+    `,
+    radio
+  };
+});
 
 // node_modules/rc-picker/es/generate/moment.js
 var import_moment = __toESM(require_moment());
@@ -82622,228 +82977,6 @@ import_obsidian3.moment.locale("zh-cn", {
     dow: 1
   }
 });
-var useStyle = createStyles(({ token: token3, css: css3, cx: cx3 }) => {
-  const lunar = css3`
-    color: var(--text-normal);
-    font-size: ${token3.fontSizeSM}px;
-  `;
-  const exist = css3`
-    position: relative;
-    &:after {
-      position: absolute;
-      z-index: 1;
-      content: "";
-      border-radius: 50%;
-      background-color: var(--text-accent);
-      transform: translateX(-50%);
-      left: 50%;
-      top: 42px;
-      width: 4px;
-      height: 4px;
-    }
-  `;
-  const badge = css3`
-    position: absolute;
-    right: -8px;
-    top: -8px;
-    font-size: 12px;
-    border-radius: 4px;
-    color: #fff;
-    padding: 0px 3px;
-  `;
-  return {
-    wrapper: css3`
-      min-width: 368px;
-      border-radius: ${token3.borderRadiusOuter}px;
-      padding: 5px;
-      .ant-picker-calendar {
-        .ant-picker-panel {
-          border: none;
-          .ant-picker-cell {
-            opacity: 0.3;
-          }
-          .ant-picker-cell-in-view {
-            opacity: 1;
-          }
-        }
-      }
-    `,
-    header: css3`
-      border-bottom: var(--divider-width) solid var(--divider-color);
-    `,
-    icon: css3`
-      cursor: pointer;
-    `,
-    flexCenter: css3`
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    `,
-    headerDate: css3`
-      display: flex;
-      font-size: 20px;
-      div {
-        margin: 0 2px;
-        padding: 2px 4px;
-        cursor: pointer;
-        border-radius: ${token3.borderRadiusOuter}px;
-        &:hover {
-          background: var(--nav-item-background-hover);
-        }
-        &.${cx3(exist)} {
-          &:after {
-            top: 26px;
-          }
-        }
-      }
-    `,
-    content: css3`
-      display: flex;
-      & .ant-picker-calendar .ant-picker-content th {
-        color: var(--text-normal);
-      }
-    `,
-    extraW: css3`
-      padding: 8px 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-right: 4px;
-      border-right: var(--divider-width) solid var(--divider-color);
-    `,
-    extraQ: css3`
-      padding: 8px 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      border-right: var(--divider-width) solid var(--divider-color);
-    `,
-    extraWTh: css3`
-      line-height: 18px;
-      width: 40px;
-      font-size: 14px;
-    `,
-    extraWTd: css3`
-      font-weight: normal;
-      margin: 6px !important;
-      margin-left: 0 !important;
-      &.${cx3(exist)} {
-        &:after {
-          top: 36px;
-          left: 50%;
-        }
-      }
-    `,
-    extraQTd: css3`
-      font-weight: normal;
-      margin: 6px !important;
-      margin-left: 0 !important;
-      flex-direction: column;
-      &.${cx3(exist)} {
-        &:after {
-          top: 42px;
-          left: 50%;
-        }
-      }
-    `,
-    dateCell: css3`
-      width: 42px;
-      height: 42px;
-      border-radius: ${token3.borderRadiusOuter}px;
-      box-sizing: border-box;
-      transition: background 300ms;
-      background: transparent;
-      margin: 0 auto;
-      border-radius: 4px;
-      color: var(--text-normal);
-      &:hover {
-        background: var(--nav-item-background-hover);
-      }
-    `,
-    exist,
-    lunar,
-    text: css3`
-      position: relative;
-      z-index: 1;
-    `,
-    today: css3`
-      border: 1px solid var(--text-accent);
-      color: var(--text-accent);
-      &:hover {
-        color: var(--text-accent);
-        background: var(--nav-item-background-hover);
-        .${cx3(lunar)} {
-          color: var(--text-accent);
-        }
-      }
-      .${cx3(lunar)} {
-        color: var(--text-accent);
-      }
-      & .${cx3(badge)} {
-        background: var(--text-accent);
-      }
-    `,
-    week: css3`
-      color: var(--color-red);
-      .${cx3(lunar)} {
-        color: var(--color-red);
-      }
-    `,
-    holiday: css3`
-      color: var(--color-red);
-      border: 1px solid var(--color-red);
-      .${cx3(lunar)} {
-        color: var(--color-red);
-      }
-      & .${cx3(badge)} {
-        background: var(--color-red);
-      }
-    `,
-    work: css3`
-      border: 1px solid var(--text-normal);
-      & .${cx3(badge)} {
-        background: var(--text-normal);
-        color: var(--background-primary);
-      }
-    `,
-    badge,
-    monthCell: css3`
-      width: 120px;
-      color: var(--text-normal);
-      border-radius: ${token3.borderRadiusOuter}px;
-      padding: 5px 0;
-      &:hover {
-        background: var(--nav-item-background-hover);
-      }
-      &.${cx3(exist)} {
-        &:after {
-          top: 30px;
-          left: 50%;
-        }
-      }
-    `,
-    monthCellCurrent: css3`
-      color: var(--text-accent) !important;
-    `,
-    radio: css3`
-      & .ant-radio-button-wrapper {
-        color: var(--text-normal);
-        background: transparent;
-        border-color: var(--divider-color);
-      }
-      & .ant-radio-button-wrapper-checked {
-        border-color: var(--text-accent);
-      }
-      & .ant-radio-button-wrapper:not(:first-child)::before {
-        background-color: var(--divider-color);
-      }
-      & .ant-radio-button-wrapper-checked:not(:first-child)::before {
-        background-color: var(--text-accent);
-      }
-    `
-  };
-});
 var Calendar2 = ({ openOrCreateNote: openOrCreateNote2 }) => {
   const { styles } = useStyle({ test: true });
   const notes = useAppSelector((state) => state.notes);
@@ -82859,6 +82992,12 @@ var Calendar2 = ({ openOrCreateNote: openOrCreateNote2 }) => {
     }
     setMode(mode2);
   };
+  const isSmallMode = (0, import_react87.useMemo)(() => {
+    return getSettings("appearance.layout") === "Small" /* Small */;
+  }, []);
+  const pastTimeTransparent = (0, import_react87.useMemo)(() => {
+    return getSettings("appearance.pastTimeTransparent");
+  }, []);
   const cellRender = (date4, info) => {
     if (info.type === "date") {
       const { dateStr, isWork, isHoliday } = formatDate(date4);
@@ -82996,149 +83135,170 @@ var Calendar2 = ({ openOrCreateNote: openOrCreateNote2 }) => {
       );
     });
   }, [selectDate, notes]);
-  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: styles.wrapper, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: styles.header, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(row_default2, { justify: "end", gutter: 8, children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
-        radio_default2.Group,
-        {
-          size: "small",
-          onChange: (e) => changeMode(
-            e.target.value
-          ),
-          className: styles.radio,
-          value: mode,
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(radio_default2.Button, { value: "today", children: "\u4ECA" }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(radio_default2.Button, { value: "month", children: "\u6708" }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(radio_default2.Button, { value: "year", children: "\u5E74" })
-          ]
-        }
-      ) }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
-        row_default2,
-        {
-          justify: "center",
-          style: { margin: "4px 0" },
-          gutter: 8,
-          align: "middle",
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-              DoubleLeftOutlined_default2,
-              {
-                className: styles.icon,
-                "aria-label": "\u524D\u4E00\u5E74",
-                title: "\u524D\u4E00\u5E74",
-                onClick: () => changeDate("sub", "year")
-              }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-              LeftOutlined_default2,
-              {
-                className: styles.icon,
-                "aria-label": "\u524D\u4E00\u6708",
-                title: "\u524D\u4E00\u6708",
-                onClick: () => changeDate("sub", "month")
-              }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(col_default2, { flex: "auto", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: (0, import_classnames62.default)(styles.headerDate, styles.flexCenter), children: [
-                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-                  "div",
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
+    "div",
+    {
+      className: (0, import_classnames62.default)({
+        [styles.wrapper]: true,
+        [styles.small]: isSmallMode
+      }),
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: styles.header, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(row_default2, { justify: "end", gutter: 8, children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
+            radio_default2.Group,
+            {
+              size: "small",
+              onChange: (e) => changeMode(
+                e.target.value
+              ),
+              className: styles.radio,
+              value: mode,
+              children: [
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(radio_default2.Button, { value: "today", children: "\u4ECA" }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(radio_default2.Button, { value: "month", children: "\u6708" }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(radio_default2.Button, { value: "year", children: "\u5E74" })
+              ]
+            }
+          ) }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(
+            row_default2,
+            {
+              justify: "center",
+              style: { margin: "4px 0" },
+              gutter: 8,
+              align: "middle",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                  DoubleLeftOutlined_default2,
                   {
-                    onClick: () => openOrCreateNote2(
-                      selectDate,
-                      "yearly" /* YEARLY */,
-                      notes["yearly" /* YEARLY */]
-                    ),
-                    className: (0, import_classnames62.default)({
-                      [styles.exist]: noteIsExists(
-                        selectDate,
-                        "yearly" /* YEARLY */,
-                        notes["yearly" /* YEARLY */]
-                      )
-                    }),
-                    children: yearLabel
+                    className: styles.arrowIcon,
+                    "aria-label": "\u524D\u4E00\u5E74",
+                    title: "\u524D\u4E00\u5E74",
+                    onClick: () => changeDate("sub", "year")
                   }
-                ),
-                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-                  "div",
+                ) }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                  LeftOutlined_default2,
                   {
-                    onClick: () => openOrCreateNote2(
-                      selectDate,
-                      "monthly" /* MONTHLY */,
-                      notes["monthly" /* MONTHLY */]
-                    ),
-                    className: (0, import_classnames62.default)({
-                      [styles.exist]: noteIsExists(
-                        selectDate,
-                        "monthly" /* MONTHLY */,
-                        notes["monthly" /* MONTHLY */]
-                      )
-                    }),
-                    children: monthlabel
+                    className: styles.arrowIcon,
+                    "aria-label": "\u524D\u4E00\u6708",
+                    title: "\u524D\u4E00\u6708",
+                    onClick: () => changeDate("sub", "month")
                   }
-                ),
-                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-                  "div",
+                ) }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)(col_default2, { flex: "auto", children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: (0, import_classnames62.default)(styles.headerDate, styles.flexCenter), children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                      "div",
+                      {
+                        onClick: () => openOrCreateNote2(
+                          selectDate,
+                          "yearly" /* YEARLY */,
+                          notes["yearly" /* YEARLY */]
+                        ),
+                        className: (0, import_classnames62.default)({
+                          [styles.exist]: noteIsExists(
+                            selectDate,
+                            "yearly" /* YEARLY */,
+                            notes["yearly" /* YEARLY */]
+                          )
+                        }),
+                        children: yearLabel
+                      }
+                    ),
+                    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                      "div",
+                      {
+                        onClick: () => openOrCreateNote2(
+                          selectDate,
+                          "monthly" /* MONTHLY */,
+                          notes["monthly" /* MONTHLY */]
+                        ),
+                        className: (0, import_classnames62.default)({
+                          [styles.exist]: noteIsExists(
+                            selectDate,
+                            "monthly" /* MONTHLY */,
+                            notes["monthly" /* MONTHLY */]
+                          )
+                        }),
+                        children: monthlabel
+                      }
+                    ),
+                    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                      "div",
+                      {
+                        onClick: () => openOrCreateNote2(
+                          selectDate,
+                          "quarterly" /* QUARTERLY */,
+                          notes["quarterly" /* QUARTERLY */]
+                        ),
+                        className: (0, import_classnames62.default)({
+                          [styles.exist]: noteIsExists(
+                            selectDate,
+                            "quarterly" /* QUARTERLY */,
+                            notes["quarterly" /* QUARTERLY */]
+                          )
+                        }),
+                        children: quarterLabel
+                      }
+                    )
+                  ] }),
+                  /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                    "div",
+                    {
+                      className: (0, import_classnames62.default)(styles.headerLunarDate, styles.flexCenter),
+                      children: chineseLabel
+                    }
+                  )
+                ] }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                  RightOutlined_default2,
                   {
-                    onClick: () => openOrCreateNote2(
-                      selectDate,
-                      "quarterly" /* QUARTERLY */,
-                      notes["quarterly" /* QUARTERLY */]
-                    ),
-                    className: (0, import_classnames62.default)({
-                      [styles.exist]: noteIsExists(
-                        selectDate,
-                        "quarterly" /* QUARTERLY */,
-                        notes["quarterly" /* QUARTERLY */]
-                      )
-                    }),
-                    children: quarterLabel
+                    className: styles.arrowIcon,
+                    "aria-label": "\u540E\u4E00\u6708",
+                    title: "\u540E\u4E00\u6708",
+                    onClick: () => changeDate("add", "month")
                   }
-                )
-              ] }),
-              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: (0, import_classnames62.default)(styles.flexCenter), children: chineseLabel })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-              RightOutlined_default2,
-              {
-                className: styles.icon,
-                "aria-label": "\u540E\u4E00\u6708",
-                title: "\u540E\u4E00\u6708",
-                onClick: () => changeDate("add", "month")
+                ) }),
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+                  DoubleRightOutlined_default2,
+                  {
+                    className: styles.arrowIcon,
+                    title: "\u540E\u4E00\u5E74",
+                    "aria-label": "\u540E\u4E00\u5E74",
+                    onClick: () => changeDate("add", "year")
+                  }
+                ) })
+              ]
+            }
+          )
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: styles.content, children: [
+          mode === "month" ? /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: styles.extraW, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: (0, import_classnames62.default)(styles.extraWTh, styles.flexCenter), children: "\u5468" }),
+            weeksArr
+          ] }) : /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: styles.extraQ, children: quartersArr }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
+            MyAntCalendar,
+            {
+              fullCellRender: cellRender,
+              fullscreen: false,
+              mode,
+              value: selectDate,
+              onSelect: onDateChange,
+              headerRender: () => null,
+              disabledDate: (date4) => {
+                if (date4.isBefore((0, import_obsidian3.moment)().subtract(1, "day")) && pastTimeTransparent) {
+                  return true;
+                }
+                return false;
               }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(col_default2, { children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-              DoubleRightOutlined_default2,
-              {
-                className: styles.icon,
-                title: "\u540E\u4E00\u5E74",
-                "aria-label": "\u540E\u4E00\u5E74",
-                onClick: () => changeDate("add", "year")
-              }
-            ) })
-          ]
-        }
-      )
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: styles.content, children: [
-      mode === "month" ? /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", { className: styles.extraW, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: (0, import_classnames62.default)(styles.extraWTh, styles.flexCenter), children: "\u5468" }),
-        weeksArr
-      ] }) : /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", { className: styles.extraQ, children: quartersArr }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(
-        MyAntCalendar,
-        {
-          fullCellRender: cellRender,
-          fullscreen: false,
-          mode,
-          value: selectDate,
-          onSelect: onDateChange,
-          headerRender: () => null
-        }
-      )
-    ] })
-  ] });
+            }
+          )
+        ] })
+      ]
+    }
+  );
 };
 var Calendar_default = Calendar2;
 
