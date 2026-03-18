@@ -2158,7 +2158,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年1月7日 B2买点案例精讲.md": {
-    "scroll": 350.70907907582165,
+    "scroll": 346.2959073101609,
     "cursor": {
       "from": {
         "line": 351,
@@ -3668,12 +3668,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 4
+        "line": 14,
+        "ch": 3
       },
       "to": {
-        "line": 9,
-        "ch": 4
+        "line": 14,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2025年10月6日 B2.md": {
+    "scroll": 139.40222528554548,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
