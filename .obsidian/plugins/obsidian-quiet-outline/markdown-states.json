@@ -3710,12 +3710,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 6
+        "line": 17,
+        "ch": 8
       },
       "to": {
-        "line": 12,
-        "ch": 6
+        "line": 17,
+        "ch": 8
       }
     },
     "expandedKeys": []
