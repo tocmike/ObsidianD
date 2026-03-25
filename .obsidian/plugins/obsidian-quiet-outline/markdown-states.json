@@ -3738,12 +3738,12 @@
     "scroll": 52.87071078431372,
     "cursor": {
       "from": {
-        "line": 78,
-        "ch": 6
+        "line": 85,
+        "ch": 13
       },
       "to": {
-        "line": 78,
-        "ch": 6
+        "line": 85,
+        "ch": 13
       }
     },
     "expandedKeys": []
