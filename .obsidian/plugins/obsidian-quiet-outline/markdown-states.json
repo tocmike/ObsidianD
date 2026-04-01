@@ -1427,12 +1427,12 @@
     "scroll": 25.93701226309922,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 3
+        "line": 15,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 3
+        "line": 15,
+        "ch": 0
       }
     },
     "expandedKeys": []
