@@ -3823,11 +3823,11 @@
     "cursor": {
       "from": {
         "line": 23,
-        "ch": 16
+        "ch": 31
       },
       "to": {
         "line": 23,
-        "ch": 16
+        "ch": 31
       }
     },
     "expandedKeys": []
