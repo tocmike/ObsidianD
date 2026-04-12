@@ -3892,12 +3892,12 @@
     "scroll": 40.48160535117057,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 9
+        "line": 79,
+        "ch": 4
       },
       "to": {
-        "line": 77,
-        "ch": 9
+        "line": 79,
+        "ch": 4
       }
     },
     "expandedKeys": []
