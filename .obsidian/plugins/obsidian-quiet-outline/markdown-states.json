@@ -3906,12 +3906,12 @@
     "scroll": 16.967524509803923,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 17
+        "line": 26,
+        "ch": 9
       },
       "to": {
-        "line": 25,
-        "ch": 17
+        "line": 26,
+        "ch": 9
       }
     },
     "expandedKeys": []
