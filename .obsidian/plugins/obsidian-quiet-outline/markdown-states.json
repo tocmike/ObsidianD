@@ -3906,12 +3906,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 26
+        "line": 17,
+        "ch": 4
       },
       "to": {
-        "line": 15,
-        "ch": 26
+        "line": 17,
+        "ch": 4
       }
     },
     "expandedKeys": []
