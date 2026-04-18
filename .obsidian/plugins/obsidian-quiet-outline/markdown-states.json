@@ -3441,7 +3441,7 @@
     "expandedKeys": []
   },
   "Clippings/长线和短线的注意点.md": {
-    "scroll": 35.29088191330344,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 11,
@@ -3925,6 +3925,48 @@
       },
       "to": {
         "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/04 记录/事前尸检：逆向风险管理策略.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/04 记录/散户空仓优势的理论解读.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/04 记录/长线和短线的注意点.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
         "ch": 0
       }
     },
