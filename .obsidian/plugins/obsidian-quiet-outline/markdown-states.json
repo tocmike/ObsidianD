@@ -3991,11 +3991,11 @@
     "cursor": {
       "from": {
         "line": 10,
-        "ch": 5
+        "ch": 23
       },
       "to": {
         "line": 10,
-        "ch": 5
+        "ch": 23
       }
     },
     "expandedKeys": []
