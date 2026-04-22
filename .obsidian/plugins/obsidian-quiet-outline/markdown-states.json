@@ -3990,12 +3990,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 10,
+        "ch": 5
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 10,
+        "ch": 5
       }
     },
     "expandedKeys": []
