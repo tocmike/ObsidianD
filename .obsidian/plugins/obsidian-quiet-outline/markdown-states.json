@@ -4019,11 +4019,11 @@
     "cursor": {
       "from": {
         "line": 23,
-        "ch": 0
+        "ch": 7
       },
       "to": {
         "line": 23,
-        "ch": 0
+        "ch": 7
       }
     },
     "expandedKeys": []
