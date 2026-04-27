@@ -4032,12 +4032,12 @@
     "scroll": 81.72240802675586,
     "cursor": {
       "from": {
-        "line": 110,
-        "ch": 8
+        "line": 111,
+        "ch": 6
       },
       "to": {
-        "line": 110,
-        "ch": 8
+        "line": 111,
+        "ch": 17
       }
     },
     "expandedKeys": []
