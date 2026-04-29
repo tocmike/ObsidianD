@@ -4061,11 +4061,11 @@
     "cursor": {
       "from": {
         "line": 17,
-        "ch": 4
+        "ch": 6
       },
       "to": {
         "line": 17,
-        "ch": 4
+        "ch": 6
       }
     },
     "expandedKeys": []
