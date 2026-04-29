@@ -4060,11 +4060,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
+        "line": 11,
         "ch": 4
       },
       "to": {
-        "line": 9,
+        "line": 11,
         "ch": 4
       }
     },
