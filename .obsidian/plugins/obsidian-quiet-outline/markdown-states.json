@@ -4060,12 +4060,12 @@
     "scroll": 191.37285611457222,
     "cursor": {
       "from": {
-        "line": 202,
-        "ch": 16
+        "line": 200,
+        "ch": 11
       },
       "to": {
-        "line": 202,
-        "ch": 16
+        "line": 200,
+        "ch": 11
       }
     },
     "expandedKeys": [
