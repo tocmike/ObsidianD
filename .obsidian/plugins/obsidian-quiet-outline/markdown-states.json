@@ -4057,19 +4057,20 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年4月29日 三种常用战法摸底考试.md": {
-    "scroll": 90.20489614243323,
+    "scroll": 154.36231363977424,
     "cursor": {
       "from": {
-        "line": 93,
-        "ch": 63
+        "line": 141,
+        "ch": 89
       },
       "to": {
-        "line": 93,
-        "ch": 63
+        "line": 141,
+        "ch": 89
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-1-4"
     ]
   },
   "Clippings/佛道交易：自性无所挂碍.md": {
@@ -4180,6 +4181,20 @@
       "to": {
         "line": 10,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习阅读/未命名.md": {
+    "scroll": 84.44704570791528,
+    "cursor": {
+      "from": {
+        "line": 109,
+        "ch": 11
+      },
+      "to": {
+        "line": 109,
+        "ch": 11
       }
     },
     "expandedKeys": []
