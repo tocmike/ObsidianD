@@ -4186,15 +4186,29 @@
     "expandedKeys": []
   },
   "学习阅读/未命名.md": {
-    "scroll": 84.44704570791528,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 109,
-        "ch": 11
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 109,
-        "ch": 11
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习阅读/科目一2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 8
+      },
+      "to": {
+        "line": 11,
+        "ch": 8
       }
     },
     "expandedKeys": []
