@@ -4029,7 +4029,7 @@
     "expandedKeys": []
   },
   "学习阅读/科目一.md": {
-    "scroll": 252.5284280936455,
+    "scroll": 250.84336677814937,
     "cursor": {
       "from": {
         "line": 267,
@@ -4211,6 +4211,20 @@
       "to": {
         "line": 64,
         "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "学习阅读/科目一考试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 12
+      },
+      "to": {
+        "line": 12,
+        "ch": 54
       }
     },
     "expandedKeys": []
