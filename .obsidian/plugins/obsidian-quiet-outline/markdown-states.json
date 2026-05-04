@@ -4219,12 +4219,12 @@
     "scroll": 10.19103139013453,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 191
+        "line": 25,
+        "ch": 84
       },
       "to": {
-        "line": 34,
-        "ch": 191
+        "line": 25,
+        "ch": 84
       }
     },
     "expandedKeys": []
