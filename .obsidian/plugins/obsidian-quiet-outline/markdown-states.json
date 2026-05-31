@@ -4442,12 +4442,12 @@
     "scroll": 5.7687224669603525,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 15
+        "line": 24,
+        "ch": 19
       },
       "to": {
-        "line": 23,
-        "ch": 15
+        "line": 24,
+        "ch": 19
       }
     },
     "expandedKeys": []
