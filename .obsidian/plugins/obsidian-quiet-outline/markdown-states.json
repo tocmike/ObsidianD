@@ -998,12 +998,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 9
+        "line": 13,
+        "ch": 12
       },
       "to": {
-        "line": 12,
-        "ch": 9
+        "line": 13,
+        "ch": 12
       }
     },
     "expandedKeys": []
