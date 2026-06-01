@@ -998,12 +998,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 12
+        "line": 9,
+        "ch": 4
       },
       "to": {
-        "line": 13,
-        "ch": 12
+        "line": 9,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -4448,6 +4448,20 @@
       "to": {
         "line": 31,
         "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/2026年6月1日 卖茶.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 86
+      },
+      "to": {
+        "line": 12,
+        "ch": 86
       }
     },
     "expandedKeys": []
