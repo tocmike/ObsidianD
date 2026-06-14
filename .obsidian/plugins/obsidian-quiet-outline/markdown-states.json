@@ -998,12 +998,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 4
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 4
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4058,7 +4058,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年4月29日 三种常用战法摸底考试.md": {
-    "scroll": 225.46878483835005,
+    "scroll": 212.62541806020067,
     "cursor": {
       "from": {
         "line": 227,
@@ -4532,6 +4532,20 @@
       "to": {
         "line": 2,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/2026-06-14 判断的因子.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 1
+      },
+      "to": {
+        "line": 10,
+        "ch": 1
       }
     },
     "expandedKeys": []
