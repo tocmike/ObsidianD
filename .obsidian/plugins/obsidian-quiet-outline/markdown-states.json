@@ -4541,11 +4541,11 @@
     "cursor": {
       "from": {
         "line": 9,
-        "ch": 7
+        "ch": 2
       },
       "to": {
         "line": 9,
-        "ch": 7
+        "ch": 2
       }
     },
     "expandedKeys": []
