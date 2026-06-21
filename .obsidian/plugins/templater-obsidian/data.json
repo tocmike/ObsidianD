@@ -20,7 +20,7 @@
     },
     {
       "folder": "01 周期记录/01 大A",
-      "template": ""
+      "template": "template/00-MOC/A.md"
     }
   ],
   "enable_file_templates": false,
