@@ -4711,11 +4711,11 @@
     "cursor": {
       "from": {
         "line": 111,
-        "ch": 9
+        "ch": 13
       },
       "to": {
         "line": 111,
-        "ch": 9
+        "ch": 13
       }
     },
     "expandedKeys": []
