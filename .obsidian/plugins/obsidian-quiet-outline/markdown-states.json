@@ -4833,17 +4833,19 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年7月31日 韩国存储崩盘.md": {
-    "scroll": 0,
+    "scroll": 11.899665551839465,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 61
+        "line": 47,
+        "ch": 32
       },
       "to": {
-        "line": 19,
-        "ch": 61
+        "line": 47,
+        "ch": 32
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
