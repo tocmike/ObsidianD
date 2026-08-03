@@ -4852,12 +4852,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 21
+        "line": 21,
+        "ch": 32
       },
       "to": {
-        "line": 19,
-        "ch": 21
+        "line": 21,
+        "ch": 32
       }
     },
     "expandedKeys": []
