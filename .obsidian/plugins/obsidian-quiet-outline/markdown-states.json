@@ -4950,12 +4950,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 10
+        "line": 8,
+        "ch": 48
       },
       "to": {
-        "line": 7,
-        "ch": 10
+        "line": 8,
+        "ch": 48
       }
     },
     "expandedKeys": []
