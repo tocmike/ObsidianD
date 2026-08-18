@@ -4908,12 +4908,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 0
+        "line": 24,
+        "ch": 20
       },
       "to": {
-        "line": 27,
-        "ch": 0
+        "line": 24,
+        "ch": 20
       }
     },
     "expandedKeys": []
