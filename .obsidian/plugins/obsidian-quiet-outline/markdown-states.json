@@ -4936,12 +4936,12 @@
     "scroll": 5.947136563876652,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 0
+        "line": 17,
+        "ch": 69
       },
       "to": {
-        "line": 14,
-        "ch": 0
+        "line": 17,
+        "ch": 69
       }
     },
     "expandedKeys": []
