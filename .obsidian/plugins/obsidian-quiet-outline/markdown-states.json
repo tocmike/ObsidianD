@@ -4947,7 +4947,7 @@
     "expandedKeys": []
   },
   "01 周期记录/06 娱乐/大巴扎 飞行核.md": {
-    "scroll": 43.2261231138546,
+    "scroll": 30.892529488859765,
     "cursor": {
       "from": {
         "line": 46,
@@ -4956,6 +4956,20 @@
       "to": {
         "line": 46,
         "ch": 48
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年8月19日 七夕.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 6
+      },
+      "to": {
+        "line": 10,
+        "ch": 6
       }
     },
     "expandedKeys": []
