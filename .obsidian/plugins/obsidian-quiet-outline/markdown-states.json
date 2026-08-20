@@ -4978,12 +4978,12 @@
     "scroll": 102.32230392156863,
     "cursor": {
       "from": {
-        "line": 124,
-        "ch": 6
+        "line": 128,
+        "ch": 10
       },
       "to": {
-        "line": 124,
-        "ch": 6
+        "line": 128,
+        "ch": 10
       }
     },
     "expandedKeys": []
