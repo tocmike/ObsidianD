@@ -5031,7 +5031,7 @@
     "expandedKeys": []
   },
   "01 周期记录/06 娱乐/飞行核2.md": {
-    "scroll": 0.9766022380467956,
+    "scroll": 2.3488397488397488,
     "cursor": {
       "from": {
         "line": 3,
@@ -5040,6 +5040,20 @@
       "to": {
         "line": 3,
         "ch": 43
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/06 娱乐/暴击核.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 42
+      },
+      "to": {
+        "line": 0,
+        "ch": 42
       }
     },
     "expandedKeys": []
