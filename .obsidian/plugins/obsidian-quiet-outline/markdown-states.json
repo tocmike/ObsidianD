@@ -5062,12 +5062,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 35
+        "line": 10,
+        "ch": 31
       },
       "to": {
-        "line": 2,
-        "ch": 35
+        "line": 10,
+        "ch": 31
       }
     },
     "expandedKeys": []
