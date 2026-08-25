@@ -4947,7 +4947,7 @@
     "expandedKeys": []
   },
   "01 周期记录/06 娱乐/大巴扎 飞行核.md": {
-    "scroll": 29.81484962406015,
+    "scroll": 38.99557948179272,
     "cursor": {
       "from": {
         "line": 22,
@@ -5026,6 +5026,20 @@
       "to": {
         "line": 10,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/06 娱乐/飞行核2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 43
+      },
+      "to": {
+        "line": 0,
+        "ch": 43
       }
     },
     "expandedKeys": []
