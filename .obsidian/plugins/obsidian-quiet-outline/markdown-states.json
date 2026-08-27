@@ -5297,19 +5297,20 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年8月26日   解读《稀缺》.md": {
-    "scroll": 55.145833333333336,
+    "scroll": 61.341911764705884,
     "cursor": {
       "from": {
-        "line": 69,
-        "ch": 1
+        "line": 85,
+        "ch": 7
       },
       "to": {
-        "line": 69,
-        "ch": 1
+        "line": 85,
+        "ch": 7
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   }
 }
