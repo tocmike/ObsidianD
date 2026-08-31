@@ -5318,12 +5318,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 20
+        "line": 18,
+        "ch": 12
       },
       "to": {
-        "line": 15,
-        "ch": 20
+        "line": 18,
+        "ch": 12
       }
     },
     "expandedKeys": []
