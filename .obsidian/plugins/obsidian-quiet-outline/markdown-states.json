@@ -4570,12 +4570,12 @@
     "scroll": 26.709988366295494,
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 3
+        "line": 50,
+        "ch": 42
       },
       "to": {
-        "line": 45,
-        "ch": 3
+        "line": 50,
+        "ch": 42
       }
     },
     "expandedKeys": []
