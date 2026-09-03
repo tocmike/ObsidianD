@@ -4567,7 +4567,7 @@
     "expandedKeys": []
   },
   "01 周期记录/01 大A/2026年6月15日  活跃市值研究.md": {
-    "scroll": 52.06924019607843,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 83,
@@ -5326,6 +5326,19 @@
       "to": {
         "line": 43,
         "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "01 周期记录/01 大A/2026年9月3日.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
       }
     },
     "expandedKeys": []
