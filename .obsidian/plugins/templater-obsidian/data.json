@@ -23,7 +23,7 @@
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
   "startup_templates": [
-    "template/a/daily/Daily Note.md"
+    "template/00-MOC/A.md"
   ],
   "intellisense_render": "1",
   "ignore_folders_on_creation": []
