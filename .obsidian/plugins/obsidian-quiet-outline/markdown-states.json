@@ -5743,11 +5743,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 16,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 16,
         "ch": 0
       }
     }
